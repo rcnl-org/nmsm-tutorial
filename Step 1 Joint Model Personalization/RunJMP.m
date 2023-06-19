@@ -1,0 +1,1 @@
+JointModelPersonalizationTool("JMPSettingsFile.xml");
