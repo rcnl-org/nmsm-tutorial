@@ -1,6 +1,6 @@
 # NMSM Pipeline Tutorial
 
-## Step 0: Introduction
+## Introduction
 
 This directory is the first step in the NMSM Pipeline Tutorial and is used to introduce the problem of interest and data provided as well as some of the structure of the tutorial.
 
