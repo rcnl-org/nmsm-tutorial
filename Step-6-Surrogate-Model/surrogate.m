@@ -28,9 +28,9 @@
 %% Required Values
 inputSettings.model = 'UF_Subject_3_reduced_muscles.osim';
 inputSettings.dataDirectory = 'preprocessed';
-inputSettings.epsilon = 1e-4;
+inputSettings.epsilon = 5e-3;
 inputSettings.polynomialDegree = 5;
-% Indicate 'true' or 'false' for performing latin hyper cube sampling 
+% Indicate 'true' or 'false' for performing latin hyper cube sampling
 inputSettings.performLatinHyperCubeSampling = 'false';
 % Indicate the coordinates that should be used in the surrogate model
 inputSettings.surrogateModelCoordinateNames = ["hip_flexion_r", ...

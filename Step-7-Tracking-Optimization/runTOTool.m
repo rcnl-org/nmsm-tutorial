@@ -1,3 +1,3 @@
 
 clc; clear; close all;
-TrackingOptimizationTool("SynergyDrivenTrackingOptimizationSettings.xml");
+TrackingOptimizationTool("TorqueDrivenTrackingOptimizationSettings.xml");
