@@ -1,0 +1,32 @@
+
+List of user-set options:
+
+                                    Name   Value                used
+                   hessian_approximation = limited-memory        yes
+                           linear_solver = ma57                  yes
+                  ma57_automatic_scaling = yes                   yes
+                                max_iter = 1000                  yes
+                             mu_strategy = adaptive              yes
+                             output_file = trackingOptimizationOutputFile.txtIPOPTinfo.txt  yes
+                             print_level = 5                     yes
+                      print_user_options = yes                   yes
+                                     tol = 0.001                 yes
+                   warm_start_init_point = no                    yes
+This is Ipopt version 3.12.9, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:    19701
+Number of nonzeros in inequality constraint Jacobian.:     4860
+Number of nonzeros in Lagrangian Hessian.............:        0
+
+Total number of variables............................:     1659
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:     1659
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:     1104
+Total number of inequality constraints...............:      181
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:      181
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  8.3728572e+00 8.35e+07 4.76e-02   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
