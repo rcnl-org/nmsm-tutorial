@@ -26,7 +26,7 @@
 		<method>RPM-integration</method>
 		<!--Multiples of 10-->
 		<collocation_points>5</collocation_points>
-		<setup_nlp_max_iterations>20</setup_nlp_max_iterations>
+		<setup_nlp_max_iterations>100</setup_nlp_max_iterations>
 		<!--*Optional* The bound on the integral of the cost terms, can be increased if the system struggles to converge-->
 		<integral_bound>10</integral_bound>
     </GpopsSettings>
