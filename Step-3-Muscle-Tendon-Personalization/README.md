@@ -1,6 +1,6 @@
 # Step 3 Muscle-Tendon Personalization
 
-After preprocessing, the data are ready for Muscle-Tendon Personalization (MTP) if EMG data are available. MTP uses EMG-driven modeling to calibrate muscle and tendon parameters, deriving properties and muscle activations to match Inverse Dynamics (ID) joint moments. 
+After preprocessing, the data are ready for Muscle-Tendon Personalization (MTP) if EMG data are available. MTP uses EMG-driven modeling to calibrate muscle and tendon parameters, deriving properties and muscle activations to match Inverse Dynamics joint moments. 
 
 MTP is primarily based on [Meyer (2017)](https://rcnl.rice.edu/PDFs/po2017.pdf). It also incorporates a synergy extrapolation algorithm first published in [**TODO add SynX paper**](), which uses muscle excitation synergies to estimate excitations for muscles without measured EMG data. The tool is documented in more detail [here](https://nmsm.rice.edu/model-personalization/muscle-tendon-personalization/).
 
@@ -26,7 +26,7 @@ Open the XML settings file (`MTPSettings.xml`). This file contains the primary r
         - Muscles should be grouped together if they would be described by the same EMG signal if it had been collected
 - `<MuscleTendonLengthInitialization>` - a section defining the input data and cost terms for Muscle-Tendon Length Initialization
 - `<MTPSynergyExtrapolation>` - defines settings and cost terms for synergy extrapolation
-- `<MTPTaskList>` - a list of `<MTPTask>` elements, each defining the settings for a MTP optimization
+- `<MTPTaskList>` - a list of `<MTPTask>` elements, each defining the settings for a MTP optimization, including a `<RCNLCostTermSet>` defining the cost function
     - MTP tasks are performed sequentially. For most cases, only one stage is needed.
 
 ## Running MTP
