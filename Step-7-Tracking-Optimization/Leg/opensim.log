@@ -10048,3 +10048,5 @@
 [2023-07-14 16:01:02.063] [info] Loaded model model from file Leg_inactiveMuscles.osim
 [2023-07-14 16:01:02.068] [info] Loaded model model from file Leg_inactiveMuscles.osim
 [2023-07-14 16:01:02.078] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-14 16:27:55.285] [error] IO.OpenInputFile(const string&,openmode mode): failed to open preprocessed/IKData/kick_1.mot.
+[2023-07-14 16:28:21.094] [error] IO.OpenInputFile(const string&,openmode mode): failed to open preprocessed/IKData/trial_1.mot.
