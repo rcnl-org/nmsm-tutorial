@@ -1,0 +1,16 @@
+
+initialModel = Model("RightLegAndPelvisKnee.osim");
+
+newModel = org.opensim.modeling.Model();
+
+newModel.addBody(initialModel.getBodySet().get("tibia_r"));
+newModel.addBody(initialModel.getBodySet().get("pretalus_r"));
+newModel.addBody(initialModel.getBodySet().get("talus_r"));
+newModel.addBody(initialModel.getBodySet().get("calcn_r"));
+newModel.addJoint(initialModel.getJointSet().get("ankle_r"));
+newModel.addJoint(initialModel.getJointSet().get("pretalar_r"));
+newModel.addJoint(initialModel.getJointSet().get("subtalar_r"));
+
+for i=1:leng
+
+newModel.print("test.osim");
