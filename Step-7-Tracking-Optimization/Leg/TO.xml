@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NMSMPipelineDocument Version="0.1.0">
+    <TrackingOptimizationTool>
+        <!--Directory used for writing results.-->
+        <results_directory>results</results_directory>
+        <!--Directory for input files-->
+        <data_directory>preprocessed</data_directory>
+        <!--Name of the input model file (.osim) to use-->
+        <input_model_file>Leg.osim</input_model_file>
+    	<!--*Optional* Name of the initial states guess file-->
+    	<initial_states_file />
+    	<!--*Optional* Name of the initial controls guess file-->
+    	<initial_controls_file />
+    	<!--Indicate the name of the type of controller: synergy driven or torque driven-->
+    	<type_of_controller>torque_driven</type_of_controller>
+    	<!--Indicate if synergy vectors should be optimized-->
+    	<optimize_synergy_vectors>false</optimize_synergy_vectors>
+    	<!--Name of the osimx model file-->
+    	<osimx_file />
+    	<!--Indicate the coordinates with torque controllers-->
+    	<coordinate_list>knee_angle_r ankle_angle_r subtalar_angle_r</coordinate_list>
+		<!--Name of optimal controls setting file-->
+		<optimal_control_settings_file>gpopsSettings.xml</optimal_control_settings_file>
+    	<!--Design variable bounds-->
+    	<RCNLDesignVariableBoundsTerms>
+    		<joint_positions_multiple>2</joint_positions_multiple>
+    		<joint_velocities_multiple>1.5</joint_velocities_multiple>
+    		<joint_accelerations_multiple>1</joint_accelerations_multiple>
+    		<joint_jerks_multiple>1</joint_jerks_multiple>
+    		<torque_controls_max>2</torque_controls_max>
+    	</RCNLDesignVariableBoundsTerms>
+		<RCNLCostTermSet>
+			<RCNLCostTerm>
+				<type>coordinate_tracking</type>
+				<coordinate>knee_angle_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>coordinate_tracking</type>
+				<coordinate>ankle_angle_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>coordinate_tracking</type>
+				<coordinate>subtalar_angle_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>inverse_dynamics_load_tracking</type>
+				<load>knee_angle_r_moment</load>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>2</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>inverse_dynamics_load_tracking</type>
+				<load>ankle_angle_r_moment</load>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>2</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>inverse_dynamics_load_tracking</type>
+				<load>subtalar_angle_r_moment</load>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>2</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>joint_jerk_minimization</type>
+				<coordinate>knee_angle_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>200</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>joint_jerk_minimization</type>
+				<coordinate>ankle_angle_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>200</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>joint_jerk_minimization</type>
+				<coordinate>subtalar_angle_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>200</max_allowable_error>
+			</RCNLCostTerm>
+		</RCNLCostTermSet>
+		<RCNLPathConstraintTerms>
+			<RCNLConstraintTermSet>
+				<RCNLConstraintTerm>
+					<type>torque_model_moment_consistency</type>
+					<load>knee_angle_r_moment</load>
+					<is_enabled>true</is_enabled>
+					<max_error>0.1</max_error>
+					<min_error>-0.1</min_error>
+				</RCNLConstraintTerm>
+				<RCNLConstraintTerm>
+					<type>torque_model_moment_consistency</type>
+					<load>ankle_angle_r_moment</load>
+					<is_enabled>true</is_enabled>
+					<max_error>0.1</max_error>
+					<min_error>-0.1</min_error>
+				</RCNLConstraintTerm>
+				<RCNLConstraintTerm>
+					<type>torque_model_moment_consistency</type>
+					<load>subtalar_angle_r_moment</load>
+					<is_enabled>true</is_enabled>
+					<max_error>0.1</max_error>
+					<min_error>-0.1</min_error>
+				</RCNLConstraintTerm>
+			</RCNLConstraintTermSet>
+		</RCNLPathConstraintTerms>
+		<RCNLTerminalConstraintTerms>
+			<RCNLConstraintTermSet>
+			</RCNLConstraintTermSet>
+		</RCNLTerminalConstraintTerms>
+		<!--*Optional* list prefix of the data file, if left blank, use prefix from IK folder-->
+		<trial_prefix></trial_prefix>
+    </TrackingOptimizationTool>
+</NMSMPipelineDocument>

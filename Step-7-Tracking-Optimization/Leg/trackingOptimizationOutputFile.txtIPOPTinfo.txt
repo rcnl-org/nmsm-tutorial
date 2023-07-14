@@ -1,0 +1,28 @@
+
+List of user-set options:
+
+                                    Name   Value                used
+                   hessian_approximation = limited-memory        yes
+                           linear_solver = ma57                  yes
+                  ma57_automatic_scaling = yes                   yes
+                                max_iter = 1000                  yes
+                             mu_strategy = adaptive              yes
+                             output_file = trackingOptimizationOutputFile.txtIPOPTinfo.txt  yes
+                             print_level = 5                     yes
+                      print_user_options = yes                   yes
+                                     tol = 0.001                 yes
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.9, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:     4809
+Number of nonzeros in inequality constraint Jacobian.:     1500
+Number of nonzeros in Lagrangian Hessian.............:        0
+
+Exception of type: IpoptException in file "Unknown File" at line -1:
+ Exception message: Unknown Exception caught in Ipopt

@@ -29977,3 +29977,263 @@
 [2023-07-13 18:37:19.573] [warning] Couldn't find file 'r_fibula.vtp'.
 [2023-07-13 18:37:19.573] [warning] Couldn't find file 'r_talus.stl'.
 [2023-07-13 18:37:19.573] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:14:04.885] [info] Loaded model UF_Subject_3_v2 from file RightLegAndPelvisKnee.osim
+[2023-07-13 19:16:23.885] [info] Loaded model UF_Subject_3_v2 from file RightLegAndPelvisKneeNoAdd.osim
+[2023-07-13 19:22:18.922] [info] Loaded model UF_Subject_3_v2 from file RightLegAndPelvisKneeNoAdd.osim
+[2023-07-13 19:29:50.536] [info] Loaded model model from file Leg.osim
+[2023-07-13 19:29:50.537] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.537] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.537] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.537] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.537] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.555] [info] Storage: read data file = preprocessed\IDData\trial_1.sto (nr=55 nc=4)
+[2023-07-13 19:29:50.570] [info] Storage: read data file = preprocessed\IDData\trial_1.sto (nr=55 nc=4)
+[2023-07-13 19:29:50.576] [info] Storage: read data file = preprocessed\IKData\trial_1.mot (nr=55 nc=4)
+[2023-07-13 19:29:50.587] [info] Storage: read data file = preprocessed\IKData\trial_1.mot (nr=55 nc=4)
+[2023-07-13 19:29:50.592] [info] Storage: read data file = preprocessed\IKData\trial_1.mot (nr=55 nc=4)
+[2023-07-13 19:29:50.722] [info] Loaded model model from file Leg.osim
+[2023-07-13 19:29:50.722] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.722] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.723] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.723] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.723] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.776] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.776] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.776] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.776] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.776] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.776] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.780] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.780] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.780] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.780] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.781] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.781] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.784] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.784] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.785] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.785] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.785] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.785] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.788] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.788] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.789] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.789] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.789] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.789] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.793] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.793] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.793] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.793] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.793] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.793] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.797] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.797] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.797] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.797] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.797] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.797] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.801] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.801] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.801] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.801] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.802] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.802] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.805] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.806] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.806] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.806] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.806] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.806] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.810] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.810] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.810] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.810] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.810] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.810] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.814] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.814] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.814] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.814] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.814] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.814] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.818] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.818] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.818] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.818] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.818] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.818] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.822] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.822] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.822] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.822] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.822] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.822] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.826] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.826] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.826] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.826] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.826] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.827] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.830] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.830] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.830] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.831] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.831] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.831] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.834] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.834] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.835] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.835] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.835] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.835] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.839] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.839] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.839] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.839] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.839] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.839] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.843] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.843] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.843] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.843] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.844] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.844] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.847] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.847] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.847] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.848] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.848] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.848] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.851] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.851] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.852] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.852] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.852] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.852] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.855] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.856] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.856] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.856] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.856] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.856] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.874] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.874] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.874] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.875] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.875] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.875] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.879] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.879] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.879] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.879] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.879] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.879] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.883] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.883] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.883] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.883] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.883] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.883] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.887] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.887] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.887] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.887] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.887] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.887] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.891] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.891] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.891] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.891] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.891] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.891] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.895] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.895] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.895] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.895] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.895] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.895] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.899] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.899] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.900] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.900] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.900] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.900] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.903] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.903] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.904] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.904] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.904] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.904] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.907] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.908] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.908] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.908] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.908] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.908] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.911] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.911] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.912] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.912] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.912] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.912] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.915] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.916] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.916] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.916] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.916] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.916] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.919] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.920] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.920] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.920] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.920] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.920] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.923] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.924] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.924] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.924] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.924] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.924] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.927] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.927] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.928] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.928] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.928] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.928] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.931] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.931] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.932] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.932] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.932] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.932] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.935] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.935] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.936] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.936] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.936] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.936] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.939] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.939] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.940] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.940] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.940] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.940] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.943] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.944] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.944] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.944] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.944] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.944] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.948] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.948] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.948] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.948] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.948] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.948] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-07-13 19:29:50.952] [info] Loaded model model from file Leg_inactiveMuscles.osim
+[2023-07-13 19:29:50.952] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-07-13 19:29:50.952] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-07-13 19:29:50.952] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-07-13 19:29:50.952] [warning] Couldn't find file 'r_talus.stl'.
+[2023-07-13 19:29:50.952] [warning] Couldn't find file 'r_foot.vtp'.
