@@ -1,11 +1,11 @@
 
-storage = org.opensim.modeling.Storage("preprocessed/IKData/trial_1.sto");
+storage = org.opensim.modeling.Storage("gpopsStates.sto");
 gcvSplineSet = org.opensim.modeling.GCVSplineSet(5, storage);
-time = findTimeColumn(storage);
+timeCol = findTimeColumn(storage);
 data = zeros(55, 3);
 for i = 0:gcvSplineSet.getSize()-1
-    for j = 1:length(time)
-        data(j, i+1) = gcvSplineSet.evaluate(i, 2, time(j));
+    for j = 1:length(timeCol)
+        data(j, i+1) = gcvSplineSet.evaluate(i, 1, timeCol(j));
     end
 end
 
