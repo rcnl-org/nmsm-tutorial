@@ -1,0 +1,7 @@
+DataType=double
+version=3
+OpenSimVersion=4.4-2022-07-23-0e9fedc
+endheader
+time	soleus_r	tibant_r
+1	1	0
+2	0	1

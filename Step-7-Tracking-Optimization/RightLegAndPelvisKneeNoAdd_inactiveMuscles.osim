@@ -2060,6 +2060,8 @@
 		<ForceSet name="forceset">
 			<objects>
 				<Millard2012EquilibriumMuscle name="bflh_r">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>false</appliesForce>
 					<!--The set of points defining the path of the actuator.-->
 					<GeometryPath name="geometrypath">
 						<!--The set of points defining the path-->
@@ -2156,6 +2158,8 @@
 					</TendonForceLengthCurve>
 				</Millard2012EquilibriumMuscle>
 				<Millard2012EquilibriumMuscle name="bfsh_r">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>false</appliesForce>
 					<!--The set of points defining the path of the actuator.-->
 					<GeometryPath name="geometrypath">
 						<!--The set of points defining the path-->
@@ -2255,6 +2259,8 @@
 					</TendonForceLengthCurve>
 				</Millard2012EquilibriumMuscle>
 				<Millard2012EquilibriumMuscle name="gasmed_r">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>false</appliesForce>
 					<!--The set of points defining the path of the actuator.-->
 					<GeometryPath name="geometrypath">
 						<!--The set of points defining the path-->
@@ -2362,6 +2368,8 @@
 					</TendonForceLengthCurve>
 				</Millard2012EquilibriumMuscle>
 				<Millard2012EquilibriumMuscle name="glmax2_r">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>false</appliesForce>
 					<!--The set of points defining the path of the actuator.-->
 					<GeometryPath name="geometrypath">
 						<!--The set of points defining the path-->
@@ -2473,6 +2481,8 @@
 					</TendonForceLengthCurve>
 				</Millard2012EquilibriumMuscle>
 				<Millard2012EquilibriumMuscle name="iliacus_r">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>false</appliesForce>
 					<!--The set of points defining the path of the actuator.-->
 					<GeometryPath name="geometrypath">
 						<!--The set of points defining the path-->
@@ -2584,6 +2594,8 @@
 					</TendonForceLengthCurve>
 				</Millard2012EquilibriumMuscle>
 				<Millard2012EquilibriumMuscle name="recfem_r">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>false</appliesForce>
 					<!--The set of points defining the path of the actuator.-->
 					<GeometryPath name="geometrypath">
 						<!--The set of points defining the path-->
@@ -2701,6 +2713,8 @@
 					</TendonForceLengthCurve>
 				</Millard2012EquilibriumMuscle>
 				<Millard2012EquilibriumMuscle name="soleus_r">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>false</appliesForce>
 					<!--The set of points defining the path of the actuator.-->
 					<GeometryPath name="geometrypath">
 						<!--The set of points defining the path-->
@@ -2791,6 +2805,8 @@
 					</TendonForceLengthCurve>
 				</Millard2012EquilibriumMuscle>
 				<Millard2012EquilibriumMuscle name="tibant_r">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>false</appliesForce>
 					<!--The set of points defining the path of the actuator.-->
 					<GeometryPath name="geometrypath">
 						<!--The set of points defining the path-->
@@ -2893,6 +2909,8 @@
 					</TendonForceLengthCurve>
 				</Millard2012EquilibriumMuscle>
 				<Millard2012EquilibriumMuscle name="vasmed_r">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>false</appliesForce>
 					<!--The set of points defining the path of the actuator.-->
 					<GeometryPath name="geometrypath">
 						<!--The set of points defining the path-->

@@ -6,17 +6,19 @@
         <!--Directory for input files-->
         <data_directory>preprocessed</data_directory>
         <!--Name of the input model file (.osim) to use-->
-        <input_model_file>TibiaCalcn.osim</input_model_file>
+        <input_model_file>TibiaCalcnMuscles.osim</input_model_file>
     	<!--*Optional* Name of the initial states guess file-->
     	<initial_states_file />
     	<!--*Optional* Name of the initial controls guess file-->
     	<initial_controls_file />
     	<!--Indicate the name of the type of controller: synergy driven or torque driven-->
-    	<type_of_controller>torque_driven</type_of_controller>
+    	<type_of_controller>synergy_driven</type_of_controller>
     	<!--Indicate if synergy vectors should be optimized-->
     	<optimize_synergy_vectors>false</optimize_synergy_vectors>
     	<!--Name of the osimx model file-->
-    	<osimx_file />
+    	<osimx_file>ncpResults/TibiaCalcnMuscles_ncp.osimx</osimx_file>
+		<!--Name of the surrogate model coefficients file-->
+		<surrogate_model_coefficients>coefficients.mat</surrogate_model_coefficients>
     	<!--Indicate the coordinates with torque controllers-->
     	<coordinate_list>ankle_angle_r subtalar_angle_r</coordinate_list>
 		<!--Name of optimal controls setting file-->
@@ -38,44 +40,45 @@
     		<joint_velocities_multiple>1.5</joint_velocities_multiple>
     		<joint_accelerations_multiple>1</joint_accelerations_multiple>
     		<joint_jerks_multiple>1</joint_jerks_multiple>
-    		<torque_controls_max>2</torque_controls_max>
+			<synergy_activations_max>10</synergy_activations_max>
+    		<synergy_weights_max>2</synergy_weights_max>
     	</RCNLDesignVariableBoundsTerms>
 		<RCNLCostTermSet>
 			<RCNLCostTerm>
 				<type>coordinate_tracking</type>
 				<coordinate>ankle_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>.01</max_allowable_error>
+				<max_allowable_error>.1</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>coordinate_tracking</type>
 				<coordinate>subtalar_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>.01</max_allowable_error>
+				<max_allowable_error>.1</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>inverse_dynamics_load_tracking</type>
 				<load>ankle_angle_r_moment</load>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>.002</max_allowable_error>
+				<max_allowable_error>.02</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>inverse_dynamics_load_tracking</type>
 				<load>subtalar_angle_r_moment</load>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>.002</max_allowable_error>
+				<max_allowable_error>.02</max_allowable_error>
 			</RCNLCostTerm>
             <RCNLCostTerm>
                 <type>muscle_activation_tracking</type>
                 <muscle>soleus_r</muscle>
                 <is_enabled>true</is_enabled>
-                <max_allowable_error>0.25</max_allowable_error>
+                <max_allowable_error>2.5</max_allowable_error>
             </RCNLCostTerm>
             <RCNLCostTerm>
                 <type>muscle_activation_tracking</type>
                 <muscle>tibant_r</muscle>
                 <is_enabled>true</is_enabled>
-                <max_allowable_error>0.25</max_allowable_error>
+                <max_allowable_error>2.5</max_allowable_error>
             </RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
