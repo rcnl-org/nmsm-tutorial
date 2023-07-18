@@ -20,7 +20,7 @@
     	<!--Name of the osimx model file-->
     	<osimx_file>ncpResults/RightLegAndPelvisKneeNoAdd_ncp.osimx</osimx_file>
     	<!--Indicate the surrogate model coordinates-->
-    	<coordinate_list>pelvis_tilt pelvis_list pelvis_rotation pelvis_tx pelvis_ty pelvis_tz hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r subtalar_angle_r mtp_angle_r</coordinate_list>
+    	<coordinate_list>hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r subtalar_angle_r mtp_angle_r</coordinate_list>
     	<!--Name of the surrogate model coefficients file-->
     	<surrogate_model_coefficients>coefficients.mat</surrogate_model_coefficients>
 		<!--Name of optimal controls setting file-->
