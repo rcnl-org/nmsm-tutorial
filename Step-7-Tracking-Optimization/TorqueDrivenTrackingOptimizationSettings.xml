@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<NMSMPipelineDocument Version="0.1.0">
+<NMSMPipelineDocument Version="1.0.0">
     <TrackingOptimizationTool>
         <!--Directory used for writing results.-->
         <results_directory>results</results_directory>
@@ -34,55 +34,55 @@
 				<type>coordinate_tracking</type>
 				<coordinate>hip_flexion_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>0.1</max_allowable_error>
+				<max_allowable_error>100</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>coordinate_tracking</type>
 				<coordinate>knee_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>0.1</max_allowable_error>
+				<max_allowable_error>100</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>coordinate_tracking</type>
 				<coordinate>ankle_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>0.1</max_allowable_error>
+				<max_allowable_error>100</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>inverse_dynamics_load_tracking</type>
 				<load>hip_flexion_r_moment</load>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>2</max_allowable_error>
+				<max_allowable_error>2000</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>inverse_dynamics_load_tracking</type>
 				<load>knee_angle_r_moment</load>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>2</max_allowable_error>
+				<max_allowable_error>2000</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>inverse_dynamics_load_tracking</type>
 				<load>ankle_angle_r_moment</load>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>2</max_allowable_error>
+				<max_allowable_error>2000</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>hip_flexion_r</coordinate>
-				<is_enabled>true</is_enabled>
-				<max_allowable_error>200</max_allowable_error>
+				<is_enabled>false</is_enabled>
+				<max_allowable_error>200000</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>knee_angle_r</coordinate>
-				<is_enabled>true</is_enabled>
-				<max_allowable_error>200</max_allowable_error>
+				<is_enabled>false</is_enabled>
+				<max_allowable_error>200000</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>ankle_angle_r</coordinate>
-				<is_enabled>true</is_enabled>
-				<max_allowable_error>200</max_allowable_error>
+				<is_enabled>false</is_enabled>
+				<max_allowable_error>200000</max_allowable_error>
 			</RCNLCostTerm>
 		</RCNLCostTermSet>
 		<RCNLPathConstraintTerms>
