@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<OpenSimDocument Version="40000">
+<NMSMPipelineDocument Version="1.0.0">
 	<JointModelPersonalizationTool>
 		<!--Name of the input model file (.osim) to use-->
 		<input_model_file>kneeJointParameters/UF_Subject_3_v9.osim</input_model_file>
@@ -57,4 +57,4 @@
 		<!--*Optional* The number of allowed iterations for the lsqnonlin, setting this lower can help cancel an optimization that won't converge-->
 		<max_function_evaluations>400</max_function_evaluations>
 	</JointModelPersonalizationTool>
-</OpenSimDocument>
+</NMSMPipelineDocument>
