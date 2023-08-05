@@ -2,9 +2,9 @@
 <NMSMPipelineDocument Version="1.0.0">
 	<JointModelPersonalizationTool>
 		<!--Name of the input model file (.osim) to use-->
-		<input_model_file>RightLegAndPelvis.osim</input_model_file>
+		<input_model_file>hipScaling/UF_Subject_3_hipScaling.osim</input_model_file>
 		<!--Name of the output model file (.osim) to create.-->
-		<output_model_file>RightLegAndPelvisKnee.osim</output_model_file>
+		<output_model_file>UF_Subject_3_hipScaling_Knee.osim</output_model_file>
 		<!--Name of the directory where results are written. Be default this is the directory in which the setup file is be executed.-->
 		<results_directory>kneeJointParameters</results_directory>
 		<!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters)-->
@@ -57,6 +57,6 @@
 		<!--*Optional* The step tolerance determines when the lsqnonlin algorithm stops. The larger it is, the earlier the algorithm stops, but with lower accuracy-->
 		<step_tolerance>1e-6</step_tolerance>
 		<!--*Optional* The number of allowed iterations for the lsqnonlin, setting this lower can help cancel an optimization that won't converge-->
-		<max_function_evaluations>400</max_function_evaluations>
+		<max_function_evaluations>50</max_function_evaluations>
 	</JointModelPersonalizationTool>
 </NMSMPipelineDocument>

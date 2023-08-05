@@ -2,46 +2,70 @@
 <NMSMPipelineDocument Version="1.0.0">
 	<JointModelPersonalizationTool>
 		<!--Name of the input model file (.osim) to use-->
-		<input_model_file>kneeJointParameters/UF_Subject_3_hipScaling_Knee.osim</input_model_file>
+		<input_model_file>UF_Subject_3_v2.osim</input_model_file>
 		<!--Name of the output model file (.osim) to create.-->
-		<output_model_file>UF_Subject_3_hipScaling_Knee_LegMarkers.osim</output_model_file>
+		<output_model_file>UF_Subject_3_hipScaling.osim</output_model_file>
 		<!--Name of the directory where results are written. Be default this is the directory in which the setup file is be executed.-->
-		<results_directory>femurMarkerMotion</results_directory>
-		<!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters)-->
-		<allowable_error>0.005</allowable_error>
+		<results_directory>hipScaling</results_directory>
+        <!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters)-->
+        <allowable_error>0.005</allowable_error>
 		<!--The set of <JMPTask> to be completed by the tool, each Task is a separate optimization-->
 		<JMPTaskList>
-			<JMPTask name="Right femur and Hip">
+			<JMPTask name="Both Hips">
 				<!--Flag indicating whether or not the task is enabled.-->
 				<is_enabled>true</is_enabled>
-				<!--Index indicates the order of the tasks. The task with the smallest index is completed first.-->
-				<index>1</index>
+                <!--Index indicates the order of the tasks. The task with the smallest index is completed first.-->
+                <index>1</index>
 				<!--The markers file to use for the task-->
 				<marker_file_name>GaitTrial_markers_jmp.trc</marker_file_name>
-				<!--The set of bodies to be optimized in the task-->
-				<JMPBodySet>
+                <!--The set of joints to be optimized in the task-->
+                <JMPJointSet>
+					<!--A joint that will be optimized in the task-->
+					<JMPJoint name="knee_r">
+						<parent_frame_transformation>
+							<!--Three boolean values (separated by spaces) for if the joint translation parameter is to be optimized-->
+							<translation>false false false</translation>
+							<!--Three boolean values (separated by spaces) for if the joint orientation parameter is to be optimized-->
+							<orientation>false false false</orientation>
+							<!-- Translation bounds set the upper and lower limits of the search range around the initial value-->
+							<translation_bounds>0.1</translation_bounds>
+							<!-- Orientation bounds in radians set the upper and lower limits of the search range around the initial value-->
+							<orientation_bounds>1.0</orientation_bounds>
+						</parent_frame_transformation>
+						<child_frame_transformation>
+							<!--Three boolean values (separated by spaces) for if the joint translation parameter is to be optimized-->
+							<translation>false false false</translation>
+							<!--Three boolean values (separated by spaces) for if the joint orientation parameter is to be optimized-->
+							<orientation>false false false</orientation>
+							<!-- Translation bounds set the upper and lower limits of the search range around the initial value-->
+							<translation_bounds>0.1</translation_bounds>
+							<!-- Orientation bounds in radians set the upper and lower limits of the search range around the initial value-->
+							<orientation_bounds>1.0</orientation_bounds>
+						</child_frame_transformation>
+					</JMPJoint>
+                </JMPJointSet>
+                <!--The set of bodies to be optimized in the task-->
+                <JMPBodySet>
 					<!--A body that will be optimized in the task-->
+					<JMPBody name="pelvis">
+						<!-- boolean value for if the body is to be scaled-->
+						<scale_body>true</scale_body>
+						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order-->
+						<move_markers>false true false</move_markers>
+					</JMPBody>
 					<JMPBody name="femur_r">
-						<!-- boolean value for if the body is to be scaled-->
-						<scale_body>true</scale_body>
-						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order-->
-						<move_markers>true false true</move_markers>
-					</JMPBody>
-					<!--A body that will be optimized in the task-->
-					<JMPBody name="tibia_r">
-						<!-- boolean value for if the body is to be scaled-->
-						<scale_body>true</scale_body>
-						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order-->
-						<move_markers>true false true</move_markers>
-					</JMPBody>
-					<!--A body that will be optimized in the task-->
-					<JMPBody name="calcn_r">
 						<!-- boolean value for if the body is to be scaled-->
 						<scale_body>false</scale_body>
 						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order-->
-						<move_markers>false false false</move_markers>
+						<move_markers>false false true</move_markers>
 					</JMPBody>
-				</JMPBodySet>
+					<JMPBody name="femur_l">
+						<!-- boolean value for if the body is to be scaled-->
+						<scale_body>false</scale_body>
+						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order-->
+						<move_markers>false false true</move_markers>
+					</JMPBody>
+                </JMPBodySet>
 			</JMPTask>
 		</JMPTaskList>
 		<!--*Optional* The accuracy of the IKSolver solution in absolute terms. Default is 1e-5. It determines the number of significant digits to which the solution can be trusted.-->
