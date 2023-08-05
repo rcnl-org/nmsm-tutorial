@@ -1,11 +1,9 @@
 %% Run JMP
-tic
 JointModelPersonalizationTool("JMPBothHipSettings.xml")
 
 JointModelPersonalizationTool("JMPRKnee.xml");
 
 JointModelPersonalizationTool("JMPFemurMarkers.xml")
-toc
 
 %% Analyze Results
 
