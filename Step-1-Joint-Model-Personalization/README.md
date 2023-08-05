@@ -10,7 +10,7 @@ This tool requires only a scaled OpenSim model and a [.trc marker data file](htt
 
 JMP is run through an XML settings file. For our project, we are optimizing the right leg of our team's star player.
 
-Open the example xml file (`JMPSettingsFile.xml`). You will notice a few key elements to correct use of JMP.
+Open the example xml file (`JMPRKnee.xml`). You will notice a few key elements to correct use of JMP.
 
 - `<input_model_file>` - the OpenSim (.osim) file to use
 - `<output_model_file>` - the path and name of the optimized model
@@ -33,4 +33,4 @@ To run JMP:
 - Navigate to the nmsm-tutorial/Step-1-Joint-Model-Personalization directory.
 - Open and run the MATLAB script `RunJMP.m`.
 
-This script will run the JMP tool with the XML settings file described above. The results will be saved as `player_jmp.osim`.
+This script will run the JMP tool with the three XML settings files included. The final results will be saved in the `femurMarkerMotion` directory.
