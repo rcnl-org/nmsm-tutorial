@@ -15,13 +15,13 @@ Open the example xml file (`JMPRKnee.xml`). You will notice a few key elements t
 - `<input_model_file>` - the OpenSim (.osim) file to use
 - `<output_model_file>` - the path and name of the optimized model
 - `<JMPTaskList>` - the list of sequential `<JMPTask>` elements for the tool to run
-    - Running JMP in steps can improve results ([explanation here](https://nmsm.rice.edu/model-personalization/joint-model-personalization/multiple-tasks))
+    - Running JMP in steps can improve results ([explanation here](https://nmsm.rice.edu/model-personalization/joint-model-personalization/how-jmp-works/#jmp-tasks))
 
 `<JMPTask>` defines the joints and bodies (`<JMPJoint>` and `<JMPBody>`, respectively) to be modified to reduce IK marker distance errors. Each `<JMPTask>` has a `<marker_file_name>` to provide the .trc file for the task as well as a single `<JMPJointSet>` and `<JMPBodySet>`.
 
 `<JMPJoint>` elements define the parent and child frame transformations of a single joint that the optimization may change. The three `<JMPJoint>` elements in `JMPSettingsFile.xml` are provided for the hip, knee, and ankle according to the specifications in [Reinbolt (2005)](http://rcnl.rice.edu/PDFs/jb2005b.pdf).
 
-`<JMPBody>` elements define whether the optimization may change the scaling or marker positions of a single body. An example showing how `<JMPBody>` can be used is available [here](https://nmsm.rice.edu/tool-specific-examples/joint-model-personalization/jmp-body-example).
+`<JMPBody>` elements define whether the optimization may change the scaling or marker positions of a single body. 
 
 More information about correctly selecting joint parameters, bodies, and markers for the optimization is available [here](https://nmsm.rice.edu/model-personalization/joint-model-personalization/selecting-joint-parameters).
 
