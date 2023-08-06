@@ -2,7 +2,7 @@
 
 After preprocessing, the data are ready for Muscle-Tendon Personalization (MTP) if EMG data are available. MTP uses EMG-driven modeling to calibrate muscle and tendon parameters, deriving properties and muscle activations to match Inverse Dynamics joint moments.
 
-MTP is primarily based on [Meyer (2017)](https://rcnl.rice.edu/PDFs/po2017.pdf). It also incorporates a synergy extrapolation algorithm first published in [**TODO add SynX paper**](/), which uses muscle excitation synergies to estimate excitations for muscles without measured EMG data. The tool is documented in more detail [here](https://nmsm.rice.edu/model-personalization/muscle-tendon-personalization/).
+MTP is primarily based on [Meyer (2017)](https://rcnl.rice.edu/PDFs/po2017.pdf). It also incorporates a synergy extrapolation algorithm first published in [Ao (2020)](https://rcnl.rice.edu/PDFs/fcn2020a.pdf), which uses muscle excitation synergies to estimate excitations for muscles without measured EMG data. The tool is documented in more detail [here](https://nmsm.rice.edu/model-personalization/muscle-tendon-personalization/).
 
 This tool requires an OpenSim model and a directory of data, produced by or following the same formatting as the output of our [data preprocessing tool](https://nmsm.rice.edu/model-personalization/data-preprocessing/). If using [Muscle-Tendon Length Initialization](https://nmsm.rice.edu/model-personalization/muscle-tendon-length-initialization/), highly recommended for MTP, a [passive moment data directory](https://nmsm.rice.edu/model-personalization/muscle-tendon-length-initialization/#input-files) is also needed.
 
