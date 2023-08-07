@@ -8,9 +8,10 @@
         <!--Name of the input model file (.osim) to use-->
         <input_model_file>RightLegAndPelvisKneeNoAdd.osim</input_model_file>
     	<!--*Optional* Name of the initial states guess file-->
-    	<initial_states_file />
+    	<initial_states_file></initial_states_file>
     	<!--*Optional* Name of the initial controls guess file-->
-    	<initial_controls_file />
+    	<initial_controls_file></initial_controls_file> 
+		<previous_results_directory></previous_results_directory>
     	<!--Indicate the name of the type of controller: synergy driven or torque driven-->
     	<type_of_controller>torque_driven</type_of_controller>
     	<!--Indicate if synergy vectors should be optimized-->
@@ -130,79 +131,79 @@
 				<type>joint_jerk_minimization</type>
 				<coordinate>pelvis_tilt</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>500</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>pelvis_list</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>500</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>pelvis_rotation</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>500</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>pelvis_tx</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>500</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>pelvis_ty</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>500</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>pelvis_tz</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>500</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>hip_flexion_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>1000</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>hip_adduction_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>500</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>hip_rotation_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>500</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>knee_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>4000</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>ankle_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>3000</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>subtalar_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>500</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>mtp_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10000</max_allowable_error>
+				<max_allowable_error>500</max_allowable_error>
 			</RCNLCostTerm>
 		</RCNLCostTermSet>
 		<RCNLPathConstraintTerms>
