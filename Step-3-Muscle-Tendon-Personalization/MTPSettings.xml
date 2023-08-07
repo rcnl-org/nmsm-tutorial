@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<OpenSimDocument Version="40000">
+<NMSMPipelineDocument Version="1.0.0">
     <MuscleTendonPersonalizationTool>
         <!--Directory used for writing results.-->
         <results_directory>mtpResults</results_directory>
@@ -210,4 +210,4 @@
 			</MTPTask>
 		</MTPTaskList>
     </MuscleTendonPersonalizationTool>
-</OpenSimDocument>
+</NMSMPipelineDocument>
