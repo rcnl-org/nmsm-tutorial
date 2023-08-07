@@ -37,6 +37,8 @@
 				<function_name>footSpeedCost</function_name>
 				<cost_term_type>discrete</cost_term_type>
 				<is_enabled>true</is_enabled>
+				<marker_name>R_Midfoot_Superior</marker_name>
+				<initial_speed>1</initial_speed>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>coordinate_tracking</type>
