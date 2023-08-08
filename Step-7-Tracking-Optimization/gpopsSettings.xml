@@ -42,7 +42,7 @@
         <!--nlp tolerance. Must be a positive real number. Default 10e-7-->
         <setup_nlp_tolerance>1e-3</setup_nlp_tolerance>
         <!--nlp max iterations. Must be a positive integer. Default 2000-->
-        <setup_nlp_max_iterations>20</setup_nlp_max_iterations>
+        <setup_nlp_max_iterations>15</setup_nlp_max_iterations>
         <!--display level. Possible values 0 (suppresses all output), 1(only mesh refinement output), 2(iteration and mesh refinement output). Default 2-->
         <setup_display_level>2</setup_display_level>
 		<integral_bounds>10</integral_bounds>
