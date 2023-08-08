@@ -1,4 +1,8 @@
-# Design Optimization
+# Step 9 Design Optimization
+
+Design Optimization (DO) is the final tool in the NMSM Pipeline Treatment Optimization toolset. It uses the dynamically consistent model to solve for a design as specified by the user. DO uses a flexible cost term structure that allows users to define their own goals for the optimization.
+
+This tool uses the GPOPS-II optimal control solver. A license is required to use this solver, and it must be set up before using this tool. 
 
 ## User Defined Cost Function Terms
 
