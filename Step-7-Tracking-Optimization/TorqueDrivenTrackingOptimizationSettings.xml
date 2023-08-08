@@ -2,7 +2,7 @@
 <NMSMPipelineDocument Version="1.0.0">
     <TrackingOptimizationTool>
         <!--Directory used for writing results.-->
-        <results_directory>results</results_directory>
+        <results_directory>resultsTO</results_directory>
         <!--Directory for input files-->
         <data_directory>preprocessed</data_directory>
         <!--Name of the input model file (.osim) to use-->

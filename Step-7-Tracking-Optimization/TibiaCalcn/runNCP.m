@@ -1,3 +1,0 @@
-
-
-NeuralControlPersonalizationTool("NCPSettingsFile.xml")
