@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <NMSMPipelineDocument Version="1.0.0">
     <NeuralControlPersonalizationTool>
-        <!--MTP AND NCP SHARED SETTINGS-->
         <!--Directory used for writing results.-->
         <results_directory>ncpResults</results_directory>
 		<!--Name of input .osimx file to append results. Leave empty if an .osimx file has not been written for this model yet. -->
@@ -93,11 +92,8 @@
 				</RCNLCostTerm>
             </RCNLCostTermSet>
 		</MuscleTendonLengthInitialization>
-        <!-- END OF MTP AND NCP SHARED SETTINGS-->
-        <!--NCP SPECIFIC SETTINGS-->
         <mtp_results_directory>mtpResults</mtp_results_directory>
 		<enforce_bilateral_symmetry>false</enforce_bilateral_symmetry>
-		<!---->
 		<RCNLSynergySet>
 			<RCNLSynergy>
 				<muscle_group_name>RightLeg</muscle_group_name>
