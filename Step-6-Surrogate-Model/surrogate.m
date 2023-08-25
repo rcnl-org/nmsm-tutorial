@@ -25,17 +25,18 @@
 % permissions and limitations under the License.                          %
 % ----------------------------------------------------------------------- %
 
+
+clc; clear; close all;
 %% Required Values
-inputSettings.model = 'UF_Subject_3_reduced_muscles.osim';
+inputSettings.model = 'RightLegAndPelvisKneeNoAdd.osim';
 inputSettings.dataDirectory = 'preprocessed';
-inputSettings.epsilon = 5e-3;
+inputSettings.epsilon = 1e-3;
 inputSettings.polynomialDegree = 5;
 % Indicate 'true' or 'false' for performing latin hyper cube sampling
 inputSettings.performLatinHyperCubeSampling = 'false';
 % Indicate the coordinates that should be used in the surrogate model
-inputSettings.surrogateModelCoordinateNames = ["hip_flexion_r", ...
-    "hip_adduction_r", "hip_rotation_r", "knee_angle_r", ...
-    "ankle_angle_r", "subtalar_angle_r"];
+inputSettings.surrogateModelCoordinateNames = ["hip_flexion_r", "hip_adduction_r", "hip_rotation_r", ...
+    "knee_angle_r", "ankle_angle_r", "subtalar_angle_r"];
 
 % If performLatinHyperCubeSampling is set to true, set the range multiplier
 % and the number of points used for latin hyper cube sampling, otherwise,
@@ -46,7 +47,7 @@ inputSettings.lhsNumPoints = [];
 %% *Optional* Values
 % The trial prefix is the prefix of each output file, identifying the
 % motion such as 'gait' or 'squat' or 'step_up'.
-inputSettings.trialPrefixes = ["gait_1"];
+inputSettings.trialPrefixes = ["kick_1"];
 % Results directory, if blank, results are printed to current directory
 inputSettings.resultsDirectory = [];
 
