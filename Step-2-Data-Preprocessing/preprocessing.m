@@ -11,11 +11,11 @@
 %% Preprocessing Script
 
 % All values required
-rawEmgFileName = "kick_emg.mot";
+rawEmgFileName = fullfile("input_data", "Full_EMG.mot");
 filterOrder = 4;
-highPassCutoff = 10;
-lowPassCutoff = 50;
-processedEmgFileName = "kick_processed_emg.sto";
+highPassCutoff = 40;
+lowPassCutoff = 3.5 / 1.1;
+processedEmgFileName = fullfile("input_data", "Full_processedEmg.mot");
 
 processRawEmgFile(rawEmgFileName, filterOrder, highPassCutoff, ...
     lowPassCutoff, processedEmgFileName);
@@ -26,7 +26,8 @@ processRawEmgFile(rawEmgFileName, filterOrder, highPassCutoff, ...
 % muscle-tendon length. The file is written in the same directory as the
 % muscle-tendon length file.
 
-muscleTendonLengthFileName = "MuscleAnalysis\player_MuscleAnalysis_Length.sto";
+muscleTendonLengthFileName = fullfile("input_data", ...
+    "MuscleAnalysis", "RCNL_Fullbody_Walking_Model_Reduced_Muscles_MuscleAnalysis_Length.sto");
 cutoffFrequency = 10;
 createMuscleTendonVelocity(muscleTendonLengthFileName, cutoffFrequency);
 
@@ -34,24 +35,25 @@ createMuscleTendonVelocity(muscleTendonLengthFileName, cutoffFrequency);
 
 % Required: pairs of start/end time of events to be extracted
 trialTimePairs = [
-    0.4 0.67
+    0.5 1.6
 ];
 
 % Required: Associated .osim model file
-inputSettings.model = "player.osim";
+inputSettings.model = "UF_Subject_3_reduced_muscles.osim";
 
 % All values optional: files and directories of data to be split
-inputSettings.ikFileName = "ik.mot";
-inputSettings.idFileName = "id.sto";
+inputSettings.ikFileName = fullfile("input_data", "GaitTrial48_IKresults.mot");
+inputSettings.idFileName = fullfile("input_data", "GaitTrial48_IDresults_filtered.sto");
 % The emgFileName should be the name of the *processed* emg data file
-inputSettings.emgFileName = "kick_processed_emg.sto";
-inputSettings.maDirectory = "MuscleAnalysis";
+inputSettings.emgFileName = fullfile("input_data", "Full_processedEmg.mot");
+inputSettings.grfFileName = fullfile("input_data", "GaitTrial48_forces_ec_reordered.mot");
+inputSettings.maDirectory = fullfile("input_data", "MuscleAnalysis");
 
 % All values optional: output information, uses default values otherwise
 outputSettings.resultsDirectory = "preprocessed";
 % The trial prefix is the prefix of each output file, identifying the
 % motion such as 'gait' or 'squat' or 'step_up'.
-outputSettings.trialPrefix = "kick";
+outputSettings.trialPrefix = "gait";
 
 splitIntoTrials( ...
     trialTimePairs, ...
