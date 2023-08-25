@@ -8,5 +8,5 @@ end
 model.realizeVelocity(state);
 newSpeed = model.getMarkerSet().get(costTerm.marker_name) ...
     .getVelocityInGround(state).get(0);
-cost = costTerm.initial_speed / newSpeed;
+cost = (costTerm.initial_speed - newSpeed) / costTerm.maxAllowableError;
 end
