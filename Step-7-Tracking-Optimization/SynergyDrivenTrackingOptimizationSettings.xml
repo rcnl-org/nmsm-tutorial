@@ -2,32 +2,43 @@
 <NMSMPipelineDocument Version="1.0.0">
     <TrackingOptimizationTool>
         <!--Directory used for writing results.-->
-        <results_directory>resultsTD</results_directory>
+        <results_directory>resultsSD</results_directory>
         <!--Directory for input files-->
         <data_directory>preprocessed</data_directory>
         <!--Name of the input model file (.osim) to use-->
         <input_model_file>RightLegAndPelvisKneeNoAdd.osim</input_model_file>
     	<!--*Optional* Name of the initial states guess file-->
-    	<initial_states_file />
+    	<initial_states_file>C:\Users\ma86\Documents\GitHub\nmsm-tutorial\Step-7-Tracking-Optimization\resultsSD\guess\statesSolution.sto</initial_states_file>
+		<!--*Optional* Name of the initial controls guess file-->
+		<initial_controls_file>C:\Users\ma86\Documents\GitHub\nmsm-tutorial\Step-7-Tracking-Optimization\resultsSD\guess\controlSolution.sto</initial_controls_file> 
     	<!--*Optional* Name of the initial controls guess file-->
-    	<initial_controls_file />
+		<initial_parameters_file>C:\Users\ma86\Documents\GitHub\nmsm-tutorial\Step-7-Tracking-Optimization\resultsSD\guess\parameterSolution.sto</initial_parameters_file>
     	<!--Indicate the name of the type of controller: synergy driven or torque driven-->
-    	<type_of_controller>torque_driven</type_of_controller>
+    	<type_of_controller>synergy_driven</type_of_controller>
     	<!--Indicate if synergy vectors should be optimized-->
-    	<optimize_synergy_vectors>false</optimize_synergy_vectors>
+    	<optimize_synergy_vectors>true</optimize_synergy_vectors>
     	<!--Name of the osimx model file-->
     	<osimx_file />
-    	<!--Indicate the coordinates with torque controllers-->
-    	<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
+		<!--Indicate the surrogate model coordinates-->
+    	<coordinate_list>hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r subtalar_angle_r</coordinate_list>
+		<!--Name of the surrogate model coefficients file-->
+    	<surrogate_model_coefficients>coefficients.mat</surrogate_model_coefficients>
 		<!--Name of optimal controls setting file-->
 		<optimal_control_settings_file>gpopsSettings.xml</optimal_control_settings_file>
+		<RCNLSynergySet>
+			<RCNLSynergy>
+				<muscle_group_name>RightLeg</muscle_group_name>
+				<num_synergies>3</num_synergies>
+			</RCNLSynergy>
+    	</RCNLSynergySet>
     	<!--Design variable bounds-->
     	<RCNLDesignVariableBoundsTerms>
     		<joint_positions_multiple>2</joint_positions_multiple>
     		<joint_velocities_multiple>1.5</joint_velocities_multiple>
     		<joint_accelerations_multiple>1</joint_accelerations_multiple>
     		<joint_jerks_multiple>1</joint_jerks_multiple>
-    		<torque_controls_max>2</torque_controls_max>
+    		<synergy_activations_max>2</synergy_activations_max>
+    		<synergy_weights_max>1</synergy_weights_max>
     	</RCNLDesignVariableBoundsTerms>
 		<RCNLCostTermSet>
 			<RCNLCostTerm>
@@ -116,6 +127,18 @@
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>inverse_dynamics_load_tracking</type>
+				<load>hip_rotation_r_moment</load>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>10</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>inverse_dynamics_load_tracking</type>
+				<load>hip_adduction_r_moment</load>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>10</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>inverse_dynamics_load_tracking</type>
 				<load>knee_angle_r_moment</load>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
@@ -125,6 +148,60 @@
 				<load>ankle_angle_r_moment</load>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>muscle_activation_tracking</type>
+				<muscle>bflh_r</muscle>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>muscle_activation_tracking</type>
+				<muscle>bfsh_r</muscle>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>muscle_activation_tracking</type>
+				<muscle>gasmed_r</muscle>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>muscle_activation_tracking</type>
+				<muscle>glmax2_r</muscle>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>muscle_activation_tracking</type>
+				<muscle>iliacus_r</muscle>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>muscle_activation_tracking</type>
+				<muscle>recfem_r</muscle>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>muscle_activation_tracking</type>
+				<muscle>soleus_r</muscle>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>muscle_activation_tracking</type>
+				<muscle>tibant_r</muscle>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>muscle_activation_tracking</type>
+				<muscle>vasmed_r</muscle>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.1</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
@@ -172,7 +249,7 @@
 				<type>joint_jerk_minimization</type>
 				<coordinate>hip_adduction_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>1000</max_allowable_error>
+				<max_allowable_error>5000</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
@@ -208,21 +285,21 @@
 		<RCNLPathConstraintTerms>
 			<RCNLConstraintTermSet>
 					<RCNLConstraintTerm>
-						<type>torque_model_moment_consistency</type>
+						<type>muscle_model_moment_consistency</type>
 						<load>hip_flexion_r_moment</load>
 						<is_enabled>true</is_enabled>
 						<max_error>0.1</max_error>
 						<min_error>-0.1</min_error>
 					</RCNLConstraintTerm>
 					<RCNLConstraintTerm>
-						<type>torque_model_moment_consistency</type>
+						<type>muscle_model_moment_consistency</type>
 						<load>knee_angle_r_moment</load>
 						<is_enabled>true</is_enabled>
 						<max_error>0.1</max_error>
 						<min_error>-0.1</min_error>
 					</RCNLConstraintTerm>
 					<RCNLConstraintTerm>
-						<type>torque_model_moment_consistency</type>
+						<type>muscle_model_moment_consistency</type>
 						<load>ankle_angle_r_moment</load>
 						<is_enabled>true</is_enabled>
 						<max_error>0.1</max_error>
@@ -232,9 +309,19 @@
 		</RCNLPathConstraintTerms>
 		<RCNLTerminalConstraintTerms>
 			<RCNLConstraintTermSet>
+				<RCNLConstraintTerm>
+					<type>synergy_weight_sum</type>
+					<synergy_group>RightLeg</synergy_group>
+					<is_enabled>true</is_enabled>
+					<max_error>1</max_error>
+					<min_error>1</min_error>
+				</RCNLConstraintTerm>
 			</RCNLConstraintTermSet>
 		</RCNLTerminalConstraintTerms>
 		<!--*Optional* list prefix of the data file, if left blank, use prefix from IK folder-->
 		<trial_prefix></trial_prefix>
+		<epsilon>1e-4</epsilon>
+  		<!--*Optional* The vMaxFactor to use-->
+        <v_max_factor>50</v_max_factor>
     </TrackingOptimizationTool>
 </NMSMPipelineDocument>
