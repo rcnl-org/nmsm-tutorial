@@ -11,8 +11,8 @@
 		<input_osimx_file/>
 		<!--Name of optimal controls setting file-->
 		<optimal_control_solver_settings_file>gpopsSettings.xml</optimal_control_solver_settings_file>
-		<!--*Optional* list prefix of the data file, if left blank, use prefix from IK folder-->
-		<trial_prefix/>
+		<!--name, excluding file type (.sto, .mot, etc), of the trial-->
+		<trial_name>kick_1</trial_name>
 		<RCNLController>
 			<!--*Optional* Name of the initial states guess file-->
 			<initial_states_file/>
