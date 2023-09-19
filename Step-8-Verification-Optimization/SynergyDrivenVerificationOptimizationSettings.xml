@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NMSMPipelineDocument Version="1.0.0">
+	<VerificationOptimizationTool>
+		<!--Directory used for writing results.-->
+		<results_directory>SynergyDrivenVO</results_directory>
+		<!--Directory for the results of the previous Treatment Optimization tool-->
+		<previous_results_directory>SynergyDrivenTO</previous_results_directory>
+		<!--Directory for input files-->
+		<data_directory>preprocessed</data_directory>
+		<!--Name of the input model file (.osim) to use-->
+		<input_model_file>simple_arm_muscles.osim</input_model_file>
+		<!--Name of the osimx model file-->
+		<input_osimx_file>ncpResultsNoSO/simple_arm_muscles_ncp.osimx</input_osimx_file>
+		<!--Name of optimal controls setting file-->
+		<optimal_control_solver_settings_file>gpopsSettings.xml</optimal_control_solver_settings_file>
+		<!--name, excluding file type (.sto, .mot, etc), of the trial-->
+		<trial_name>trial_1</trial_name>
+		<!--Synergy Driven Optimal Control problem settings-->
+        <!--The list of coordinates to be included in the state, coordinates excluded will not change from their IK values-->
+        <states_coordinate_list>r_elbow_flex</states_coordinate_list>
+        <joint_position_range_scale_factor>2</joint_position_range_scale_factor>
+        <joint_velocity_range_scale_factor>1.5</joint_velocity_range_scale_factor>
+        <joint_acceleration_range_scale_factor>1</joint_acceleration_range_scale_factor>
+        <joint_jerk_range_scale_factor>1</joint_jerk_range_scale_factor>
+		<RCNLSynergyController>
+			<!--Indicate if synergy vectors should be optimized-->
+			<optimize_synergy_vectors>false</optimize_synergy_vectors>
+			<!--Indicate the surrogate model coordinates-->
+			<maximum_allowable_synergy_activation>10</maximum_allowable_synergy_activation>
+			<maximum_allowable_synergy_vector_weight>2</maximum_allowable_synergy_vector_weight>
+			<!--Epsilon-->
+			<epsilon>1e-4</epsilon>
+			<!--*Optional* Value to be multiplied by the optimal fiber length for maximum shortening velocity calculation -->
+			<maximum_shortening_velocity_multiplier>10</maximum_shortening_velocity_multiplier>
+			<surrogate_model_coefficients>coefficients.mat</surrogate_model_coefficients>
+		</RCNLSynergyController>
+		<RCNLCostTermSet>
+			<RCNLCostTerm>
+				<type>controller_tracking</type>
+				<controller>triceps_1</controller>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.05</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>controller_tracking</type>
+				<controller>biceps_1</controller>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>0.05</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm>
+				<type>joint_jerk_minimization</type>
+				<coordinate>r_elbow_flex</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_allowable_error>10</max_allowable_error>
+			</RCNLCostTerm>
+		</RCNLCostTermSet>
+		<RCNLConstraintTermSet>
+			<RCNLConstraintTerm>
+				<type>muscle_model_moment_consistency</type>
+				<load>r_elbow_flex_moment</load>
+				<is_enabled>true</is_enabled>
+				<max_error>0.1</max_error>
+				<min_error>-0.1</min_error>
+			</RCNLConstraintTerm>
+		</RCNLConstraintTermSet>
+	</VerificationOptimizationTool>
+</NMSMPipelineDocument>
