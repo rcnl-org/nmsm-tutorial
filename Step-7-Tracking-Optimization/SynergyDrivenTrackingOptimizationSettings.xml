@@ -27,9 +27,9 @@
 			<maximum_allowable_synergy_activation>10</maximum_allowable_synergy_activation>
 			<maximum_allowable_synergy_vector_weight>2</maximum_allowable_synergy_vector_weight>
 			<!--Epsilon-->
-			<epsilon>1e-4</epsilon>
+			<epsilon>5e-3</epsilon>
 			<!--*Optional* Value to be multiplied by the optimal fiber length for maximum shortening velocity calculation -->
-			<maximum_shortening_velocity_multiplier>10</maximum_shortening_velocity_multiplier>
+			<maximum_shortening_velocity_multiplier>50</maximum_shortening_velocity_multiplier>
 			<surrogate_model_coefficients>coefficients.mat</surrogate_model_coefficients>
 		</RCNLSynergyController>
 		<RCNLCostTermSet>
@@ -127,19 +127,19 @@
 				<type>joint_jerk_minimization</type>
 				<coordinate>hip_flexion_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10</max_allowable_error>
+				<max_allowable_error>10000000</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>knee_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10</max_allowable_error>
+				<max_allowable_error>10000000</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>joint_jerk_minimization</type>
 				<coordinate>ankle_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10</max_allowable_error>
+				<max_allowable_error>10000000</max_allowable_error>
 			</RCNLCostTerm>
 		</RCNLCostTermSet>
 		<RCNLConstraintTermSet>
