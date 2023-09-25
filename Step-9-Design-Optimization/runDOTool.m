@@ -1,2 +1,2 @@
 clc; clear; close all;
-DesignOptimizationTool("SynergyDrivenDesignOptimizationSettings.xml");
+DesignOptimizationTool("TorqueDrivenDesignOptimizationSettings.xml");
