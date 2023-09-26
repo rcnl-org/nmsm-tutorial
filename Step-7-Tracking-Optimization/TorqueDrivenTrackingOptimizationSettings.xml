@@ -25,7 +25,7 @@
 			<RCNLTorqueController>
 				<!--*Optional* Name of the initial controls guess file-->
 				<initial_torque_controls_file/>
-				<torque_controller_coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</torque_controller_coordinate_list>
+				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
 				<torque_controls_max>2</torque_controls_max>
 			</RCNLTorqueController>
 		</RCNLController>
