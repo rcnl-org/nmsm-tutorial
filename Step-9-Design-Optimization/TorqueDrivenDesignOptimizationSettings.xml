@@ -41,79 +41,79 @@
 				<initial_speed>10</initial_speed>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>pelvis_tilt</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>pelvis_list</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>pelvis_rotation</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>pelvis_tx</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>1</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>pelvis_ty</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>1</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>pelvis_tz</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>1</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>hip_flexion_r</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>hip_adduction_r</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>hip_rotation_r</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>knee_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>ankle_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>subtalar_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
-				<type>coordinate_tracking</type>
+				<type>generalized_coordinate_tracking</type>
 				<coordinate>mtp_angle_r</coordinate>
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
@@ -200,21 +200,21 @@
 		<RCNLPathConstraintTerms>
 			<RCNLConstraintTermSet>
 					<RCNLConstraintTerm>
-						<type>torque_model_moment_consistency</type>
+						<type>kinetic_consistency</type>
 						<load>hip_flexion_r_moment</load>
 						<is_enabled>true</is_enabled>
 						<max_error>0.5</max_error>
 						<min_error>-0.5</min_error>
 					</RCNLConstraintTerm>
 					<RCNLConstraintTerm>
-						<type>torque_model_moment_consistency</type>
+						<type>kinetic_consistency</type>
 						<load>knee_angle_r_moment</load>
 						<is_enabled>true</is_enabled>
 						<max_error>0.5</max_error>
 						<min_error>-0.5</min_error>
 					</RCNLConstraintTerm>
 					<RCNLConstraintTerm>
-						<type>torque_model_moment_consistency</type>
+						<type>kinetic_consistency</type>
 						<load>ankle_angle_r_moment</load>
 						<is_enabled>true</is_enabled>
 						<max_error>0.5</max_error>
