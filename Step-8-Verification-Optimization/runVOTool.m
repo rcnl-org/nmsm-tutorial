@@ -1,2 +1,2 @@
 clc; clear; close all;
-VerificationOptimizationTool("SynergyDrivenVerificationOptimizationSettings.xml");
+VerificationOptimizationTool("TorqueDrivenVerificationOptimizationSettings.xml");

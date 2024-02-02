@@ -41,7 +41,7 @@
 			<!--type of linear solver, applies to ipopt only. Possible values 'mumps' 'ma57'. Default 'ma57'-->
 			<setup_nlp_linear_solver>ma57</setup_nlp_linear_solver>
 			<!--nlp tolerance. Must be a positive real number. Default 10e-7-->
-			<setup_nlp_tolerance>1e-3</setup_nlp_tolerance>
+			<setup_nlp_tolerance>1</setup_nlp_tolerance>
 			<!--nlp max iterations. Must be a positive integer. Default 2000-->
 			<setup_nlp_max_iterations>500</setup_nlp_max_iterations>
 			<!--display level. Possible values 0 (suppresses all output), 1(only mesh refinement output), 2(iteration and mesh refinement output). Default 2-->
