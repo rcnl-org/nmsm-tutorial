@@ -62,46 +62,28 @@
 				<is_enabled>true</is_enabled>
 				<max_allowable_error>10</max_allowable_error>
 			</RCNLCostTerm>
-			<RCNLCostTerm>
-				<type>joint_jerk_minimization</type>
-				<coordinate>hip_flexion_r</coordinate>
-				<is_enabled>true</is_enabled>
-				<max_allowable_error>1000</max_allowable_error>
-			</RCNLCostTerm>
-			<RCNLCostTerm>
-				<type>joint_jerk_minimization</type>
-				<coordinate>knee_angle_r</coordinate>
-				<is_enabled>true</is_enabled>
-				<max_allowable_error>1000</max_allowable_error>
-			</RCNLCostTerm>
-			<RCNLCostTerm>
-				<type>joint_jerk_minimization</type>
-				<coordinate>ankle_angle_r</coordinate>
-				<is_enabled>true</is_enabled>
-				<max_allowable_error>1000</max_allowable_error>
-			</RCNLCostTerm>
 		</RCNLCostTermSet>
 		<RCNLConstraintTermSet>
 			<RCNLConstraintTerm>
 				<type>kinetic_consistency</type>
 				<load>hip_flexion_r_moment</load>
 				<is_enabled>true</is_enabled>
-				<max_error>0.5</max_error>
-				<min_error>-0.5</min_error>
+				<max_error>1</max_error>
+				<min_error>-1</min_error>
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm>
 				<type>kinetic_consistency</type>
 				<load>knee_angle_r_moment</load>
 				<is_enabled>true</is_enabled>
-				<max_error>0.5</max_error>
-				<min_error>-0.5</min_error>
+				<max_error>1</max_error>
+				<min_error>-1</min_error>
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm>
 				<type>kinetic_consistency</type>
 				<load>ankle_angle_r_moment</load>
 				<is_enabled>true</is_enabled>
-				<max_error>0.5</max_error>
-				<min_error>-0.5</min_error>
+				<max_error>1</max_error>
+				<min_error>-1</min_error>
 			</RCNLConstraintTerm>
 		</RCNLConstraintTermSet>
 	</TrackingOptimizationTool>
