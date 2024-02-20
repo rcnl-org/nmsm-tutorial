@@ -15,10 +15,8 @@
             <moment_columns>ground_moment_2_mx ground_moment_2_my ground_moment_2_mz</moment_columns>
             <!--Names of the electrical center columns in the grf file, ordered X, Y, Z-->
             <electrical_center_columns>ground_force_2_px ground_force_2_py ground_force_2_pz</electrical_center_columns>
-            <!--Name of the toe angle coordinate in the model file-->
-            <toes_coordinate>mtp_angle_r</toes_coordinate>
-            <!--Name of the toe joint in the model file-->
-            <toes_joint>mtp_r</toes_joint>
+            <!--Name of the hindfoot body in the model file-->
+            <hindfoot_body>calcn_r</hindfoot_body>
             <!--Names of the markers used to define the foot area-->
             <toe_marker>R_Toe</toe_marker>
             <medial_marker>R_Toe_Medial</medial_marker>

@@ -33,9 +33,9 @@
 			<!--applies only to the 'hp-LiuRao-Legendre' method. Must be a real number larger than 0. Default 0.5-->
 			<setup_mesh_sigma/>
 			<!--number of intervals. Must be an integer. Default 6-->
-			<setup_mesh_phase_intervals>5</setup_mesh_phase_intervals>
+			<setup_mesh_phase_intervals>1</setup_mesh_phase_intervals>
 			<!--number of collocation points per interval. Must be an integer. Default 10-->
-			<setup_mesh_phase_colpoints_per_Interval>5</setup_mesh_phase_colpoints_per_Interval>
+			<setup_mesh_phase_colpoints_per_Interval>50</setup_mesh_phase_colpoints_per_Interval>
 			<!--type of nlp solver. Possible values 'snopt' 'ipopt'. Default 'ipopt'-->
 			<setup_nlp_solver>ipopt</setup_nlp_solver>
 			<!--type of linear solver, applies to ipopt only. Possible values 'mumps' 'ma57'. Default 'ma57'-->
@@ -43,7 +43,7 @@
 			<!--nlp tolerance. Must be a positive real number. Default 10e-7-->
 			<setup_nlp_tolerance>1</setup_nlp_tolerance>
 			<!--nlp max iterations. Must be a positive integer. Default 2000-->
-			<setup_nlp_max_iterations>10000</setup_nlp_max_iterations>
+			<setup_nlp_max_iterations>100</setup_nlp_max_iterations>
 			<!--display level. Possible values 0 (suppresses all output), 1(only mesh refinement output), 2(iteration and mesh refinement output). Default 2-->
 			<setup_display_level>2</setup_display_level>
 			<integral_bounds>10</integral_bounds>

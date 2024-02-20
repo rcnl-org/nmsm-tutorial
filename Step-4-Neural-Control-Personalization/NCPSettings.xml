@@ -104,7 +104,7 @@
 			<RCNLCostTerm>
 				<type>moment_tracking</type>
 				<is_enabled>true</is_enabled>
-				<max_allowable_error>10</max_allowable_error>
+				<max_allowable_error>5</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>activation_tracking</type>
