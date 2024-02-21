@@ -12,4 +12,4 @@ To run TO:
 - Navigate to the nmsm-tutorial/Step-7-Tracking-Optimization directory.
 - Open and run the MATLAB script `runTOTool.m`.
 
-This script will run the TO tool with the XML settings file. The results will be saved in the `resultsTO` directory. The results will also be plotted.
+This script will run the TO tool with the XML settings file. The torque-driven results will be saved in the `resultsTO` directory, and the synergy-driven results will be saved in `SynergyDrivenTO`. The results will also be plotted.

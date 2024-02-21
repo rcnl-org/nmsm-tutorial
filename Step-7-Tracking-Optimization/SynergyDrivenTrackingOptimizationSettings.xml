@@ -3,7 +3,7 @@
 	<TrackingOptimizationTool>
 		<!--Directory used for writing results.-->
 		<results_directory>SynergyDrivenTO</results_directory>
-		<previous_results_directory>ncpResultsBJ</previous_results_directory>
+		<previous_results_directory>ncpResults</previous_results_directory>
 		<!--Directory for input files-->
 		<data_directory>preprocessed</data_directory>
 		<!--Name of the input model file (.osim) to use-->
