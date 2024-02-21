@@ -430,7 +430,7 @@ Number of inequality constraint evaluations          = 391
 Number of equality constraint Jacobian evaluations   = 350
 Number of inequality constraint Jacobian evaluations = 350
 Number of Lagrangian Hessian evaluations             = 0
-Total CPU secs in IPOPT (w/o function evaluations)   =      6.245
-Total CPU secs in NLP function evaluations           =    168.497
+Total CPU secs in IPOPT (w/o function evaluations)   =      6.391
+Total CPU secs in NLP function evaluations           =    170.091
 
 EXIT: Optimal Solution Found.

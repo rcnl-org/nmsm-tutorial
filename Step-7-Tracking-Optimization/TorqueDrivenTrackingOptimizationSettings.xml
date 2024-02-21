@@ -3,7 +3,7 @@
 	<TrackingOptimizationTool>
 		<!--Directory used for writing results.-->
 		<results_directory>resultsTO</results_directory>
-		<!--previous_results_directory>..\Step-7-Tracking-Optimization\resultsTO</previous_results_directory-->
+		<previous_results_directory/>
 		<!--Directory for input files-->
 		<data_directory>preprocessed</data_directory>
 		<!--Name of the input model file (.osim) to use-->
