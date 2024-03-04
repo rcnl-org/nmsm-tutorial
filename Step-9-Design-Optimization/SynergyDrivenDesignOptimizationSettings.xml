@@ -14,6 +14,7 @@
 		<optimal_control_solver_settings_file>gpopsSettings.xml</optimal_control_solver_settings_file>
 		<!--name, excluding file type (.sto, .mot, etc), of the trial-->
 		<trial_name>kick_1</trial_name>
+		<final_time_range>0.05</final_time_range>
 		<!--Synergy Driven Optimal Control problem settings-->
         <states_coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</states_coordinate_list>
         <joint_position_range_scale_factor>2</joint_position_range_scale_factor>
