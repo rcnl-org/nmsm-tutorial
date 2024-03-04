@@ -317,7 +317,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.20197109242766129 -0.018424651968173042 -0.04314567577469719</location>
+					<location>0.20197109242766129 -0.018424651968173042 -0.043145675774697197</location>
 				</Marker>
 				<Marker name="spring_marker_3">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
@@ -389,7 +389,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.12596479771191993 -0.018424651968173042 0.0095138656895633021</location>
+					<location>0.12596479771191993 -0.018424651968173042 0.0095138656895632986</location>
 				</Marker>
 				<Marker name="spring_marker_15">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
@@ -419,7 +419,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.050594768643112936 -0.018424651968173042 0.034969666069881798</location>
+					<location>0.050594768643112943 -0.018424651968173042 0.034969666069881798</location>
 				</Marker>
 				<Marker name="spring_marker_20">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->

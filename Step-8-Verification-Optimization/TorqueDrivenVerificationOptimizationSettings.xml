@@ -24,7 +24,7 @@
 			<!--*Optional* Name of the initial controls guess file-->
 			<initial_torque_controls_file/>
 			<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
-			<torque_controls_max>2000</torque_controls_max>
+			<torque_controls_range_scale_factor>1</torque_controls_range_scale_factor>
 		</RCNLTorqueController>
 		<RCNLCostTermSet>
 			<RCNLCostTerm>
