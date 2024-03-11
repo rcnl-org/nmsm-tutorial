@@ -1,6 +1,6 @@
 % This function is part of the NMSM Pipeline, see file for full license.
 %
-% The following script can be used to create a surrogate model of the
+% The following script can be used to preview a surrogate model of the
 % muscle tendon lengths, moment arms, and muscle tendon velocities
 
 % ----------------------------------------------------------------------- %
@@ -11,7 +11,7 @@
 % National Institutes of Health (R01 EB030520).                           %
 %                                                                         %
 % Copyright (c) 2021 Rice University and the Authors                      %
-% Author(s): Marleny Vega                                                 %
+% Author(s): Marleny Vega, Spencer Williams                               %
 %                                                                         %
 % Licensed under the Apache License, Version 2.0 (the "License");         %
 % you may not use this file except in compliance with the License.        %
@@ -26,7 +26,7 @@
 % ----------------------------------------------------------------------- %
 
 %% Required Values
-inputSettings.model = 'UF_Subject_3_reduced_muscles.osim';
+inputSettings.model = Model('UF_Subject_3_reduced_muscles.osim');
 inputSettings.dataDirectory = 'preprocessed';
 inputSettings.epsilon = 5e-3;
 inputSettings.polynomialDegree = 5;
@@ -44,11 +44,10 @@ inputSettings.lhsRangeMultiplier = [];
 inputSettings.lhsNumPoints = [];
 
 %% *Optional* Values
-% The trial prefix is the prefix of each output file, identifying the
-% motion such as 'gait' or 'squat' or 'step_up'.
-inputSettings.trialPrefixes = ["gait_1"];
-% Results directory, if blank, results are printed to current directory
-inputSettings.resultsDirectory = [];
+% The trial name identifies the files to be used as inputs for calibration.
+inputSettings.trialName = "gait_1";
+% Option to plot results
+inputSettings.plotResults = true;
 
 %% Create surrogate model
 SurrogateModelCreation(inputSettings);

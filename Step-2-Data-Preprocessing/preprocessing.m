@@ -38,10 +38,17 @@ trialTimePairs = [
     0.5 1.6
 ];
 
+% Optional: number of time points per trial (default value: 101)
+inputSettings.rowsPerTrial = 101;
+
+% Optional: cutoff frequency for lowpass filtering (default value: 6)
+inputSettings.cutoffFrequency = 6;
+
 % Required: Associated .osim model file
 inputSettings.model = "UF_Subject_3_reduced_muscles.osim";
 
 % All values optional: files and directories of data to be split
+% IK, ID, and MA data are filtered during this step
 inputSettings.ikFileName = fullfile("input_data", "GaitTrial48_IKresults.mot");
 inputSettings.idFileName = fullfile("input_data", "GaitTrial48_IDresults_filtered.sto");
 % The emgFileName should be the name of the *processed* emg data file
