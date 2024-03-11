@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<NMSMPipelineDocument Version="1.0.0">
+<NMSMPipelineDocument Version="1.1.0">
     <VerificationOptimizationTool>
         <!--Directory used for writing results.-->
         <results_directory>resultsVO</results_directory>
