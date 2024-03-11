@@ -16,7 +16,7 @@
 		<optimal_control_solver_settings_file>gpopsSettings.xml</optimal_control_solver_settings_file>
 		<!--name, excluding file type (.sto, .mot, etc), of the trial-->
 		<trial_name>kick_1</trial_name>
-		<final_time_range>0.05</final_time_range>
+		<final_time_range>0.23 0.31</final_time_range>
 		<joint_position_range_scale_factor>2</joint_position_range_scale_factor>
 		<joint_velocity_range_scale_factor>1.5</joint_velocity_range_scale_factor>
 		<joint_acceleration_range_scale_factor>1</joint_acceleration_range_scale_factor>
