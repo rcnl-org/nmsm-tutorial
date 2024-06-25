@@ -46,7 +46,7 @@
 			<setup_nlp_max_iterations>1000</setup_nlp_max_iterations>
 			<!--display level. Possible values 0 (suppresses all output), 1(only mesh refinement output), 2(iteration and mesh refinement output). Default 2-->
 			<setup_display_level>2</setup_display_level>
-			<integral_bounds>10</integral_bounds>
+			<integral_bound>1</integral_bound>
 		</GpopsSettings>
 	</OptimalControlSolverSettings>
 </NMSMPipelineDocument>
