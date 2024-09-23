@@ -51,22 +51,22 @@
 				<type>kinetic_consistency</type>
 				<load>hip_flexion_r_moment</load>
 				<is_enabled>true</is_enabled>
-				<max_error>1</max_error>
-				<min_error>-1</min_error>
+				<max_error>0.1</max_error>
+				<min_error>-0.1</min_error>
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm>
 				<type>kinetic_consistency</type>
 				<load>knee_angle_r_moment</load>
 				<is_enabled>true</is_enabled>
-				<max_error>1</max_error>
-				<min_error>-1</min_error>
+				<max_error>0.1</max_error>
+				<min_error>-0.1</min_error>
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm>
 				<type>kinetic_consistency</type>
 				<load>ankle_angle_r_moment</load>
 				<is_enabled>true</is_enabled>
-				<max_error>1</max_error>
-				<min_error>-1</min_error>
+				<max_error>0.1</max_error>
+				<min_error>-0.1</min_error>
 			</RCNLConstraintTerm>
 		</RCNLConstraintTermSet>
 	</TrackingOptimizationTool>
