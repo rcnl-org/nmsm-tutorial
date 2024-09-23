@@ -5,7 +5,8 @@
 		<results_directory>resultsTO</results_directory>
 		<previous_results_directory/>
 		<!--Directory for input files-->
-		<data_directory>preprocessed</data_directory>
+		<tracked_quantities_directory>preprocessed</tracked_quantities_directory>
+		<initial_guess_directory>preprocessed</initial_guess_directory>
 		<!--Name of the input model file (.osim) to use-->
 		<input_model_file>RightLegAndPelvis.osim</input_model_file>
 		<!--Name of the osimx model file-->
