@@ -4,7 +4,7 @@ nRows=107
 nColumns=7
 inDegrees=no
 endheader
-time	R_Thigh_Superior	R_Thigh_Inferior	R_Thigh_Lateral	R_Shank_Superior	R_Shank_Inferior	R_Shank_Lateral
+time	R_Shank_Lateral	R_Shank_Superior	R_Thigh_Superior	R_Thigh_Lateral	R_Shank_Inferior	R_Thigh_Inferior
       0.00000000	      0.01352279	      0.01062995	      0.01348160	      0.00578649	      0.00627133	      0.00806627
       0.01000000	      0.01263599	      0.00983511	      0.01218907	      0.00571142	      0.00558949	      0.00706289
       0.02000000	      0.01176079	      0.00927257	      0.01050644	      0.00551509	      0.00495518	      0.00670437
