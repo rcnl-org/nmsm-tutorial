@@ -1,6 +1,6 @@
 DataType=double
 version=3
-OpenSimVersion=4.4-2022-07-23-0e9fedc
+OpenSimVersion=4.5.1-2024-07-17-d3db5e9
 endheader
 time	bflh_r	bfsh_r	gasmed_r	glmax2_r	iliacus_r	recfem_r	soleus_r	tibant_r	vasmed_r
 0.5	0.1183115319776653	0.04452874898707915	0.02700026798374046	0.0126051126262465	0.08998980711447692	0.05455929838089486	0	0.07862973968249587	0
