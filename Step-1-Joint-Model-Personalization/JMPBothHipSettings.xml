@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<NMSMPipelineDocument Version="1.1.0">
+<NMSMPipelineDocument Version="1.3.0">
 	<JointModelPersonalizationTool>
 		<!--Name of the input model file (.osim) to use-->
 		<input_model_file>UF_Subject_3_v2.osim</input_model_file>

@@ -1,6 +1,6 @@
 DataType=double
 version=3
-OpenSimVersion=4.4-2022-07-23-0e9fedc
+OpenSimVersion=4.5.1-2024-07-17-d3db5e9
 endheader
 time	hip_flexion_r_moment	knee_angle_r_moment	ankle_angle_r_moment
 0.5	-24.24353856855168	29.38947225178258	-83.72011355513835

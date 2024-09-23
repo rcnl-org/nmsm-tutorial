@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<NMSMPipelineDocument Version="1.1.0">
+<NMSMPipelineDocument Version="1.3.0">
     <GroundContactPersonalizationTool>
         <!--Directory used for writing results.-->
         <results_directory>gcpResults</results_directory>
@@ -83,7 +83,7 @@
 					<RCNLCostTerm>
 						<type>rotation</type>
 						<is_enabled>true</is_enabled>
-						<max_allowable_error>1</max_allowable_error>
+						<max_allowable_error>0.0175</max_allowable_error>
 					</RCNLCostTerm>
 					<RCNLCostTerm>
 						<type>vertical_grf</type>
@@ -137,7 +137,7 @@
 					<RCNLCostTerm>
 						<type>rotation</type>
 						<is_enabled>true</is_enabled>
-						<max_allowable_error>1</max_allowable_error>
+						<max_allowable_error>0.0175</max_allowable_error>
 					</RCNLCostTerm>
 					<RCNLCostTerm>
 						<type>vertical_grf</type>
@@ -191,7 +191,7 @@
 					<RCNLCostTerm>
 						<type>rotation</type>
 						<is_enabled>true</is_enabled>
-						<max_allowable_error>1</max_allowable_error>
+						<max_allowable_error>0.0175</max_allowable_error>
 					</RCNLCostTerm>
 					<RCNLCostTerm>
 						<type>vertical_grf</type>
