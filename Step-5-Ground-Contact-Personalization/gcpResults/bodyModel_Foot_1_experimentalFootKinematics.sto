@@ -1,6 +1,6 @@
 DataType=double
 version=3
-OpenSimVersion=4.4-2022-07-23-0e9fedc
+OpenSimVersion=4.5.1-2024-07-17-d3db5e9
 endheader
 time	mtp_angle_r	Rotation1	Rotation2	Rotation3	Translation1	Translation2	Translation3
 0.5	-0.2190252470729599	-0.07080135346527758	-0.007850883837701337	0.241658952220649	0.8656399363914187	0.05053113485652024	0.53513579092109

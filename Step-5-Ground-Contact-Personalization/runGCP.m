@@ -4,8 +4,6 @@ GroundContactPersonalizationTool("GCPSettings.xml")
 
 %% Analyze results
 
-close all
-
 plotGcpFootKinematicsFromFiles( ...
     fullfile("gcpResults", "bodyModel_Foot_1_experimentalFootKinematics.sto"), ...
     fullfile("gcpResults", "bodyModel_Foot_1_optimizedFootKinematics.sto"), 1)
