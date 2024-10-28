@@ -4,11 +4,4 @@ MuscleTendonPersonalizationTool("MTPSettings.xml")
 
 %% Analyze results
 
-resultsDirectory = "mtpResults";
-
-plotMtpPassiveMomentCurves(resultsDirectory)
-plotMtpPassiveForceCurves(resultsDirectory)
-plotMtpMuscleExcitationsAndActivations(resultsDirectory)
-plotMtpHillTypeMuscleParams(resultsDirectory)
-plotMtpJointMoments(resultsDirectory)
-plotMtpNormalizedFiberLengths(resultsDirectory)
+plotMtpResultsFromSettingsFile("MTPSettings.xml")
