@@ -89,7 +89,7 @@
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm>
 				<type>final_state_position</type>
-				<target_error>0.276</target_error>
+				<target_value>0.276</target_value>
 				<is_enabled>true</is_enabled>
 				<coordinate>hip_flexion_r</coordinate>
 				<max_error>0.01</max_error>
@@ -97,7 +97,7 @@
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm>
 				<type>final_state_position</type>
-				<target_error>1.142</target_error>
+				<target_value>1.142</target_value>
 				<is_enabled>true</is_enabled>
 				<coordinate>knee_angle_r</coordinate>
 				<max_error>0.01</max_error>
@@ -105,7 +105,7 @@
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm>
 				<type>final_state_position</type>
-				<target_error>-0.589</target_error>
+				<target_value>-0.589</target_value>
 				<is_enabled>true</is_enabled>
 				<coordinate>ankle_angle_r</coordinate>
 				<max_error>0.01</max_error>
