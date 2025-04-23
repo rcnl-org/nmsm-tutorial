@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<NMSMPipelineDocument Version="1.3.0">
+<NMSMPipelineDocument Version="1.4.0">
     <MuscleTendonPersonalizationTool>
         <!--Directory used for writing results.-->
         <results_directory>mtpResults</results_directory>
@@ -93,8 +93,6 @@
 		<MTPSynergyExtrapolation>
 			<!--Flag indicating if synergery extrapolation should be performed as part of this task-->
 			<is_enabled>true</is_enabled>
-			<!--*Optional* space-separated list of prefixes that indicate different speeds or tasks, one speed or task will be assumed for all trials-->
-			<task_prefixes>gait_1</task_prefixes>
 			<!--Specify the matrix factorization approach for MSA; PCA or NMF.-->
 			<matrix_factorization_method>PCA</matrix_factorization_method>
 			<!--Indicate the number of synergies for synergy extrapolation.-->
