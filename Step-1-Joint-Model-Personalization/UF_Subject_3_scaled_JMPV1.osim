@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<OpenSimDocument Version="40600">
+<OpenSimDocument Version="40500">
 	<Model name="UF_Subject_3_v2">
 		<!--The model's ground reference frame.-->
 		<Ground name="ground">
@@ -45,7 +45,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.0980498045 1.0980498045 1.0980498045</scale_factors>
+							<scale_factors>1.1598925917 1.1598925917 1.1598925917</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -60,7 +60,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.0980498045 1.0980498045 1.0980498045</scale_factors>
+							<scale_factors>1.1598925917 1.1598925917 1.1598925917</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -75,7 +75,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.0980498045 1.0980498045 1.0980498045</scale_factors>
+							<scale_factors>1.1598925917 1.1598925917 1.1598925917</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -96,7 +96,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.59999999999999998 0.45000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.08454983494649998 -0.10870693064549999 0.066981038074499996</translation>
+								<translation>-0.089311729560899986 -0.11482936657830001 0.070753448093700003</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-x</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -114,9 +114,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.043921992179999994</radius>
+								<radius>0.046395703667999999</radius>
 								<!--The length of the cylinder.-->
-								<length>0.164707470675</length>
+								<length>0.17398388875500001</length>
 							</WrapCylinder>
 							<WrapCylinder name="Gmax2_at_pelvis_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -124,7 +124,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.75 0.39000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.087843984359999988 -0.091138133773499996 0.074667386705999997</translation>
+								<translation>-0.092791407335999998 -0.096271085111099997 0.078872696235600004</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -142,9 +142,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.043921992179999994</radius>
+								<radius>0.046395703667999999</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10980498045000001</length>
+								<length>0.11598925917000001</length>
 							</WrapCylinder>
 							<WrapCylinder name="Gmax3_at_pelvis_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -152,7 +152,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.10000000000000001 0 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.091138133773499996 -0.096628382795999987 0.074667386705999997</translation>
+								<translation>-0.096271085111099997 -0.1020705480696 0.078872696235600004</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -170,9 +170,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.043921992179999994</radius>
+								<radius>0.046395703667999999</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10980498045000002</length>
+								<length>0.11598925917000003</length>
 							</WrapCylinder>
 							<WrapCylinder name="Gmax1_at_pelvis_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -180,7 +180,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0.59999999999999998 -0.45000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.08454983494649998 -0.10870693064549999 -0.066981038074499996</translation>
+								<translation>-0.089311729560899986 -0.11482936657830001 -0.070753448093700003</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-x</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -198,9 +198,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.043921992179999994</radius>
+								<radius>0.046395703667999999</radius>
 								<!--The length of the cylinder.-->
-								<length>0.164707470675</length>
+								<length>0.17398388875500001</length>
 							</WrapCylinder>
 							<WrapCylinder name="Gmax2_at_pelvis_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -208,7 +208,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0.75 -0.39000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.087843984359999988 -0.091138133773499996 -0.074667386705999997</translation>
+								<translation>-0.092791407335999998 -0.096271085111099997 -0.078872696235600004</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -226,9 +226,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.043921992179999994</radius>
+								<radius>0.046395703667999999</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10980498045000001</length>
+								<length>0.11598925917000001</length>
 							</WrapCylinder>
 							<WrapCylinder name="Gmax3_at_pelvis_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -236,7 +236,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0.10000000000000001 0 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.091138133773499996 -0.096628382795999987 -0.074667386705999997</translation>
+								<translation>-0.096271085111099997 -0.1020705480696 -0.078872696235600004</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -254,9 +254,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.043921992179999994</radius>
+								<radius>0.046395703667999999</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10980498045000002</length>
+								<length>0.11598925917000003</length>
 							</WrapCylinder>
 							<WrapCylinder name="PS_at_brim_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -264,7 +264,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.25 -0.27000000000000002 0.10000000000000001</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.081255685532999999 -0.065882988269999998 0.072032067175199999</translation>
+								<translation>-0.085832051785800001 -0.069593555501999999 0.076088954015520002</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -282,9 +282,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.054902490225000003</radius>
+								<radius>0.057994629585000006</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10980498044999996</length>
+								<length>0.11598925916999998</length>
 							</WrapCylinder>
 							<WrapCylinder name="PS_at_brim_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -292,7 +292,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0.25 0.27000000000000002 0.10000000000000001</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.081255685532999999 -0.065882988269999998 -0.072032067175199999</translation>
+								<translation>-0.085832051785800001 -0.069593555501999999 -0.076088954015520002</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -310,9 +310,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.054902490225000003</radius>
+								<radius>0.057994629585000006</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10980498044999996</length>
+								<length>0.11598925916999998</length>
 							</WrapCylinder>
 							<WrapCylinder name="IL_at_brim_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -320,7 +320,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.32000000000000001 -0.23999999999999999 0.90000000000000002</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.077961536119499991 -0.071373237292499989 0.083012565220199994</translation>
+								<translation>-0.082352374010699989 -0.075393018460499991 0.087687879932520002</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -338,9 +338,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.06028293426704999</radius>
+								<radius>0.063678103284329976</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10980498044999996</length>
+								<length>0.11598925916999998</length>
 							</WrapCylinder>
 							<WrapCylinder name="IL_at_brim_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -348,7 +348,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0.32000000000000001 0.23999999999999999 0.90000000000000002</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.077961536119499991 -0.071373237292499989 -0.083012565220199994</translation>
+								<translation>-0.082352374010699989 -0.075393018460499991 -0.087687879932520002</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -366,9 +366,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.06028293426704999</radius>
+								<radius>0.063678103284329976</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10980498044999996</length>
+								<length>0.11598925916999998</length>
 							</WrapCylinder>
 						</objects>
 						<groups />
@@ -376,9 +376,9 @@
 					<!--The mass of the body (kg)-->
 					<mass>10.656624099537646</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>-0.077632121178149993 0 0</mass_center>
+					<mass_center>-0.082004406233189997 0 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.11215591022235195 0.095027040665047219 0.063169525310060079 0 0 0</inertia>
+					<inertia>0.12514503830193577 0.10603242058461677 0.070485386358775104 0 0 0</inertia>
 				</Body>
 				<Body name="femur_r">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -3199,7 +3199,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/pelvis</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.061793850798041991 -0.086185929155204996 0.084835327895669999</translation>
+							<translation>-0.065274115490509196 -0.091039969522533001 0.089613301634742001</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
@@ -3265,7 +3265,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0980498045</scale>
+								<scale>1.1598925917</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -3280,7 +3280,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0980498045</scale>
+								<scale>1.1598925917</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -3295,7 +3295,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0980498045</scale>
+								<scale>1.1598925917</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -3325,7 +3325,7 @@
 						</Coordinate>
 						<Coordinate name="knee_adduction_r">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0.10416124960983487</default_value>
+							<default_value>3.0951217490165645e-11</default_value>
 							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
 							<default_speed_value>0</default_speed_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
@@ -3355,7 +3355,7 @@
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
 							<translation>-0.0080192154495067787 -0.4043904987368091 -0.002725938502613553</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>-0.070770028484130998 0 0.12461632679406499</orientation>
+							<orientation>0.034843484100000002 0.13895809149999999 0.12461632679406499</orientation>
 						</PhysicalOffsetFrame>
 						<PhysicalOffsetFrame name="tibia_r_offset">
 							<!--The geometry used to display the axes of this Frame.-->
@@ -3370,7 +3370,7 @@
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
 							<translation>-0.0083192255141992834 -0.0036351632290082783 -0.0015268960769032906</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>-0.070770028484130998 0 0.12461632679406499</orientation>
+							<orientation>-0.1458006674 0.19419362549999999 0.12461632679406499</orientation>
 						</PhysicalOffsetFrame>
 					</frames>
 					<!--Defines how the child body moves with respect to the parent as a function of the generalized coordinates.-->
@@ -3403,8 +3403,8 @@
 							<axis>0 1 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-								<y> 0 0.059461 0.109399 0.150618 0.18392 0.210107 0.229983 0.24435 0.254012 0.25977 0.262428 0.262788 0.261654</y>
+								<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+								<y> 0 0.059460999999999999965 0.10939899999999999625 0.15061800000000000188 0.18392000000000000015 0.21010699999999998822 0.22998299999999999299 0.24435000000000001164 0.25401200000000001555 0.25977000000000000091 0.26242799999999999461 0.26278800000000002157 0.26165399999999999769</y>
 							</SimmSpline>
 						</TransformAxis>
 						<!--3 Axes for translations are listed next.-->
@@ -3417,8 +3417,8 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="function">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0 0.000479 0.000835 0.001086 0.001251 0.001346 0.001391 0.001403 0.0014 0.0014 0.001421 0.001481 0.001599</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0 0.00047899999999999998785 0.00083500000000000002172 0.0010859999999999999428 0.0012509999999999999419 0.0013459999999999999742 0.0013910000000000000923 0.0014029999999999999503 0.0013999999999999999858 0.0013999999999999999858 0.0014209999999999999541 0.0014809999999999998947 0.0015989999999999999439</y>
 									</SimmSpline>
 								</function>
 								<scale>0.99125036458674654</scale>
@@ -3433,8 +3433,8 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="function">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0 0.000988 0.001899 0.002734 0.003492 0.004173 0.004777 0.005305 0.005756 0.00613 0.006427 0.006648 0.006792</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0 0.00098799999999999994597 0.0018990000000000000803 0.0027339999999999998852 0.0034919999999999998784 0.0041729999999999996263 0.0047769999999999999962 0.0053049999999999998199 0.0057559999999999998319 0.0061300000000000000322 0.0064270000000000004209 0.0066480000000000002633 0.006792000000000000294</y>
 									</SimmSpline>
 								</function>
 								<scale>0.99125036458674654</scale>
@@ -3524,8 +3524,8 @@
 							<axis>0 0 1</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-								<y> 0.00113686 -0.00629212 -0.105582 -0.253683 -0.414245 -0.579047 -0.747244 -0.91799 -1.09044 -1.26379 -1.43763 -1.61186 -1.78634</y>
+								<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+								<y> 0.0011368599999999999539 -0.0062921200000000000047 -0.1055819999999999953 -0.25368299999999999184 -0.41424499999999997435 -0.57904699999999997839 -0.74724400000000001931 -0.91798999999999997268 -1.0904400000000000759 -1.2637899999999999689 -1.4376299999999999635 -1.6118600000000000705 -1.7863400000000000389</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation2">
@@ -3558,8 +3558,8 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="function">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0.0524 0.0488 0.0437 0.0371 0.0296 0.0216 0.0136 0.0057 -0.0019 -0.0088 -0.0148 -0.0196 -0.0227</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0.052400000000000002132 0.048800000000000003098 0.043700000000000002731 0.037100000000000001033 0.02960000000000000131 0.021600000000000001144 0.013599999999999999242 0.0057000000000000002054 -0.0018999999999999999962 -0.0088000000000000005301 -0.014800000000000000655 -0.019599999999999999367 -0.022700000000000001427</y>
 									</SimmSpline>
 								</function>
 								<scale>0.99125036458674654</scale>
@@ -3574,8 +3574,8 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="function">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> -0.0108 -0.019 -0.0263 -0.0322 -0.0367 -0.0395 -0.0408 -0.0404 -0.0384 -0.0349 -0.0301 -0.0245 -0.0187</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> -0.010800000000000000572 -0.018999999999999999528 -0.026300000000000000461 -0.032199999999999999456 -0.036700000000000003453 -0.039500000000000000389 -0.040800000000000002931 -0.040399999999999998412 -0.038399999999999996636 -0.034900000000000000466 -0.030099999999999998285 -0.024500000000000000944 -0.018700000000000001343</y>
 									</SimmSpline>
 								</function>
 								<scale>0.99125036458674654</scale>
@@ -3960,7 +3960,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/pelvis</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.061793850798041991 -0.086185929155204996 -0.084835327895669999</translation>
+							<translation>-0.065274115490509196 -0.091039969522533001 -0.089613301634742001</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
@@ -4026,7 +4026,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0980498045</scale>
+								<scale>1.1598925917</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -4041,7 +4041,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0980498045</scale>
+								<scale>1.1598925917</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -4056,7 +4056,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0980498045</scale>
+								<scale>1.1598925917</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -4086,7 +4086,7 @@
 						</Coordinate>
 						<Coordinate name="knee_adduction_l">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0.095347337324163201</default_value>
+							<default_value>-2.7759100958987023e-11</default_value>
 							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
 							<default_speed_value>0</default_speed_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
@@ -4164,8 +4164,8 @@
 							<axis>0 -1 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-								<y> 0 0.059461 0.109399 0.150618 0.18392 0.210107 0.229983 0.24435 0.254012 0.25977 0.262428 0.262788 0.261654</y>
+								<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+								<y> 0 0.059460999999999999965 0.10939899999999999625 0.15061800000000000188 0.18392000000000000015 0.21010699999999998822 0.22998299999999999299 0.24435000000000001164 0.25401200000000001555 0.25977000000000000091 0.26242799999999999461 0.26278800000000002157 0.26165399999999999769</y>
 							</SimmSpline>
 						</TransformAxis>
 						<!--3 Axes for translations are listed next.-->
@@ -4178,8 +4178,8 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="function">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0 0.000479 0.000835 0.001086 0.001251 0.001346 0.001391 0.001403 0.0014 0.0014 0.001421 0.001481 0.001599</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0 0.00047899999999999998785 0.00083500000000000002172 0.0010859999999999999428 0.0012509999999999999419 0.0013459999999999999742 0.0013910000000000000923 0.0014029999999999999503 0.0013999999999999999858 0.0013999999999999999858 0.0014209999999999999541 0.0014809999999999998947 0.0015989999999999999439</y>
 									</SimmSpline>
 								</function>
 								<scale>0.99125036458674654</scale>
@@ -4194,8 +4194,8 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="function">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0 -0.000988 -0.001899 -0.002734 -0.003492 -0.004173 -0.004777 -0.005305 -0.005756 -0.00613 -0.006427 -0.006648 -0.006792</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0 -0.00098799999999999994597 -0.0018990000000000000803 -0.0027339999999999998852 -0.0034919999999999998784 -0.0041729999999999996263 -0.0047769999999999999962 -0.0053049999999999998199 -0.0057559999999999998319 -0.0061300000000000000322 -0.0064270000000000004209 -0.0066480000000000002633 -0.006792000000000000294</y>
 									</SimmSpline>
 								</function>
 								<scale>-0.99125036458674654</scale>
@@ -4285,8 +4285,8 @@
 							<axis>0 0 1</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-								<y> 0.00113686 -0.00629212 -0.105582 -0.253683 -0.414245 -0.579047 -0.747244 -0.91799 -1.09044 -1.26379 -1.43763 -1.61186 -1.78634</y>
+								<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+								<y> 0.0011368599999999999539 -0.0062921200000000000047 -0.1055819999999999953 -0.25368299999999999184 -0.41424499999999997435 -0.57904699999999997839 -0.74724400000000001931 -0.91798999999999997268 -1.0904400000000000759 -1.2637899999999999689 -1.4376299999999999635 -1.6118600000000000705 -1.7863400000000000389</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation2">
@@ -4319,8 +4319,8 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="function">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0.0524 0.0488 0.0437 0.0371 0.0296 0.0216 0.0136 0.0057 -0.0019 -0.0088 -0.0148 -0.0196 -0.0227</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0.052400000000000002132 0.048800000000000003098 0.043700000000000002731 0.037100000000000001033 0.02960000000000000131 0.021600000000000001144 0.013599999999999999242 0.0057000000000000002054 -0.0018999999999999999962 -0.0088000000000000005301 -0.014800000000000000655 -0.019599999999999999367 -0.022700000000000001427</y>
 									</SimmSpline>
 								</function>
 								<scale>0.99125036458674654</scale>
@@ -4335,8 +4335,8 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="function">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> -0.0108 -0.019 -0.0263 -0.0322 -0.0367 -0.0395 -0.0408 -0.0404 -0.0384 -0.0349 -0.0301 -0.0245 -0.0187</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> -0.010800000000000000572 -0.018999999999999999528 -0.026300000000000000461 -0.032199999999999999456 -0.036700000000000003453 -0.039500000000000000389 -0.040800000000000002931 -0.040399999999999998412 -0.038399999999999996636 -0.034900000000000000466 -0.030099999999999998285 -0.024500000000000000944 -0.018700000000000001343</y>
 									</SimmSpline>
 								</function>
 								<scale>0.99125036458674654</scale>
@@ -4721,7 +4721,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/pelvis</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.11057361531314998 0.089491059066750006 0</translation>
+							<translation>-0.11680118398419 0.094531246223550011 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
@@ -4787,7 +4787,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0980498045</scale>
+								<scale>1.1598925917</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -4802,7 +4802,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0980498045</scale>
+								<scale>1.1598925917</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -4817,7 +4817,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0980498045</scale>
+								<scale>1.1598925917</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -5608,7 +5608,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.020972751265949996 -0.10321668162299999 0.016909966989300002</location>
+									<location>-0.022153948501469997 -0.1090299036198 0.017862345912180003</location>
 								</PathPoint>
 								<PathPoint name="addbrev_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -5637,9 +5637,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>625.81967213114797</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.10525589335270095</optimal_fiber_length>
+					<optimal_fiber_length>0.10713015451523737</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.036191581794299488</tendon_slack_length>
+					<tendon_slack_length>0.036836034793624822</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.11478091999999999</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -5707,7 +5707,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.0083232175181099984 -0.097616627620049995 0.020731180308960002</location>
+									<location>-0.0087919858450859999 -0.10311445140213001 0.021898772131296002</location>
 								</PathPoint>
 								<PathPoint name="addlong_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -5736,9 +5736,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>916.79999999999995</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.10806442212198515</optimal_fiber_length>
+					<optimal_fiber_length>0.1085868452614944</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.13163421474677994</tendon_slack_length>
+					<tendon_slack_length>0.13227058292776389</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.13777038999999999</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -5806,7 +5806,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.081299607525179993 -0.14018801854051499 0.043724343215189997</location>
+									<location>-0.085878447489467991 -0.14808348718233902 0.046186923001494004</location>
 								</PathPoint>
 								<PathPoint name="addmagDist_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -5835,9 +5835,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>597.29508196721395</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.17267879373131073</optimal_fiber_length>
+					<optimal_fiber_length>0.17101812477211079</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.085151202526760311</tendon_slack_length>
+					<tendon_slack_length>0.084332295029092869</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.19470502000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -5905,7 +5905,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.098407223479289999 -0.14248294263191996 0.045799657345694994</location>
+									<location>-0.103949574068154 -0.15050766269899199 0.048379119999806999</location>
 								</PathPoint>
 								<PathPoint name="addmagIsch_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -5934,9 +5934,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>597.29508196721395</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.15252965139423669</optimal_fiber_length>
+					<optimal_fiber_length>0.15121709052112675</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.21125944909773439</tendon_slack_length>
+					<tendon_slack_length>0.209441501672917</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.16804429000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -6004,7 +6004,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.057823302704969999 -0.13258951389337498 0.031338341420429995</location>
+									<location>-0.061079943878922002 -0.14005703044777498 0.033103334567117997</location>
 								</PathPoint>
 								<PathPoint name="addmagMid_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -6033,9 +6033,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>597.29508196721395</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.13572359391417554</optimal_fiber_length>
+					<optimal_fiber_length>0.13542379844448996</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.045958453212316674</tendon_slack_length>
+					<tendon_slack_length>0.045856937067117028</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.20730759000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -6103,7 +6103,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.034017582943409994 -0.11809525647397499 0.014988379831425</location>
+									<location>-0.035933472490866002 -0.12474644823733501 0.015832533876705</location>
 								</PathPoint>
 								<PathPoint name="addmagProx_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -6132,9 +6132,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>597.29508196721395</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.10952502218937184</optimal_fiber_length>
+					<optimal_fiber_length>0.11245028012503827</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.041822895073979884</tendon_slack_length>
+					<tendon_slack_length>0.042939925258152503</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.31148325999999998</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -6202,7 +6202,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.11419717966799998 -0.13077773171594997 0.064345718543699998</location>
+									<location>-0.12062882953679999 -0.13814320767147001 0.067969705873620001</location>
 								</PathPoint>
 								<PathPoint name="bflh_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -6228,9 +6228,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1313.18360655738</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.096232485826875755</optimal_fiber_length>
+					<optimal_fiber_length>0.095711176308055756</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.3206697617587066</tendon_slack_length>
+					<tendon_slack_length>0.31893263320210574</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.17591823000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -6327,9 +6327,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>557.11475409835998</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.11006278769212309</optimal_fiber_length>
+					<optimal_fiber_length>0.11006278769212312</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.1055896469967792</tendon_slack_length>
+					<tendon_slack_length>0.10558964699677922</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.26422317000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -6693,9 +6693,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>423.17704918032803</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.046301415370749936</optimal_fiber_length>
+					<optimal_fiber_length>0.04630141537074995</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.39322240747931075</tendon_slack_length>
+					<tendon_slack_length>0.39322240747931092</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.22483914999999999</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -6920,9 +6920,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1575.0590163934401</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.060358118841552046</optimal_fiber_length>
+					<optimal_fiber_length>0.060358118841552108</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.38603551036779954</tendon_slack_length>
+					<tendon_slack_length>0.38603551036779993</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.21022682000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -7027,9 +7027,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>3115.5147540983598</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.052313492372515695</optimal_fiber_length>
+					<optimal_fiber_length>0.052313492372515688</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.40898517305196325</tendon_slack_length>
+					<tendon_slack_length>0.40898517305196319</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.16568155000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -7097,7 +7097,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.12440904284984998 -0.090040083968999998 0.078400756041300007</location>
+									<location>-0.13141583063960999 -0.095111192519400006 0.08281633104738001</location>
 								</PathPoint>
 								<PathPoint name="gem_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -7117,9 +7117,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>170.40000000000001</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.025449401666113453</optimal_fiber_length>
+					<optimal_fiber_length>0.026448824096038517</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.041355277707434364</tendon_slack_length>
+					<tendon_slack_length>0.042979339156062592</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -7187,13 +7187,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.13516993093394999 0.037882718255249997 0.061820203993349997</location>
+									<location>-0.14278277803827 0.040016294413650004 0.065301952912710001</location>
 								</PathPoint>
 								<PathPoint name="glmax1_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.13802486042565001 -0.026572805268899997 0.085538079770549988</location>
+									<location>-0.14579849877669002 -0.028069400719139999 0.090355632893430002</location>
 								</PathPoint>
 								<PathPoint name="glmax1_r-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -7228,9 +7228,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>983.78360655737799</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.15653217371005845</optimal_fiber_length>
+					<optimal_fiber_length>0.16295695853278902</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.05200796267138507</tendon_slack_length>
+					<tendon_slack_length>0.054142603501526318</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.35401178</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -7298,13 +7298,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.14461315925265 0.0095530332991499989 0.050729900967899991</location>
+									<location>-0.15275785432689001 0.010091065547789999 0.053587037736539993</location>
 								</PathPoint>
 								<PathPoint name="glmax2_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.14757789372479999 -0.066871233094050006 0.089271449105849998</location>
+									<location>-0.15588956432447998 -0.070637458834530001 0.094299267705210008</location>
 								</PathPoint>
 								<PathPoint name="glmax2_r-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -7339,9 +7339,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1406.0459016393499</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.16526078365352842</optimal_fiber_length>
+					<optimal_fiber_length>0.17100799390708285</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.071459132508858228</tendon_slack_length>
+					<tendon_slack_length>0.07394423907791596</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.36738206000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -7409,13 +7409,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.14274647458499998 -0.057647614736249991 0.0098824482404999987</location>
+									<location>-0.15078603692099998 -0.060894361064249995 0.010439033325299999</location>
 								</PathPoint>
 								<PathPoint name="glmax3_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.13978174011284999 -0.13868369030834998 0.047765166495749994</location>
+									<location>-0.14765432692341002 -0.14649443433171 0.05045532773895</location>
 								</PathPoint>
 								<PathPoint name="glmax3_r-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -7450,9 +7450,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>947.75409836065603</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.17387362015550559</optimal_fiber_length>
+					<optimal_fiber_length>0.17904835992411322</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.072586099701018897</tendon_slack_length>
+					<tendon_slack_length>0.074746370916600913</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.38241613000000002</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -7520,7 +7520,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.048863216300249999 0.026902220210249999 0.1286914370874</location>
+									<location>-0.051615220330649997 0.028417368496650001 0.13593941174724</location>
 								</PathPoint>
 								<PathPoint name="glmed1_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -7540,9 +7540,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1093.4667688</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.078663242762588473</optimal_fiber_length>
+					<optimal_fiber_length>0.08237868954769885</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.060147027416744762</tendon_slack_length>
+					<tendon_slack_length>0.062987910550992718</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.31655591</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -7610,7 +7610,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.093334233382500006 0.0346983738222 0.074118361803750005</location>
+									<location>-0.098590870294500005 0.03665260589772 0.078292749939750009</location>
 								</PathPoint>
 								<PathPoint name="glmed2_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -7630,9 +7630,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>765.09166159999995</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.078467589533675927</optimal_fiber_length>
+					<optimal_fiber_length>0.082050427143221277</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.070135848421121555</tendon_slack_length>
+					<tendon_slack_length>0.073338257938145426</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.31655591</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -7700,7 +7700,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.1264953374784 -0.0080157635728499987 0.057757419716699995</location>
+									<location>-0.13361962656383999 -0.0084672159194099997 0.061010350323419997</location>
 								</PathPoint>
 								<PathPoint name="glmed3_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -7720,9 +7720,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>871.19926420000002</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.078070843791673505</optimal_fiber_length>
+					<optimal_fiber_length>0.081445945146018398</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.048374880370614277</tendon_slack_length>
+					<tendon_slack_length>0.050466187654173385</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.31655591</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -7790,7 +7790,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.050949510928799992 -0.016360942087049999 0.11441678962889999</location>
+									<location>-0.053819016254879996 -0.017282399616330001 0.12086080805514</location>
 								</PathPoint>
 								<PathPoint name="glmin1_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -7810,9 +7810,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>374.04590163934398</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.072028609708276209</optimal_fiber_length>
+					<optimal_fiber_length>0.074812653894208492</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.017093853356526977</tendon_slack_length>
+					<tendon_slack_length>0.017754563638804573</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.17453293</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -7880,7 +7880,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.067639867957200006 -0.015592307223900001 0.10662063601695</location>
+									<location>-0.071449383648720013 -0.016470474802140003 0.11262557065407001</location>
 								</PathPoint>
 								<PathPoint name="glmin2_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -7900,9 +7900,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>394.81967213114802</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.059123271890543852</optimal_fiber_length>
+					<optimal_fiber_length>0.061294235145840571</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.027554667352050428</tendon_slack_length>
+					<tendon_slack_length>0.028566454562405971</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -7970,7 +7970,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.08663612957505 -0.017019771969749999 0.08762437439909998</location>
+									<location>-0.091515525485130006 -0.017978335171350002 0.092559428817659994</location>
 								</PathPoint>
 								<PathPoint name="glmin3_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -7990,9 +7990,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>446.77377049180399</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.040054998024420356</optimal_fiber_length>
+					<optimal_fiber_length>0.041477535572623042</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.053623628605192757</tendon_slack_length>
+					<tendon_slack_length>0.055528050747849104</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.01745329</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -8060,7 +8060,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.05200363874111999 -0.14199980071793997 0.026968103198519996</location>
+									<location>-0.054932513142911997 -0.14999730995864397 0.028486962052151996</location>
 								</PathPoint>
 								<PathPoint name="grac_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -8095,9 +8095,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>281.31147540983602</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.22471618917331318</optimal_fiber_length>
+					<optimal_fiber_length>0.22323215403216209</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.16968519752065891</tendon_slack_length>
+					<tendon_slack_length>0.16856458935717852</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.17200156</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -8165,13 +8165,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.06643201317224999 0.03392973895905 0.092565598519349993</location>
+									<location>-0.070173501797849994 0.035840681083530002 0.097778945480309992</location>
 								</PathPoint>
 								<PathPoint name="iliacus_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.014823672360749999 -0.061161374110649994 0.083012565220199994</location>
+									<location>-0.01565854998795 -0.064606017357690004 0.087687879932520002</location>
 								</PathPoint>
 								<PathPoint name="iliacus_r-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -8206,9 +8206,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1021.14098360656</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.11389176067935425</optimal_fiber_length>
+					<optimal_fiber_length>0.11873653454154572</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.10269565400780598</tendon_slack_length>
+					<tendon_slack_length>0.10706416334798925</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.27991397000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -8276,7 +8276,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.025650443433119997 -0.091247938753949973 0.049269494727914996</location>
+									<location>-0.027095090942111998 -0.096387074370269984 0.052044380589578998</location>
 								</PathPoint>
 								<PathPoint name="pect_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -8305,9 +8305,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>319.60000000000002</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.10202144462842234</optimal_fiber_length>
+					<optimal_fiber_length>0.1037565643933943</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.033667076727379376</tendon_slack_length>
+					<tendon_slack_length>0.034239666249820118</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -8413,9 +8413,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>521.20159880000006</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.046823102133633603</optimal_fiber_length>
+					<optimal_fiber_length>0.04682310213363361</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.15215191167334974</tendon_slack_length>
+					<tendon_slack_length>0.15215191167334977</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.20523611999999999</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -8603,13 +8603,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.111792450596145 -0.0071702652233849992 0.014834652858794999</location>
+									<location>-0.118088664760977 -0.007574098623801 0.015670148913866998</location>
 								</PathPoint>
 								<PathPoint name="piri_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.11202304105508999 -0.033666207005969999 0.066893194090139996</location>
+									<location>-0.11833224220523399 -0.035562306861522001 0.07066065668636401</location>
 								</PathPoint>
 								<PathPoint name="piri_r-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -8629,9 +8629,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1029.7868852459001</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.028008819070130132</optimal_fiber_length>
+					<optimal_fiber_length>0.029317151506266258</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.12378415537585825</tendon_slack_length>
+					<tendon_slack_length>0.1295662922504065</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.17453293</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -8699,13 +8699,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.066541818152699994 0.068079087878999994 0.042823942375499996</location>
+									<location>-0.070289491057020009 0.071913340685400007 0.045235811076299995</location>
 								</PathPoint>
 								<PathPoint name="psoas_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.02251002099225 -0.071812457214299991 0.072032067175199999</location>
+									<location>-0.023777798129850002 -0.075856975497179999 0.076088954015520002</location>
 								</PathPoint>
 								<PathPoint name="psoas_r-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -8740,9 +8740,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1426.79016393443</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.12541606762054489</optimal_fiber_length>
+					<optimal_fiber_length>0.13097262596350237</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.10679480256713041</tendon_slack_length>
+					<tendon_slack_length>0.1115263458410297</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.21552513000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -8810,7 +8810,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.12550709265434998 -0.12638553249794998 0.057098589833999992</location>
+									<location>-0.13257572323131001 -0.13350363730466999 0.060314414768399993</location>
 								</PathPoint>
 								<PathPoint name="quadfem_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -8830,9 +8830,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>397</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.057519072536916453</optimal_fiber_length>
+					<optimal_fiber_length>0.060029923307791874</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.025564032238629537</tendon_slack_length>
+					<tendon_slack_length>0.02667996591457417</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -8900,7 +8900,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.026353195307999996 -0.042604332414599995 0.10244804675984999</location>
+									<location>-0.027837422200799999 -0.045003832557959998 0.10821797880561</location>
 								</PathPoint>
 								<PathPoint name="recfem_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -8947,9 +8947,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2191.7409836065599</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.076095987213991523</optimal_fiber_length>
+					<optimal_fiber_length>0.076453034955747914</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.44965162697633049</tendon_slack_length>
+					<tendon_slack_length>0.45176142413997739</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.21701490000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -9017,7 +9017,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.021411971187749998 -0.017129576950199996 0.11595405935519998</location>
+									<location>-0.022617905538149997 -0.018094324430519997 0.12248465768351999</location>
 								</PathPoint>
 								<PathPoint name="sart_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -9055,9 +9055,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>249.41311475409799</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.40732705830099236</optimal_fiber_length>
+					<optimal_fiber_length>0.41031068282039013</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.12533123092533086</tendon_slack_length>
+					<tendon_slack_length>0.12624926798183006</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.026135419999999999</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -9125,7 +9125,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.10837751570414998 -0.12517767771300001 0.067420257996299998</location>
+									<location>-0.11448139880078999 -0.1322277554538 0.071217405130379996</location>
 								</PathPoint>
 								<PathPoint name="semimem_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -9154,9 +9154,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2200.9868852458999</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.068015076005764924</optimal_fiber_length>
+					<optimal_fiber_length>0.067661407740699689</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.34262444661579422</tendon_slack_length>
+					<tendon_slack_length>0.34084285052387375</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.25456146000000002</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -9224,7 +9224,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.1139775697071 -0.13758564050385 0.056549564931749993</location>
+									<location>-0.12039685101846001 -0.14533454174001001 0.059734468472549998</location>
 								</PathPoint>
 								<PathPoint name="semiten_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -9259,9 +9259,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>591.29508196721395</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.19068904643848622</optimal_fiber_length>
+					<optimal_fiber_length>0.18951046475323824</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.24423902129431371</tendon_slack_length>
+					<tendon_slack_length>0.24272946611693633</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.24129500000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -9419,7 +9419,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.034149348919949994 0.023498265816299997 0.13626798073844998</location>
+									<location>-0.036072659601869998 0.02482170146238 0.14394267062996999</location>
 								</PathPoint>
 								<PathPoint name="tfl_r-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -9451,9 +9451,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>411.20655737704999</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.096215944418201804</optimal_fiber_length>
+					<optimal_fiber_length>0.097273602305453441</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.45525035310619494</tendon_slack_length>
+					<tendon_slack_length>0.46025471209833901</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.052359879999999998</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -9655,9 +9655,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1730.1540983606501</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.038954963107065296</optimal_fiber_length>
+					<optimal_fiber_length>0.03895496310706531</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.28935871693294885</tendon_slack_length>
+					<tendon_slack_length>0.28935871693294896</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.22648906999999999</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -10076,7 +10076,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.020972751265949996 -0.10321668162299999 -0.016909966989300002</location>
+									<location>-0.022153948501469997 -0.1090299036198 -0.017862345912180003</location>
 								</PathPoint>
 								<PathPoint name="addbrev_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -10105,9 +10105,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>625.81967213114797</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.10525589335270095</optimal_fiber_length>
+					<optimal_fiber_length>0.10713015451523737</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.036191581794299495</tendon_slack_length>
+					<tendon_slack_length>0.036836034793624829</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.11478091999999999</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -10175,7 +10175,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.0083232175181099984 -0.097616627620049995 -0.020731180308960002</location>
+									<location>-0.0087919858450859999 -0.10311445140213001 -0.021898772131296002</location>
 								</PathPoint>
 								<PathPoint name="addlong_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -10204,9 +10204,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>916.79999999999995</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.10806442212198519</optimal_fiber_length>
+					<optimal_fiber_length>0.10858684526149447</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.13163421474678</tendon_slack_length>
+					<tendon_slack_length>0.13227058292776395</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.13777038999999999</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -10274,7 +10274,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.081299607525179993 -0.14018801854051499 -0.043724343215189997</location>
+									<location>-0.085878447489467991 -0.14808348718233902 -0.046186923001494004</location>
 								</PathPoint>
 								<PathPoint name="addmagDist_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -10303,9 +10303,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>597.29508196721395</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.17267879373131104</optimal_fiber_length>
+					<optimal_fiber_length>0.17101812477211087</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.085151202526760464</tendon_slack_length>
+					<tendon_slack_length>0.084332295029092924</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.19470502000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -10373,7 +10373,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.098407223479289999 -0.14248294263191996 -0.045799657345694994</location>
+									<location>-0.103949574068154 -0.15050766269899199 -0.048379119999806999</location>
 								</PathPoint>
 								<PathPoint name="addmagIsch_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -10402,9 +10402,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>597.29508196721395</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.15252965139423669</optimal_fiber_length>
+					<optimal_fiber_length>0.15121709052112675</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.21125944909773439</tendon_slack_length>
+					<tendon_slack_length>0.209441501672917</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.16804429000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -10472,7 +10472,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.057823302704969999 -0.13258951389337498 -0.031338341420429995</location>
+									<location>-0.061079943878922002 -0.14005703044777498 -0.033103334567117997</location>
 								</PathPoint>
 								<PathPoint name="addmagMid_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -10501,9 +10501,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>597.29508196721395</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.13572359391417546</optimal_fiber_length>
+					<optimal_fiber_length>0.1354237984444899</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.04595845321231664</tendon_slack_length>
+					<tendon_slack_length>0.045856937067117014</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.20730759000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -10571,7 +10571,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.034017582943409994 -0.11809525647397499 -0.014988379831425</location>
+									<location>-0.035933472490866002 -0.12474644823733501 -0.015832533876705</location>
 								</PathPoint>
 								<PathPoint name="addmagProx_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -10600,9 +10600,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>597.29508196721395</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.10952502218937195</optimal_fiber_length>
+					<optimal_fiber_length>0.11245028012503828</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.041822895073979925</tendon_slack_length>
+					<tendon_slack_length>0.04293992525815251</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.31148325999999998</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -10670,7 +10670,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.11419717966799998 -0.13077773171594997 -0.064345718543699998</location>
+									<location>-0.12062882953679999 -0.13814320767147001 -0.067969705873620001</location>
 								</PathPoint>
 								<PathPoint name="bflh_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -10696,9 +10696,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1313.18360655738</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.096232480978058629</optimal_fiber_length>
+					<optimal_fiber_length>0.095711176308055215</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.32066974560128308</tendon_slack_length>
+					<tendon_slack_length>0.31893263320210397</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.17591823000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -11281,9 +11281,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>907.83934426229405</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.054764990027962326</optimal_fiber_length>
+					<optimal_fiber_length>0.054764990027962313</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.3682240772007539</tendon_slack_length>
+					<tendon_slack_length>0.36822407720075384</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.25802551000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -11388,9 +11388,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1575.0590163934401</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.060358118841552164</optimal_fiber_length>
+					<optimal_fiber_length>0.060358118841552136</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.38603551036780026</tendon_slack_length>
+					<tendon_slack_length>0.38603551036780009</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.21022682000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -11495,9 +11495,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>3115.5147540983598</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.052313492372515792</optimal_fiber_length>
+					<optimal_fiber_length>0.052313492372515834</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.40898517305196402</tendon_slack_length>
+					<tendon_slack_length>0.40898517305196436</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.16568155000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -11565,7 +11565,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.12440904284984998 -0.090040083968999998 -0.078400756041300007</location>
+									<location>-0.13141583063960999 -0.095111192519400006 -0.08281633104738001</location>
 								</PathPoint>
 								<PathPoint name="gem_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -11585,9 +11585,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>170.40000000000001</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.025449401666113453</optimal_fiber_length>
+					<optimal_fiber_length>0.026448824096038517</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.041355277707434364</tendon_slack_length>
+					<tendon_slack_length>0.042979339156062592</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -11655,13 +11655,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.13516993093394999 0.037882718255249997 -0.061820203993349997</location>
+									<location>-0.14278277803827 0.040016294413650004 -0.065301952912710001</location>
 								</PathPoint>
 								<PathPoint name="glmax1_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.13802486042565001 -0.026572805268899997 -0.085538079770549988</location>
+									<location>-0.14579849877669002 -0.028069400719139999 -0.090355632893430002</location>
 								</PathPoint>
 								<PathPoint name="glmax1_l-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -11696,9 +11696,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>983.78360655737799</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.15653217371005845</optimal_fiber_length>
+					<optimal_fiber_length>0.16295695853278902</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.05200796267138507</tendon_slack_length>
+					<tendon_slack_length>0.054142603501526318</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.35401178</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -11766,13 +11766,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.14461315925265 0.0095530332991499989 -0.050729900967899991</location>
+									<location>-0.15275785432689001 0.010091065547789999 -0.053587037736539993</location>
 								</PathPoint>
 								<PathPoint name="glmax2_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.14757789372479999 -0.066871233094050006 -0.089271449105849998</location>
+									<location>-0.15588956432447998 -0.070637458834530001 -0.094299267705210008</location>
 								</PathPoint>
 								<PathPoint name="glmax2_l-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -11807,9 +11807,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1406.0459016393499</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.16526078365352842</optimal_fiber_length>
+					<optimal_fiber_length>0.17100799390708285</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.071459132508858228</tendon_slack_length>
+					<tendon_slack_length>0.07394423907791596</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.36738206000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -11877,13 +11877,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.14274647458499998 -0.057647614736249991 -0.0098824482404999987</location>
+									<location>-0.15078603692099998 -0.060894361064249995 -0.010439033325299999</location>
 								</PathPoint>
 								<PathPoint name="glmax3_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.13978174011284999 -0.13868369030834998 -0.047765166495749994</location>
+									<location>-0.14765432692341002 -0.14649443433171 -0.05045532773895</location>
 								</PathPoint>
 								<PathPoint name="glmax3_l-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -11918,9 +11918,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>947.75409836065603</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.17387362015550559</optimal_fiber_length>
+					<optimal_fiber_length>0.17904835992411322</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.072586099701018897</tendon_slack_length>
+					<tendon_slack_length>0.074746370916600913</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.38241613000000002</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -11988,7 +11988,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.048863216300249999 0.026902220210249999 -0.1286914370874</location>
+									<location>-0.051615220330649997 0.028417368496650001 -0.13593941174724</location>
 								</PathPoint>
 								<PathPoint name="glmed1_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -12008,9 +12008,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1093.4667688</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.078663242762588473</optimal_fiber_length>
+					<optimal_fiber_length>0.08237868954769885</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.060147027416744762</tendon_slack_length>
+					<tendon_slack_length>0.062987910550992718</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.31655591</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -12078,7 +12078,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.093334233382500006 0.0346983738222 -0.074118361803750005</location>
+									<location>-0.098590870294500005 0.03665260589772 -0.078292749939750009</location>
 								</PathPoint>
 								<PathPoint name="glmed2_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -12098,9 +12098,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>765.09166159999995</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.078467589533675927</optimal_fiber_length>
+					<optimal_fiber_length>0.082050427143221277</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.070135848421121555</tendon_slack_length>
+					<tendon_slack_length>0.073338257938145426</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.31655591</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -12168,7 +12168,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.1264953374784 -0.0080157635728499987 -0.057757419716699995</location>
+									<location>-0.13361962656383999 -0.0084672159194099997 -0.061010350323419997</location>
 								</PathPoint>
 								<PathPoint name="glmed3_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -12188,9 +12188,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>871.19926420000002</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.078070843791673505</optimal_fiber_length>
+					<optimal_fiber_length>0.081445945146018398</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.048374880370614277</tendon_slack_length>
+					<tendon_slack_length>0.050466187654173385</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.31655591</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -12258,7 +12258,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.050949510928799992 -0.016360942087049999 -0.11441678962889999</location>
+									<location>-0.053819016254879996 -0.017282399616330001 -0.12086080805514</location>
 								</PathPoint>
 								<PathPoint name="glmin1_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -12278,9 +12278,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>374.04590163934398</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.072028609708276209</optimal_fiber_length>
+					<optimal_fiber_length>0.074812653894208492</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.017093853356526977</tendon_slack_length>
+					<tendon_slack_length>0.017754563638804573</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.17453293</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -12348,7 +12348,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.067639867957200006 -0.015592307223900001 -0.10662063601695</location>
+									<location>-0.071449383648720013 -0.016470474802140003 -0.11262557065407001</location>
 								</PathPoint>
 								<PathPoint name="glmin2_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -12368,9 +12368,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>394.81967213114802</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.059123271890543852</optimal_fiber_length>
+					<optimal_fiber_length>0.061294235145840571</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.027554667352050428</tendon_slack_length>
+					<tendon_slack_length>0.028566454562405971</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -12438,7 +12438,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.08663612957505 -0.017019771969749999 -0.08762437439909998</location>
+									<location>-0.091515525485130006 -0.017978335171350002 -0.092559428817659994</location>
 								</PathPoint>
 								<PathPoint name="glmin3_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -12458,9 +12458,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>446.77377049180399</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.040054998024420356</optimal_fiber_length>
+					<optimal_fiber_length>0.041477535572623042</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.053623628605192757</tendon_slack_length>
+					<tendon_slack_length>0.055528050747849104</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.01745329</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -12528,7 +12528,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.05200363874111999 -0.14199980071793997 -0.026968103198519996</location>
+									<location>-0.054932513142911997 -0.14999730995864397 -0.028486962052151996</location>
 								</PathPoint>
 								<PathPoint name="grac_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -12563,9 +12563,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>281.31147540983602</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.22471706356726845</optimal_fiber_length>
+					<optimal_fiber_length>0.22323215403218485</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.16968585778332873</tendon_slack_length>
+					<tendon_slack_length>0.1685645893571957</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.17200156</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -12633,13 +12633,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.06643201317224999 0.03392973895905 -0.092565598519349993</location>
+									<location>-0.070173501797849994 0.035840681083530002 -0.097778945480309992</location>
 								</PathPoint>
 								<PathPoint name="iliacus_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.014823672360749999 -0.061161374110649994 -0.083012565220199994</location>
+									<location>-0.01565854998795 -0.064606017357690004 -0.087687879932520002</location>
 								</PathPoint>
 								<PathPoint name="iliacus_l-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -12674,9 +12674,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1021.14098360656</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.11389176067935416</optimal_fiber_length>
+					<optimal_fiber_length>0.1187365345415456</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.10269565400780592</tendon_slack_length>
+					<tendon_slack_length>0.10706416334798917</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.27991397000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -12744,7 +12744,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.025650443433119997 -0.091247938753949973 -0.049269494727914996</location>
+									<location>-0.027095090942111998 -0.096387074370269984 -0.052044380589578998</location>
 								</PathPoint>
 								<PathPoint name="pect_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -12773,9 +12773,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>319.60000000000002</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.10202144462842234</optimal_fiber_length>
+					<optimal_fiber_length>0.1037565643933943</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.033667076727379376</tendon_slack_length>
+					<tendon_slack_length>0.034239666249820118</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -12881,9 +12881,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>521.20159880000006</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.046823102133633603</optimal_fiber_length>
+					<optimal_fiber_length>0.046823102133633596</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.15215191167334974</tendon_slack_length>
+					<tendon_slack_length>0.15215191167334971</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.20523611999999999</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -13071,13 +13071,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.111792450596145 -0.0071702652233849992 -0.014834652858794999</location>
+									<location>-0.118088664760977 -0.007574098623801 -0.015670148913866998</location>
 								</PathPoint>
 								<PathPoint name="piri_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.11202304105508999 -0.033666207005969999 -0.066893194090139996</location>
+									<location>-0.11833224220523399 -0.035562306861522001 -0.07066065668636401</location>
 								</PathPoint>
 								<PathPoint name="piri_l-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -13097,9 +13097,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1029.7868852459001</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.028008819070130132</optimal_fiber_length>
+					<optimal_fiber_length>0.029317151506266258</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.12378415537585825</tendon_slack_length>
+					<tendon_slack_length>0.1295662922504065</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.17453293</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -13167,13 +13167,13 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.066541818152699994 0.068079087878999994 -0.042823942375499996</location>
+									<location>-0.070289491057020009 0.071913340685400007 -0.045235811076299995</location>
 								</PathPoint>
 								<PathPoint name="psoas_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.02251002099225 -0.071812457214299991 -0.072032067175199999</location>
+									<location>-0.023777798129850002 -0.075856975497179999 -0.076088954015520002</location>
 								</PathPoint>
 								<PathPoint name="psoas_l-P3">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -13208,9 +13208,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1426.79016393443</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.12541606762054491</optimal_fiber_length>
+					<optimal_fiber_length>0.1309726259635024</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.10679480256713042</tendon_slack_length>
+					<tendon_slack_length>0.11152634584102972</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.21552513000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -13278,7 +13278,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.12550709265434998 -0.12638553249794998 -0.057098589833999992</location>
+									<location>-0.13257572323131001 -0.13350363730466999 -0.060314414768399993</location>
 								</PathPoint>
 								<PathPoint name="quadfem_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -13298,9 +13298,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>397</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.057519072536916453</optimal_fiber_length>
+					<optimal_fiber_length>0.060029923307791874</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.025564032238629537</tendon_slack_length>
+					<tendon_slack_length>0.02667996591457417</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -13368,7 +13368,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.026353195307999996 -0.042604332414599995 -0.10244804675984999</location>
+									<location>-0.027837422200799999 -0.045003832557959998 -0.10821797880561</location>
 								</PathPoint>
 								<PathPoint name="recfem_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -13415,9 +13415,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2191.7409836065599</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.076095998075688717</optimal_fiber_length>
+					<optimal_fiber_length>0.076453034955748123</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.44965169115816178</tendon_slack_length>
+					<tendon_slack_length>0.45176142413997855</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.21701490000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -13485,7 +13485,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.021411971187749998 -0.017129576950199996 -0.11595405935519998</location>
+									<location>-0.022617905538149997 -0.018094324430519997 -0.12248465768351999</location>
 								</PathPoint>
 								<PathPoint name="sart_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -13523,9 +13523,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>249.41311475409799</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.40732650549690891</optimal_fiber_length>
+					<optimal_fiber_length>0.4103106828203763</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.12533106083199966</tendon_slack_length>
+					<tendon_slack_length>0.12624926798182581</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.026135419999999999</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -13593,7 +13593,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.10837751570414998 -0.12517767771300001 -0.067420257996299998</location>
+									<location>-0.11448139880078999 -0.1322277554538 -0.071217405130379996</location>
 								</PathPoint>
 								<PathPoint name="semimem_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -13622,9 +13622,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2200.9868852458999</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.068015176720278236</optimal_fiber_length>
+					<optimal_fiber_length>0.067661407740702104</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.34262495396293569</tendon_slack_length>
+					<tendon_slack_length>0.34084285052388591</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.25456146000000002</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -13692,7 +13692,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.1139775697071 -0.13758564050385 -0.056549564931749993</location>
+									<location>-0.12039685101846001 -0.14533454174001001 -0.059734468472549998</location>
 								</PathPoint>
 								<PathPoint name="semiten_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -13727,9 +13727,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>591.29508196721395</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.19068945919396216</optimal_fiber_length>
+					<optimal_fiber_length>0.18951046475324829</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.24423954996124742</tendon_slack_length>
+					<tendon_slack_length>0.24272946611694921</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.24129500000000001</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -13887,7 +13887,7 @@
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
 									<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 									<!--The fixed location of the path point expressed in its parent frame.-->
-									<location>-0.034149348919949994 0.023498265816299997 -0.13626798073844998</location>
+									<location>-0.036072659601869998 0.02482170146238 -0.14394267062996999</location>
 								</PathPoint>
 								<PathPoint name="tfl_l-P2">
 									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame in which this path point is defined.).-->
@@ -13919,9 +13919,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>411.20655737704999</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.09621613818103196</optimal_fiber_length>
+					<optimal_fiber_length>0.097273602305458659</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.45525126990431386</tendon_slack_length>
+					<tendon_slack_length>0.46025471209836372</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.052359879999999998</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -14357,9 +14357,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>5148.7672131147601</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.099091367937707189</optimal_fiber_length>
+					<optimal_fiber_length>0.099091367937707217</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.21991632880358741</tendon_slack_length>
+					<tendon_slack_length>0.21991632880358747</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.25286729000000002</pennation_angle_at_optimal>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
@@ -15092,7 +15092,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.013120291949927365 -0.00049398659999999996 0.13148566616622098</location>
+					<location>0.013120291949927365 -0.0060055891 0.13148566616622098</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -15100,7 +15100,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.015330010689347029 -0.0055832171000000002 -0.1329859410112979</location>
+					<location>0.015330010689347029 -0.011354803700000001 -0.1329859410112979</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -15108,15 +15108,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.15770827686078581 0.039559396099999998 0.00069541898380731659</location>
-					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
-					<fixed>false</fixed>
-				</Marker>
-				<Marker name="Lumbar">
-					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/torso</socket_parent_frame>
-					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.037769157269429754 0.0083001213305489152 -0.0055529571521809595</location>
+					<location>-0.15770827686078581 0.039836123899999999 0.00069541898380731659</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -15130,7 +15122,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.10183042291084499 -0.17184831929307498 0.037172311399999998</location>
+					<location>0.10183042291084499 -0.17184831929307498 0.037339361028771112</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -15138,7 +15130,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.074456687789770104 -0.28423412088577699 0.029662203299999999</location>
+					<location>0.074456687789770104 -0.28423412088577699 0.01685917154359351</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -15146,7 +15138,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.01091432269071746 -0.21952395401689906 0.1028098159</location>
+					<location>0.01091432269071746 -0.21952395401689906 0.092776548987167029</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -15210,7 +15202,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.10890054671734695 -0.15120572288022127 -0.0283367593</location>
+					<location>0.10890054671734695 -0.15120572288022127 -0.033003907769866225</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -15218,7 +15210,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.07313477655834999 -0.27318934670943695 -0.022572643900000001</location>
+					<location>0.07313477655834999 -0.27318934670943695 -0.014142478002889147</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -15226,7 +15218,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.0083127735901997735 -0.22171293475035847 -0.090338118999999995</location>
+					<location>0.0083127735901997735 -0.22171293475035847 -0.085987208491708877</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
