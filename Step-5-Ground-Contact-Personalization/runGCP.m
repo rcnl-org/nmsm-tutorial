@@ -1,7 +1,8 @@
 %% Run GCP
 
-GroundContactPersonalizationTool("GCPSettings.xml")
+GroundContactPersonalizationTool("GCPSettingsV1.xml")
 
 %% Analyze results
 
-plotGcpResultsFromSettingsFile("GCPSettings.xml")
+plotGcpResultsFromSettingsFile("GCPSettingsV1.xml")
+% plotGcpResultsFromSettingsFile("GCPSettingsV2.xml")

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<OpenSimDocument Version="40600">
+<OpenSimDocument Version="40500">
 	<Model name="model">
 		<!--The model's ground reference frame.-->
 		<Ground name="ground">
@@ -311,145 +311,223 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.16460421071672496 -0.018424651968173042 -0.044019646126508931</location>
+					<location>0.15719446093923115 -0.018424651968173042 -0.046914814305265472</location>
 				</Marker>
 				<Marker name="spring_marker_2">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.20197109242766129 -0.018424651968173042 -0.04314567577469719</location>
+					<location>0.18708796630798019 -0.018424651968173042 -0.046215638023816084</location>
 				</Marker>
 				<Marker name="spring_marker_3">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.051576673811379509 -0.018424651968173042 -0.043405834082580065</location>
+					<location>0.21698147167672929 -0.018424651968173042 -0.04551646174236669</location>
 				</Marker>
 				<Marker name="spring_marker_4">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.014500418226045302 -0.018424651968173042 -0.020311786449813896</location>
+					<location>0.00721792157793834 -0.018424651968173042 -0.028647702845358829</location>
 				</Marker>
 				<Marker name="spring_marker_5">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.051867299936981637 -0.018424651968173042 -0.019437816098002159</location>
+					<location>0.037111426946687412 -0.018424651968173042 -0.027948526563909441</location>
 				</Marker>
 				<Marker name="spring_marker_6">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.089234181647917951 -0.018424651968173042 -0.018563845746190424</location>
+					<location>0.067004932315436472 -0.018424651968173042 -0.02724935028246005</location>
 				</Marker>
 				<Marker name="spring_marker_7">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.12660106335885429 -0.018424651968173042 -0.01768987539437869</location>
+					<location>0.096898437684185545 -0.018424651968173042 -0.026550174001010663</location>
 				</Marker>
 				<Marker name="spring_marker_8">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.16396794506979062 -0.018424651968173042 -0.016815905042566952</location>
+					<location>0.12679194305293459 -0.018424651968173042 -0.025850997719561272</location>
 				</Marker>
 				<Marker name="spring_marker_9">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.013573526453508816 -0.018424651968173042 -0.017076063350449821</location>
+					<location>0.15668544842168367 -0.018424651968173042 -0.025151821438111885</location>
 				</Marker>
 				<Marker name="spring_marker_10">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.050940408164445172 -0.018424651968173042 -0.016202092998638087</location>
+					<location>0.18657895379043271 -0.018424651968173042 -0.024452645156662497</location>
 				</Marker>
 				<Marker name="spring_marker_11">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.013864152579110955 -0.018424651968173042 0.0068919546341280925</location>
+					<location>0.028711158831963679 -0.018424651968173042 -0.024887597534907713</location>
 				</Marker>
 				<Marker name="spring_marker_12">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.051231034290047286 -0.018424651968173042 0.0077659249859398285</location>
+					<location>0.058604664200712753 -0.018424651968173042 -0.024188421253458322</location>
 				</Marker>
 				<Marker name="spring_marker_13">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.088597916000983615 -0.018424651968173042 0.0086398953377515644</location>
+					<location>0.0067089090603908623 -0.018424651968173042 -0.0068847099782052496</location>
 				</Marker>
 				<Marker name="spring_marker_14">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.12596479771191993 -0.018424651968173042 0.0095138656895633021</location>
+					<location>0.036602414429139932 -0.018424651968173042 -0.0061855336967558605</location>
 				</Marker>
 				<Marker name="spring_marker_15">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.16333167942285626 -0.018424651968173042 0.010387836041375036</location>
+					<location>0.066495919797888992 -0.018424651968173042 -0.0054863574153064722</location>
 				</Marker>
 				<Marker name="spring_marker_16">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.012937260806574452 -0.018424651968173042 0.010127677733492168</location>
+					<location>0.096389425166638065 -0.018424651968173042 -0.0047871811338570831</location>
 				</Marker>
 				<Marker name="spring_marker_17">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.050304142517510808 -0.018424651968173042 0.011001648085303902</location>
+					<location>0.12628293053538711 -0.018424651968173042 -0.004088004852407694</location>
 				</Marker>
 				<Marker name="spring_marker_18">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.013227886932176606 -0.018424651968173042 0.034095695718070064</location>
+					<location>0.15617643590413618 -0.018424651968173042 -0.0033888285709583049</location>
 				</Marker>
 				<Marker name="spring_marker_19">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.050594768643112936 -0.018424651968173042 0.034969666069881798</location>
+					<location>0.18606994127288523 -0.018424651968173042 -0.0026896522895089167</location>
 				</Marker>
 				<Marker name="spring_marker_20">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.087961650354049264 -0.018424651968173042 0.035843636421693539</location>
+					<location>0.028202146314416199 -0.018424651968173042 -0.0031246046677541328</location>
 				</Marker>
 				<Marker name="spring_marker_21">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.12532853206498559 -0.018424651968173042 0.036717606773505274</location>
+					<location>0.058095651683165273 -0.018424651968173042 -0.0024254283863047437</location>
 				</Marker>
 				<Marker name="spring_marker_22">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.025065886551296213 -0.018424651968173042 0.036457448465622398</location>
+					<location>0.0061998965428433838 -0.018424651968173042 0.014878282888948345</location>
 				</Marker>
 				<Marker name="spring_marker_23">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.012300995159640116 -0.018424651968173042 0.037331418817434132</location>
+					<location>0.036093401911592451 -0.018424651968173042 0.015577459170397732</location>
 				</Marker>
 				<Marker name="spring_marker_24">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.065986907280341511 -0.018424651968173042 0.016276635451847123</location>
+				</Marker>
+				<Marker name="spring_marker_25">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.095880412649090585 -0.018424651968173042 0.016975811733296511</location>
+				</Marker>
+				<Marker name="spring_marker_26">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.12577391801783963 -0.018424651968173042 0.017674988014745902</location>
+				</Marker>
+				<Marker name="spring_marker_27">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.1556674233865887 -0.018424651968173042 0.018374164296195289</location>
+				</Marker>
+				<Marker name="spring_marker_28">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.049667876870576472 -0.018424651968173042 0.038205389169245874</location>
+					<location>-0.0022003715718803829 -0.018424651968173042 0.01793921191795007</location>
+				</Marker>
+				<Marker name="spring_marker_29">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.027693133796868719 -0.018424651968173042 0.018638388199399461</location>
+				</Marker>
+				<Marker name="spring_marker_30">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.057586639165617792 -0.018424651968173042 0.019337564480848852</location>
+				</Marker>
+				<Marker name="spring_marker_31">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.035584389394044978 -0.018424651968173042 0.037340452037551312</location>
+				</Marker>
+				<Marker name="spring_marker_32">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.065477894762794031 -0.018424651968173042 0.0380396283190007</location>
+				</Marker>
+				<Marker name="spring_marker_33">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.095371400131543105 -0.018424651968173042 0.038738804600450094</location>
+				</Marker>
+				<Marker name="spring_marker_34">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.12526490550029215 -0.018424651968173042 0.039437980881899481</location>
+				</Marker>
+				<Marker name="spring_marker_35">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.15515841086904122 -0.018424651968173042 0.040137157163348869</location>
+				</Marker>
+				<Marker name="spring_marker_36">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>-0.0027093840894278631 -0.018424651968173042 0.039702204785103647</location>
+				</Marker>
+				<Marker name="spring_marker_37">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/toes_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.027184121279321238 -0.018424651968173042 0.040401381066553034</location>
 				</Marker>
 			</objects>
 			<groups />

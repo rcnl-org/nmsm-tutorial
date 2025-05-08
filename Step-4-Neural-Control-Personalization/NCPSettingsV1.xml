@@ -1,13 +1,13 @@
 <NMSMPipelineDocument Version="1.4.0">
 	<NeuralControlPersonalizationTool name="default">
 		<!--Name of the directory where results are written. Be default this is the directory in which the setup file is be  executed.-->
-		<results_directory>C:\Users\midni\Documents\Github\nmsm-tutorial\Step-4-Neural-Control-Personalization\ncpResultsV1</results_directory>
+		<results_directory>ncpResultsV1</results_directory>
 		<!--Name of file containing input model, if using the application this has no effect as current model is used.-->
-		<input_model_file>C:\Users\midni\Documents\Github\nmsm-tutorial\Step-4-Neural-Control-Personalization\UF_Subject_3_reduced_muscles.osim</input_model_file>
+		<input_model_file>UF_Subject_3_reduced_muscles.osim</input_model_file>
 		<!--Name of input .osimx file to append results. Leave empty if an .osimx file has not been written for this model yet.-->
-		<input_osimx_file>C:\Users\midni\Documents\Github\nmsm-tutorial\Step-4-Neural-Control-Personalization\mtpResults\UF_Subject_3_reduced_muscles_mtp.osimx</input_osimx_file>
+		<input_osimx_file>mtpResults\UF_Subject_3_reduced_muscles_mtp.osimx</input_osimx_file>
 		<!--Directory for data files.-->
-		<data_directory>C:\Users\midni\Documents\Github\nmsm-tutorial\Step-4-Neural-Control-Personalization\preprocessed</data_directory>
+		<data_directory>preprocessed</data_directory>
 		<!--Coordinates Muscle-Tendon Personalization tracked their joint moments. Leave empty for none. Muscles spanning these coordinates will be extracted automatically.-->
 		<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
 		<!--*Optional* The vMaxFactor to use. Default is 10.-->
@@ -127,7 +127,7 @@
 			</RCNLCostTermSet>
 		</MuscleTendonLengthInitialization>
 		<!--Directory for MTP results.-->
-		<mtp_results_directory>C:\Users\midni\Documents\Github\nmsm-tutorial\Step-4-Neural-Control-Personalization\mtpResults</mtp_results_directory>
+		<mtp_results_directory>mtpResults</mtp_results_directory>
 		<!--Indicate whether to enforce bilateral symmetry or not.-->
 		<enforce_bilateral_symmetry>false</enforce_bilateral_symmetry>
 		<!--Cost term set for the Neural Control Optimization.-->
@@ -138,11 +138,11 @@
 				<!--Type of cost term.-->
 				<type>moment_tracking</type>
 				<!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters).-->
-				<max_allowable_error>10</max_allowable_error>
+				<max_allowable_error>5</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<!--Indicate whether the term is enabled or not. Default is false.-->
-				<is_enabled>true</is_enabled>
+				<is_enabled>false</is_enabled>
 				<!--Type of cost term.-->
 				<type>activation_tracking</type>
 				<!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters).-->
@@ -150,7 +150,7 @@
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<!--Indicate whether the term is enabled or not. Default is false.-->
-				<is_enabled>false</is_enabled>
+				<is_enabled>true</is_enabled>
 				<!--Type of cost term.-->
 				<type>activation_minimization</type>
 				<!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters).-->
@@ -163,7 +163,7 @@
 				<!--Name of a single muscle group in the model that contains all muscles this group of synergies should control.-->
 				<muscle_group_name>RightLeg</muscle_group_name>
 				<!--Number of synergies for this group to use.-->
-				<num_synergies>4</num_synergies>
+				<num_synergies>3</num_synergies>
 			</RCNLSynergy>
 		</RCNLSynergySet>
 	</NeuralControlPersonalizationTool>

@@ -1,6 +1,6 @@
 %% Run NCP
 % close all
-NeuralControlPersonalizationTool("NCPSettingsV1.xml")
+% NeuralControlPersonalizationTool("NCPSettingsV1.xml")
 
 %% Analyze results
 
