@@ -1,7 +1,7 @@
 %% Run MTP
 
-MuscleTendonPersonalizationTool("MTPSettings.xml")
+% MuscleTendonPersonalizationTool("MTPSettingsV2.xml")
 
 %% Analyze results
 
-plotMtpResultsFromSettingsFile("MTPSettings.xml")
+plotMtpResultsFromSettingsFile("MTPSettingsV1.xml", "MTPSettingsV2.xml")
