@@ -1,10 +1,10 @@
 %% Run Torque-Driven Tracking Optimization
 
-% TrackingOptimizationTool("TorqueTOSettingsV1.xml");
+TrackingOptimizationTool("TorqueTOSettingsV1.xml");
 
 %% Run Synergy-Driven Tracking Optimization
 
-% TrackingOptimizationTool("SynergyTOSettingsV1.xml");
+TrackingOptimizationTool("SynergyTOSettingsV1.xml");
 
 plotTreatmentOptimizationResultsFromSettingsFile("SynergyTOSettingsV1.xml", ...
     ["TorqueTOResultsV1", "SynergyDrivenTO"])
