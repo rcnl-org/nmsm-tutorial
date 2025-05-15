@@ -2,7 +2,7 @@
 <NMSMPipelineDocument Version="1.5.0">
 	<TrackingOptimizationTool>
 		<!--Directory used for writing results.-->
-		<results_directory>userDefinedControlledTO</results_directory>
+		<results_directory>modelUserDefinedControlledTO</results_directory>
 		<!--Directories for input files-->
 		<tracked_quantities_directory>preprocessed</tracked_quantities_directory>
 		<initial_guess_directory>preprocessed</initial_guess_directory>
@@ -19,6 +19,10 @@
 		<joint_position_range_scale_factor>1</joint_position_range_scale_factor>
 		<joint_velocity_range_scale_factor>0.75</joint_velocity_range_scale_factor>
 		<joint_acceleration_range_scale_factor>0.5</joint_acceleration_range_scale_factor>
+		<RCNLTorqueController>
+			<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
+			<torque_controls_range_scale_factor>1</torque_controls_range_scale_factor>
+		</RCNLTorqueController>
 		<RCNLUserDefinedController>
 			<control_labels>a b c</control_labels>
 			<initial_control_file>initialControls.sto</initial_control_file>
@@ -26,6 +30,7 @@
 			<control_maximum_values>1000 300 30</control_maximum_values>
 			<control_minimum_values>-1000 -200 -30</control_minimum_values>
 		</RCNLUserDefinedController>
+		<model_functions>applyUserDefinedControls</model_functions>
 		<RCNLCostTermSet>
 			<RCNLCostTerm>
 				<type>generalized_coordinate_tracking</type>
@@ -48,31 +53,22 @@
 		</RCNLCostTermSet>
 		<RCNLConstraintTermSet>
 			<RCNLConstraintTerm>
-				<type>user_defined</type>
-				<constraint_term_type>path</constraint_term_type>
-				<function_name>calcUserDefinedKineticConsistency</function_name>
+				<type>kinetic_consistency</type>
 				<load>hip_flexion_r_moment</load>
-				<control>a</control>
 				<is_enabled>true</is_enabled>
 				<max_error>0.1</max_error>
 				<min_error>-0.1</min_error>
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm>
-				<type>user_defined</type>
-				<constraint_term_type>path</constraint_term_type>
-				<function_name>calcUserDefinedKineticConsistency</function_name>
+				<type>kinetic_consistency</type>
 				<load>knee_angle_r_moment</load>
-				<control>b</control>
 				<is_enabled>true</is_enabled>
 				<max_error>0.1</max_error>
 				<min_error>-0.1</min_error>
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm>
-				<type>user_defined</type>
-				<constraint_term_type>path</constraint_term_type>
-				<function_name>calcUserDefinedKineticConsistency</function_name>
+				<type>kinetic_consistency</type>
 				<load>ankle_angle_r_moment</load>
-				<control>c</control>
 				<is_enabled>true</is_enabled>
 				<max_error>0.1</max_error>
 				<min_error>-0.1</min_error>
