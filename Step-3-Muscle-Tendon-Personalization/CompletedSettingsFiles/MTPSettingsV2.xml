@@ -1,7 +1,7 @@
 <NMSMPipelineDocument Version="1.4.0">
 	<MuscleTendonPersonalizationTool name="default">
 		<!--Name of the directory where results are written. Be default this is the directory in which the setup file is be  executed.-->
-		<results_directory>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-3-Muscle-Tendon-Personalization\mtpResultsV2</results_directory>
+		<results_directory>MTPResultsV2</results_directory>
 		<!--Name of file containing input model, if using the application this has no effect as current model is used.-->
 		<input_model_file>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-3-Muscle-Tendon-Personalization\UF_Subject_3_reduced_muscles.osim</input_model_file>
 		<!--The name of the osimx file that results from MuscleTendon personalization to be used by downstream steps.-->
@@ -127,7 +127,7 @@
 		<!--Properties that describe MTPSynergyExtrapolation settings.-->
 		<MTPSynergyExtrapolation>
 			<!--Flag indicating if synergery extrapolation should be performed as part of this task.-->
-			<is_enabled>false</is_enabled>
+			<is_enabled>true</is_enabled>
 			<!--Specify the matrix factorization approach for MSA; PCA or NMF, default to PCA.-->
 			<matrix_factorization_method>PCA</matrix_factorization_method>
 			<!--Number of synergies, default to 5.-->
