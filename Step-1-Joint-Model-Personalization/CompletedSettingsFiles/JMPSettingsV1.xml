@@ -3,9 +3,9 @@
 		<!--Directory for input files.-->
 		<input_directory>.</input_directory>
 		<!--Name of file containing input model, if using the application this has no effect as current model is used.-->
-		<input_model_file>C:/Users/rs200/Documents/GitHub/nmsm-tutorial/Step-1-Joint-Model-Personalization/UF_Subject_3_Scaled.osim</input_model_file>
+		<input_model_file>UF_Subject_3_Scaled.osim</input_model_file>
 		<!--Name of file containing output model after tool executaion.-->
-		<output_model_file>C:/Users/rs200/Documents/GitHub/nmsm-tutorial/Step-1-Joint-Model-Personalization/UF_Subject_3_scaled_JMPV1.osim</output_model_file>
+		<output_model_file>UF_Subject_3_scaled_JMPV1.osim</output_model_file>
 		<!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters).-->
 		<allowable_error>0.01</allowable_error>
 		<!--List of tasks to be completed by the tool, each Task is a separate optimization.-->
@@ -14,7 +14,7 @@
 				<!--Indicate whether the task is enabled or not.-->
 				<is_enabled>true</is_enabled>
 				<!--Name of marker file with required data for this JointPersonalizationTask.-->
-				<marker_file_name>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-1-Joint-Model-Personalization\GaitTrial_markers_jmp.trc</marker_file_name>
+				<marker_file_name>GaitTrial_markers_jmp.trc</marker_file_name>
 				<!--Order of the tasks to be completed-->
 				<index>1</index>
 				<!--Time range from marker file to be used to optimize joint personalization.-->
@@ -33,7 +33,7 @@
 				<!--Indicate whether the task is enabled or not.-->
 				<is_enabled>true</is_enabled>
 				<!--Name of marker file with required data for this JointPersonalizationTask.-->
-				<marker_file_name>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-1-Joint-Model-Personalization\GaitTrial_markers_jmp.trc</marker_file_name>
+				<marker_file_name>GaitTrial_markers_jmp.trc</marker_file_name>
 				<!--Order of the tasks to be completed-->
 				<index>2</index>
 				<!--Time range from marker file to be used to optimize joint personalization.-->
@@ -70,7 +70,7 @@
 				<!--Indicate whether the task is enabled or not.-->
 				<is_enabled>true</is_enabled>
 				<!--Name of marker file with required data for this JointPersonalizationTask.-->
-				<marker_file_name>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-1-Joint-Model-Personalization\GaitTrial_markers_jmp.trc</marker_file_name>
+				<marker_file_name>GaitTrial_markers_jmp.trc</marker_file_name>
 				<!--Order of the tasks to be completed-->
 				<index>3</index>
 				<!--Time range from marker file to be used to optimize joint personalization.-->
