@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NMSMPipelineDocument Version="0.1.0">
+   <OsimxModel name="UF_Subject_3_reduced_muscles">
+      <!--File name of associated .osim file-->
+      <associated_osim_model>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-3-Muscle-Tendon-Personalization\UF_Subject_3_reduced_muscles.osim</associated_osim_model>
+      <RCNLMuscleSet>
+         <RCNLMuscle name="bflh_r">
+            <!--Optimized electromechanical delay-->
+            <electromechanical_delay>7.31280967356177e-21</electromechanical_delay>
+            <!--Optimized activation time constant-->
+            <activation_time_constant>0.75</activation_time_constant>
+            <!--Optimized activation nonlinearity constant-->
+            <activation_nonlinearity_constant>0</activation_nonlinearity_constant>
+            <!--Optimized EMG scale factor-->
+            <emg_scale_factor>0.288303111301125</emg_scale_factor>
+            <!--Optimized optimal fiber length-->
+            <optimal_fiber_length>0.163499878810301</optimal_fiber_length>
+            <!--Optimized tendon slack length-->
+            <tendon_slack_length>0.271669318345035</tendon_slack_length>
+            <!--Optimized max isometric force-->
+            <max_isometric_force>2886.2060738122</max_isometric_force>
+         </RCNLMuscle>
+         <RCNLMuscle name="bfsh_r">
+            <!--Optimized electromechanical delay-->
+            <electromechanical_delay>0.0531966322567309</electromechanical_delay>
+            <!--Optimized activation time constant-->
+            <activation_time_constant>3.5</activation_time_constant>
+            <!--Optimized activation nonlinearity constant-->
+            <activation_nonlinearity_constant>0</activation_nonlinearity_constant>
+            <!--Optimized EMG scale factor-->
+            <emg_scale_factor>0.199608990089751</emg_scale_factor>
+            <!--Optimized optimal fiber length-->
+            <optimal_fiber_length>0.112652382302007</optimal_fiber_length>
+            <!--Optimized tendon slack length-->
+            <tendon_slack_length>0.129833333095925</tendon_slack_length>
+            <!--Optimized max isometric force-->
+            <max_isometric_force>1175.17423513109</max_isometric_force>
+         </RCNLMuscle>
+         <RCNLMuscle name="gasmed_r">
+            <!--Optimized electromechanical delay-->
+            <electromechanical_delay>3.27037124192856e-20</electromechanical_delay>
+            <!--Optimized activation time constant-->
+            <activation_time_constant>0.75</activation_time_constant>
+            <!--Optimized activation nonlinearity constant-->
+            <activation_nonlinearity_constant>0</activation_nonlinearity_constant>
+            <!--Optimized EMG scale factor-->
+            <emg_scale_factor>0.05</emg_scale_factor>
+            <!--Optimized optimal fiber length-->
+            <optimal_fiber_length>0.0599457640295345</optimal_fiber_length>
+            <!--Optimized tendon slack length-->
+            <tendon_slack_length>0.413823469903605</tendon_slack_length>
+            <!--Optimized max isometric force-->
+            <max_isometric_force>4664.52784027982</max_isometric_force>
+         </RCNLMuscle>
+         <RCNLMuscle name="glmax2_r">
+            <!--Optimized electromechanical delay-->
+            <electromechanical_delay>0.19283549346547</electromechanical_delay>
+            <!--Optimized activation time constant-->
+            <activation_time_constant>1.14484917661248</activation_time_constant>
+            <!--Optimized activation nonlinearity constant-->
+            <activation_nonlinearity_constant>0</activation_nonlinearity_constant>
+            <!--Optimized EMG scale factor-->
+            <emg_scale_factor>0.05</emg_scale_factor>
+            <!--Optimized optimal fiber length-->
+            <optimal_fiber_length>0.217652826486225</optimal_fiber_length>
+            <!--Optimized tendon slack length-->
+            <tendon_slack_length>0.0476031089018671</tendon_slack_length>
+            <!--Optimized max isometric force-->
+            <max_isometric_force>3826.12811422956</max_isometric_force>
+         </RCNLMuscle>
+         <RCNLMuscle name="iliacus_r">
+            <!--Optimized electromechanical delay-->
+            <electromechanical_delay>1.25</electromechanical_delay>
+            <!--Optimized activation time constant-->
+            <activation_time_constant>3.04282879562106</activation_time_constant>
+            <!--Optimized activation nonlinearity constant-->
+            <activation_nonlinearity_constant>0</activation_nonlinearity_constant>
+            <!--Optimized EMG scale factor-->
+            <emg_scale_factor>0.609046438812874</emg_scale_factor>
+            <!--Optimized optimal fiber length-->
+            <optimal_fiber_length>0.100610980936415</optimal_fiber_length>
+            <!--Optimized tendon slack length-->
+            <tendon_slack_length>0.11135891936025</tendon_slack_length>
+            <!--Optimized max isometric force-->
+            <max_isometric_force>2789.28838933637</max_isometric_force>
+         </RCNLMuscle>
+         <RCNLMuscle name="recfem_r">
+            <!--Optimized electromechanical delay-->
+            <electromechanical_delay>1.25</electromechanical_delay>
+            <!--Optimized activation time constant-->
+            <activation_time_constant>0.875659322343108</activation_time_constant>
+            <!--Optimized activation nonlinearity constant-->
+            <activation_nonlinearity_constant>0</activation_nonlinearity_constant>
+            <!--Optimized EMG scale factor-->
+            <emg_scale_factor>0.50860953830793</emg_scale_factor>
+            <!--Optimized optimal fiber length-->
+            <optimal_fiber_length>0.0941830822662561</optimal_fiber_length>
+            <!--Optimized tendon slack length-->
+            <tendon_slack_length>0.454849267154247</tendon_slack_length>
+            <!--Optimized max isometric force-->
+            <max_isometric_force>2849.26607433815</max_isometric_force>
+         </RCNLMuscle>
+         <RCNLMuscle name="soleus_r">
+            <!--Optimized electromechanical delay-->
+            <electromechanical_delay>0.633500751592164</electromechanical_delay>
+            <!--Optimized activation time constant-->
+            <activation_time_constant>0.75</activation_time_constant>
+            <!--Optimized activation nonlinearity constant-->
+            <activation_nonlinearity_constant>0.286744526919648</activation_nonlinearity_constant>
+            <!--Optimized EMG scale factor-->
+            <emg_scale_factor>0.154385178815618</emg_scale_factor>
+            <!--Optimized optimal fiber length-->
+            <optimal_fiber_length>0.0564942490138296</optimal_fiber_length>
+            <!--Optimized tendon slack length-->
+            <tendon_slack_length>0.295178146569326</tendon_slack_length>
+            <!--Optimized max isometric force-->
+            <max_isometric_force>9860.76303128706</max_isometric_force>
+         </RCNLMuscle>
+         <RCNLMuscle name="tibant_r">
+            <!--Optimized electromechanical delay-->
+            <electromechanical_delay>0</electromechanical_delay>
+            <!--Optimized activation time constant-->
+            <activation_time_constant>0.75</activation_time_constant>
+            <!--Optimized activation nonlinearity constant-->
+            <activation_nonlinearity_constant>0</activation_nonlinearity_constant>
+            <!--Optimized EMG scale factor-->
+            <emg_scale_factor>0.596597124645723</emg_scale_factor>
+            <!--Optimized optimal fiber length-->
+            <optimal_fiber_length>0.071967391903901</optimal_fiber_length>
+            <!--Optimized tendon slack length-->
+            <tendon_slack_length>0.26679933746366</tendon_slack_length>
+            <!--Optimized max isometric force-->
+            <max_isometric_force>2394.54051824927</max_isometric_force>
+         </RCNLMuscle>
+         <RCNLMuscle name="vasmed_r">
+            <!--Optimized electromechanical delay-->
+            <electromechanical_delay>0</electromechanical_delay>
+            <!--Optimized activation time constant-->
+            <activation_time_constant>0.75</activation_time_constant>
+            <!--Optimized activation nonlinearity constant-->
+            <activation_nonlinearity_constant>0</activation_nonlinearity_constant>
+            <!--Optimized EMG scale factor-->
+            <emg_scale_factor>0.05</emg_scale_factor>
+            <!--Optimized optimal fiber length-->
+            <optimal_fiber_length>0.126922047073835</optimal_fiber_length>
+            <!--Optimized tendon slack length-->
+            <tendon_slack_length>0.200846036098535</tendon_slack_length>
+            <!--Optimized max isometric force-->
+            <max_isometric_force>8005.54464068387</max_isometric_force>
+         </RCNLMuscle>
+      </RCNLMuscleSet>
+   </OsimxModel>
+</NMSMPipelineDocument>
