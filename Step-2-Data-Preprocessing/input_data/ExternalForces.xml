@@ -37,6 +37,6 @@
 		</objects>
 		<groups />
 		<!--Storage file (.sto) containing (3) components of force and/or torque and point of application.Note: this file overrides the data source specified by the individual external forces if specified.-->
-		<datafile>GaitTrial_forces.mot</datafile>
+		<datafile>GaitTrial48_forces.mot</datafile>
 	</ExternalLoads>
 </OpenSimDocument>
