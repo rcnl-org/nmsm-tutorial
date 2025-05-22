@@ -1,6 +1,6 @@
 DataType=double
 version=3
-OpenSimVersion=4.4-2022-07-23-0e9fedc
+OpenSimVersion=4.5
 endheader
 time	ground_force_1_vx	ground_force_1_vy	ground_force_1_vz	ground_force_1_px	ground_force_1_py	ground_force_1_pz	ground_moment_1_mx	ground_moment_1_my	ground_moment_1_mz	ground_force_2_vx	ground_force_2_vy	ground_force_2_vz	ground_force_2_px	ground_force_2_py	ground_force_2_pz	ground_moment_2_mx	ground_moment_2_my	ground_moment_2_mz
 0.5	66.20929126975163	609.4522096287917	38.5841907514905	0.79831831831219	0	0.2224736149901	-93.77180151407082	18.24768477999366	-180.6504977163299	1.833122599091153e-40	7.576428433034275e-40	6.717264318587443e-41	0.8098375311913301	0	0.7498495229216799	1.904869080464583e-40	-5.614162167470947e-41	6.74416924910248e-41
