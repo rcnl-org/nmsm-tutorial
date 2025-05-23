@@ -8,5 +8,5 @@ end
 model.realizeVelocity(state);
 newSpeed = model.getMarkerSet().get(costTerm.marker_name) ...
     .getVelocityInGround(state).get(0);
-cost = costTerm.target_speed - newSpeed;
+cost = (costTerm.target_speed - newSpeed).^2;
 end
