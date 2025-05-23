@@ -2,10 +2,10 @@
 
 close all
 tic
-VerificationOptimizationTool('TorqueVOSettings.xml');
+VerificationOptimizationTool("TorqueVOSettings.xml");
 toc
 
 %% Plot Results
 
-plotTreatmentOptimizationResultsFromSettingsFile('TorqueVOSettings.xml')
+plotTreatmentOptimizationResultsFromSettingsFile("TorqueVOSettings.xml")
 
