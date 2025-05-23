@@ -1,0 +1,93 @@
+<NMSMPipelineDocument Version="1.4.0">
+	<TrackingOptimizationTool name="default">
+		<!--Directory used for writing results.-->
+		<results_directory>TorqueTOResultsV1</results_directory>
+		<!--Directory for optimizer initial guess.-->
+		<initial_guess_directory>preprocessed</initial_guess_directory>
+		<!--Directory for files for the optimizer to track.-->
+		<tracked_quantities_directory>preprocessed</tracked_quantities_directory>
+		<!--Name of the input model file (.osim) to use.-->
+		<input_model_file>KickingModel.osim</input_model_file>
+		<!--Name of the osimx model file.-->
+		<input_osimx_file/>
+		<!--Name of the optimal control solver settings file.-->
+		<optimal_control_solver_settings_file>GpopsSettings.xml</optimal_control_solver_settings_file>
+		<!--Name, excluding file type (.sto, .mot, etc), of the trial-->
+		<trial_name>drive_kick1</trial_name>
+		<!--Space separated list of coordinates to be considered GPOPS2 states. Not including a coordinate prescribes it.-->
+		<states_coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</states_coordinate_list>
+		<!--*Optional* Default is 2.-->
+		<joint_position_range_scale_factor>1.5</joint_position_range_scale_factor>
+		<!--*Optional* Default is 1.5.-->
+		<joint_velocity_range_scale_factor>1.25</joint_velocity_range_scale_factor>
+		<!--*Optional* Default is 1.-->
+		<joint_acceleration_range_scale_factor>1</joint_acceleration_range_scale_factor>
+		<!--Set of torque controls for GPOPS2.-->
+		<RCNLTorqueController>
+			<!--Space separated list containing the coordinates controlled by the torque controller.-->
+			<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
+		</RCNLTorqueController>
+		<!--Set of cost terms used for this optimization. For a full list of cost terms, see documentation at nmsm.rice.edu.-->
+		<RCNLCostTermSet>
+			<RCNLCostTerm name="Coordinate tracking">
+				<!--Indicate whether the term is enabled or not. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Type of cost term.-->
+				<type>generalized_coordinate_tracking</type>
+				<!--Space separated list containing model coordinates to be included in this cost term.-->
+				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
+				<!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters).-->
+				<max_allowable_error>0.087300000000000003</max_allowable_error>
+			</RCNLCostTerm>
+			<RCNLCostTerm name="Load tracking">
+				<!--Indicate whether the term is enabled or not. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Type of cost term.-->
+				<type>inverse_dynamics_load_tracking</type>
+				<!--Space separated list containing model loads to be included in this cost term.-->
+				<load_list>hip_flexion_r_moment knee_angle_r_moment ankle_angle_r_moment</load_list>
+				<!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters).-->
+				<max_allowable_error>50</max_allowable_error>
+			</RCNLCostTerm>
+		</RCNLCostTermSet>
+		<!--Set of constraint terms applied to this optimization. For a full list of constraint terms, see documentation at nmsm.rice.edu.-->
+		<RCNLConstraintTermSet>
+			<RCNLConstraintTerm name="Kinetic consistency">
+				<!--Type of constraint term.-->
+				<type>kinetic_consistency</type>
+				<!--Space separated list containing model loads to be included in this cost term.-->
+				<load_list>hip_flexion_r_moment knee_angle_r_moment ankle_angle_r_moment</load_list>
+				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Maximum error allowed by this constraint term.-->
+				<max_error>0.10000000000000001</max_error>
+				<!--Minimum error allowed by this constraint term.-->
+				<min_error>-0.10000000000000001</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm name="Initial coordinate deviation ">
+				<!--Type of constraint term.-->
+				<type>initial_generalized_coordinate_deviation</type>
+				<!--Space separated list containing model coordinates to be included in this cost term.-->
+				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
+				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Maximum error allowed by this constraint term.-->
+				<max_error>0.017500000000000002</max_error>
+				<!--Minimum error allowed by this constraint term.-->
+				<min_error>-0.017500000000000002</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm name="Initial speed deviation">
+				<!--Type of constraint term.-->
+				<type>initial_generalized_speed_deviation</type>
+				<!--Space separated list containing model coordinates to be included in this cost term.-->
+				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
+				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Maximum error allowed by this constraint term.-->
+				<max_error>0.17499999999999999</max_error>
+				<!--Minimum error allowed by this constraint term.-->
+				<min_error>-0.17499999999999999</min_error>
+			</RCNLConstraintTerm>
+		</RCNLConstraintTermSet>
+	</TrackingOptimizationTool>
+</NMSMPipelineDocument>

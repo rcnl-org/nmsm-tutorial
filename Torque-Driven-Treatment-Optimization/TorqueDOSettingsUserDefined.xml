@@ -1,0 +1,158 @@
+<NMSMPipelineDocument Version="1.4.0">
+	<DesignOptimizationTool name="default">
+		<!--Directory used for writing results.-->
+		<results_directory>TorqueDOResultsV1</results_directory>
+		<!--Directory for optimizer initial guess.-->
+		<initial_guess_directory>TorqueVOResults</initial_guess_directory>
+		<!--Directory for files for the optimizer to track.-->
+		<tracked_quantities_directory>TorqueVOResults</tracked_quantities_directory>
+		<!--Name of the input model file (.osim) to use.-->
+		<input_model_file>KickingModel.osim</input_model_file>
+		<!--Name of the osimx model file.-->
+		<input_osimx_file/>
+		<!--Name of the optimal control solver settings file.-->
+		<optimal_control_solver_settings_file>GpopsSettings.xml</optimal_control_solver_settings_file>
+		<!--Name, excluding file type (.sto, .mot, etc), of the trial-->
+		<trial_name>drive_kick1</trial_name>
+		<final_time_range>0.26 0.36</final_time_range>
+		<!--Space separated list of coordinates to be considered GPOPS2 states. Not including a coordinate prescribes it.-->
+		<states_coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</states_coordinate_list>
+		<!--*Optional* Default is 2.-->
+		<joint_position_range_scale_factor>1.5</joint_position_range_scale_factor>
+		<!--*Optional* Default is 1.5.-->
+		<joint_velocity_range_scale_factor>1.25</joint_velocity_range_scale_factor>
+		<!--*Optional* Default is 1.-->
+		<joint_acceleration_range_scale_factor>1</joint_acceleration_range_scale_factor>
+		<!--Set of torque controls for GPOPS2.-->
+		<RCNLTorqueController>
+			<!--Space separated list containing the coordinates controlled by the torque controller.-->
+			<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
+		</RCNLTorqueController>
+		<!--Set of cost terms used for this optimization. For a full list of cost terms, see documentation at nmsm.rice.edu.-->
+		<RCNLCostTermSet>
+			<RCNLCostTerm>
+				<type>user_defined</type>
+				<function_name>footSpeedCost</function_name>
+				<cost_term_type>discrete</cost_term_type>
+				<is_enabled>true</is_enabled>
+				<marker_name>R_Toe</marker_name>
+				<target_speed>15</target_speed>
+			</RCNLCostTerm>
+			<RCNLCostTerm name="Controller Tracking">
+				<!--Indicate whether the term is enabled or not. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Type of cost term.-->
+				<type>controller_tracking</type>
+				<!--Space separated list containing RCNL controllers to be included in this cost term.-->
+				<controller_list>hip_flexion_r knee_angle_r ankle_angle_r</controller_list>
+				<!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters).-->
+				<max_allowable_error>50</max_allowable_error>
+			</RCNLCostTerm>
+		</RCNLCostTermSet>
+		<!--Set of constraint terms applied to this optimization. For a full list of constraint terms, see documentation at nmsm.rice.edu.-->
+		<RCNLConstraintTermSet>
+			<RCNLConstraintTerm name="Kinetic Consistency">
+				<!--Type of constraint term.-->
+				<type>kinetic_consistency</type>
+				<!--Space separated list containing model loads to be included in this cost term.-->
+				<load_list>hip_flexion_r_moment knee_angle_r_moment ankle_angle_r_moment</load_list>
+				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Maximum error allowed by this constraint term.-->
+				<max_error>0.10000000000000001</max_error>
+				<!--Minimum error allowed by this constraint term.-->
+				<min_error>-0.10000000000000001</min_error>
+			</RCNLConstraintTerm>
+		</RCNLConstraintTermSet>
+		<RCNLConstraintTerm>
+				<type>generalized_coordinate_value</type>
+				<coordinate>ankle_angle_r</coordinate>
+				<is_enabled>false</is_enabled>
+				<max_value>0.0475</max_value>
+				<min_value>-0.3187</min_value>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm>
+				<type>generalized_speed_deviation</type>
+				<coordinate>ankle_angle_r</coordinate>
+				<is_enabled>false</is_enabled>
+				<max_value>0.175</max_value>
+				<min_value>-0.175</min_value>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm>
+				<type>initial_generalized_coordinate_deviation</type>
+				<coordinate>hip_flexion_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_error>0.0175</max_error>
+				<min_error>-0.0175</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm>
+				<type>initial_generalized_coordinate_deviation</type>
+				<coordinate>knee_angle_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_error>0.0175</max_error>
+				<min_error>-0.0175</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm>
+				<type>initial_generalized_coordinate_deviation</type>
+				<coordinate>ankle_angle_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_error>0.0175</max_error>
+				<min_error>-0.0175</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm>
+				<type>initial_generalized_speed_deviation</type>
+				<coordinate>hip_flexion_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_error>0.175</max_error>
+				<min_error>-0.175</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm>
+				<type>initial_generalized_speed_deviation</type>
+				<coordinate>knee_angle_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_error>0.175</max_error>
+				<min_error>-0.175</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm>
+				<type>initial_generalized_speed_deviation</type>
+				<coordinate>ankle_angle_r</coordinate>
+				<is_enabled>true</is_enabled>
+				<max_error>0.175</max_error>
+				<min_error>-0.175</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm>
+				<type>initial_marker_position_deviation</type>
+				<marker>R_Toe</marker>
+				<is_enabled>true</is_enabled>
+				<axes>x y</axes>
+				<max_error>0.001</max_error>
+				<min_error>-0.001</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm>
+				<type>initial_body_orientation_deviation</type>
+				<body>calcn_r</body>
+				<is_enabled>true</is_enabled>
+				<axes>z</axes>
+				<sequence>zyx</sequence>
+				<max_error>0.0175</max_error>
+				<min_error>-0.0175</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm>
+				<type>final_marker_position_deviation</type>
+				<marker>R_Toe</marker>
+				<is_enabled>true</is_enabled>
+				<axes>x y</axes>
+				<max_error>0.001</max_error>
+				<min_error>-0.001</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm>
+				<type>final_body_orientation_deviation</type>
+				<body>calcn_r</body>
+				<is_enabled>true</is_enabled>
+				<axes>z</axes>
+				<sequence>zyx</sequence>
+				<max_error>0.0175</max_error>
+				<min_error>-0.0175</min_error>
+			</RCNLConstraintTerm>
+	</DesignOptimizationTool>
+</NMSMPipelineDocument>

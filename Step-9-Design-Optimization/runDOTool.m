@@ -2,9 +2,11 @@
 
 DesignOptimizationTool("TorqueDrivenDesignOptimizationSettings.xml");
 
+plotTreatmentOptimizationResultsFromSettingsFile("TorqueDrivenDesignOptimizationSettings.xml")
+
 %% Run Synergy-Driven Design Optimization
 
-DesignOptimizationTool("SynergyDrivenDesignOptimizationSettings.xml");
+% DesignOptimizationTool("SynergyDrivenDesignOptimizationSettings.xml");
 
 %% Plot Torque-Driven Results
 

@@ -31,7 +31,7 @@
 				<cost_term_type>discrete</cost_term_type>
 				<is_enabled>true</is_enabled>
 				<marker_name>R_Midfoot_Superior</marker_name>
-				<initial_speed>10</initial_speed>
+				<final_speed>20</final_speed>
 			</RCNLCostTerm>
 			<RCNLCostTerm>
 				<type>controller_tracking</type>
