@@ -1,13 +1,12 @@
-%% Run Torque-Driven Tracking Optimization
+%% Run Torque TO V1
 
-close all
-tic
 TrackingOptimizationTool("TorqueTOSettingsV1.xml");
-toc
 
-%% Plot Results
-
-plotTreatmentOptimizationResultsFromSettingsFile("TorqueTOSettingsV1.xml", ...
-    ["TorqueTOResultsV1", "TorqueTOResultsV2"])
+plotTreatmentOptimizationResultsFromSettingsFile("TorqueTOSettingsV1.xml")
 
 
+%% Run Torque TO V2
+close all
+TrackingOptimizationTool("TorqueTOSettingsV2.xml");
+
+plotTreatmentOptimizationResultsFromSettingsFile("TorqueTOSettingsV2.xml")
