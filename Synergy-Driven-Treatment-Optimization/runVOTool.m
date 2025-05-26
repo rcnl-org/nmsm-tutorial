@@ -1,11 +1,5 @@
-%% Run Torque-Driven Verification Optimization
-
+%% Run Synergy-Driven Verification Optimization
 close all
-tic
-VerificationOptimizationTool('TorqueDrivenVerificationOptimizationSettings.xml');
-toc
-
-%% Plot Results
-
-plotTreatmentOptimizationResultsFromSettingsFile('TorqueDrivenVerificationOptimizationSettings.xml')
+VerificationOptimizationTool("SynergyVOSettings.xml");
+plotTreatmentOptimizationResultsFromSettingsFile("SynergyVOSettings.xml")
 
