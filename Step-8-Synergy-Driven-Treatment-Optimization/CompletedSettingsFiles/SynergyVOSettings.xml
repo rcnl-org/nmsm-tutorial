@@ -3,9 +3,9 @@
 		<!--Directory used for writing results.-->
 		<results_directory>SynergyVOResults</results_directory>
 		<!--Directory for optimizer initial guess.-->
-		<initial_guess_directory>SynergyTOResultsV1</initial_guess_directory>
+		<initial_guess_directory>SynergyVOResultsV2</initial_guess_directory>
 		<!--Directory for files for the optimizer to track.-->
-		<tracked_quantities_directory>SynergyTOResultsV1</tracked_quantities_directory>
+		<tracked_quantities_directory>SynergyVOResultsV2</tracked_quantities_directory>
 		<!--Name of the input model file (.osim) to use.-->
 		<input_model_file>KickingModel.osim</input_model_file>
 		<!--Name of the osimx model file.-->

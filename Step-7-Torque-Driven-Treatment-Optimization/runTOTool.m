@@ -1,6 +1,6 @@
 %% Run Torque TO V1
 
-TrackingOptimizationTool("TorqueTOSettingsV1.xml");
+% TrackingOptimizationTool("TorqueTOSettingsV1.xml");
 
 plotTreatmentOptimizationResultsFromSettingsFile("TorqueTOSettingsV1.xml")
 

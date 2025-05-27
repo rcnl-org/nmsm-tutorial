@@ -50,13 +50,13 @@
 			</RCNLCostTerm>
 			<RCNLCostTerm name="Speed tracking">
 				<!--Indicate whether the term is enabled or not. Default is false.-->
-				<is_enabled>false</is_enabled>
+				<is_enabled>true</is_enabled>
 				<!--Type of cost term.-->
 				<type>generalized_speed_tracking</type>
 				<!--Space separated list containing model coordinates to be included in this cost term.-->
 				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
 				<!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters).-->
-				<max_allowable_error>1</max_allowable_error>
+				<max_allowable_error>0.873</max_allowable_error>
 			</RCNLCostTerm>
 			<RCNLCostTerm name="Load tracking">
 				<!--Indicate whether the term is enabled or not. Default is false.-->
@@ -92,44 +92,6 @@
 				<max_error>0.10000000000000001</max_error>
 				<!--Minimum error allowed by this constraint term.-->
 				<min_error>-0.10000000000000001</min_error>
-			</RCNLConstraintTerm>
-			<RCNLConstraintTerm name="Initial coordinate deviation ">
-				<!--Type of constraint term.-->
-				<type>initial_generalized_coordinate_deviation</type>
-				<!--Space separated list containing model coordinates to be included in this cost term.-->
-				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
-				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
-				<is_enabled>false</is_enabled>
-				<!--Maximum error allowed by this constraint term.-->
-				<max_error>0.017500000000000002</max_error>
-				<!--Minimum error allowed by this constraint term.-->
-				<min_error>-0.017500000000000002</min_error>
-			</RCNLConstraintTerm>
-			<RCNLConstraintTerm name="Initial speed deviation">
-				<!--Type of constraint term.-->
-				<type>initial_generalized_speed_deviation</type>
-				<!--Space separated list containing model coordinates to be included in this cost term.-->
-				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
-				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
-				<is_enabled>false</is_enabled>
-				<!--Maximum error allowed by this constraint term.-->
-				<max_error>0.17499999999999999</max_error>
-				<!--Minimum error allowed by this constraint term.-->
-				<min_error>-0.17499999999999999</min_error>
-			</RCNLConstraintTerm>
-			<RCNLConstraintTerm name="Final coordinate deviation">
-				<type>final_generalized_coordinate_deviation</type>
-				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
-				<is_enabled>false</is_enabled>
-				<max_error>0.0175</max_error>
-				<min_error>-0.0175</min_error>
-			</RCNLConstraintTerm>
-			<RCNLConstraintTerm name="Final speed deviation">
-				<type>final_generalized_speed_deviation</type>
-				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
-				<is_enabled>false</is_enabled>
-				<max_error>0.175</max_error>
-				<min_error>-0.175</min_error>
 			</RCNLConstraintTerm>
 		</RCNLConstraintTermSet>
 	</TrackingOptimizationTool>
