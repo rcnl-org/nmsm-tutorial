@@ -22,7 +22,13 @@ DesignOptimizationTool("TorqueDOSettingsV4.xml");
 
 plotTreatmentOptimizationResultsFromSettingsFile("TorqueDOSettingsV4.xml")
 
+%% Run Torque DO V5
+close all
+DesignOptimizationTool("TorqueDOSettingsV5.xml");
+
+plotTreatmentOptimizationResultsFromSettingsFile("TorqueDOSettingsV5.xml")
+
 %% Compare Results
 close all
-plotTreatmentOptimizationResultsFromSettingsFile("TorqueDOSettingsV4.xml", ...
-    ["TorqueDOResultsV3", "TorqueDOResultsV4"])
+plotTreatmentOptimizationResultsFromSettingsFile("TorqueDOSettingsV5.xml", ...
+    ["TorqueDOResultsV3", "TorqueDOResultsV4", "TorqueDOResultsV5"])
