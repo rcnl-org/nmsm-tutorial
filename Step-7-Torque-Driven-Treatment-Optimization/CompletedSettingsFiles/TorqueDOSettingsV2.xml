@@ -3,15 +3,15 @@
 		<!--Directory used for writing results.-->
 		<results_directory>TorqueDOResultsV2</results_directory>
 		<!--Directory for optimizer initial guess.-->
-		<initial_guess_directory>TorqueVOResults</initial_guess_directory>
+		<initial_guess_directory>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-7-Torque-Driven-Treatment-Optimization\TorqueVOResultsV2</initial_guess_directory>
 		<!--Directory for files for the optimizer to track.-->
-		<tracked_quantities_directory>TorqueVOResults</tracked_quantities_directory>
+		<tracked_quantities_directory>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-7-Torque-Driven-Treatment-Optimization\TorqueVOResultsV2</tracked_quantities_directory>
 		<!--Name of the input model file (.osim) to use.-->
-		<input_model_file>KickingModel.osim</input_model_file>
+		<input_model_file>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-7-Torque-Driven-Treatment-Optimization\KickingModel.osim</input_model_file>
 		<!--Name of the osimx model file.-->
 		<input_osimx_file/>
 		<!--Name of the optimal control solver settings file.-->
-		<optimal_control_solver_settings_file>GpopsSettings.xml</optimal_control_solver_settings_file>
+		<optimal_control_solver_settings_file>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-7-Torque-Driven-Treatment-Optimization\GpopsSettings.xml</optimal_control_solver_settings_file>
 		<!--Name, excluding file type (.sto, .mot, etc), of the trial-->
 		<trial_name>drive_kick1</trial_name>
 		<!--Space separated list of coordinates to be considered GPOPS2 states. Not including a coordinate prescribes it.-->
@@ -37,12 +37,12 @@
 				<!--Space separated list containing RCNL controllers to be included in this cost term.-->
 				<controller_list>hip_flexion_r knee_angle_r ankle_angle_r</controller_list>
 				<!--The accuracy to compare against, depends on model/data units (0.01 == 1cm for data in units meters).-->
-				<max_allowable_error>25</max_allowable_error>
+				<max_allowable_error>50</max_allowable_error>
 			</RCNLCostTerm>
 		</RCNLCostTermSet>
 		<!--Set of constraint terms applied to this optimization. For a full list of constraint terms, see documentation at nmsm.rice.edu.-->
 		<RCNLConstraintTermSet>
-			<RCNLConstraintTerm name="Kinetic Consistency">
+			<RCNLConstraintTerm name="Kinetic consistency">
 				<!--Type of constraint term.-->
 				<type>kinetic_consistency</type>
 				<!--Space separated list containing model loads to be included in this cost term.-->
@@ -66,18 +66,6 @@
 				<!--Minimum error allowed by this constraint term.-->
 				<min_error>-0.017500000000000002</min_error>
 			</RCNLConstraintTerm>
-			<RCNLConstraintTerm name="Final coordinate position deviation">
-				<!--Type of constraint term.-->
-				<type>final_generalized_coordinate_deviation</type>
-				<!--Space separated list containing model coordinates to be included in this cost term.-->
-				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
-				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
-				<is_enabled>true</is_enabled>
-				<!--Maximum error allowed by this constraint term.-->
-				<max_error>0.017500000000000002</max_error>
-				<!--Minimum error allowed by this constraint term.-->
-				<min_error>-0.017500000000000002</min_error>
-			</RCNLConstraintTerm>
 			<RCNLConstraintTerm name="Initial coordinate speed deviation">
 				<!--Type of constraint term.-->
 				<type>initial_generalized_speed_deviation</type>
@@ -90,6 +78,34 @@
 				<!--Minimum error allowed by this constraint term.-->
 				<min_error>-0.17499999999999999</min_error>
 			</RCNLConstraintTerm>
+			<RCNLConstraintTerm name="Final toe marker position deviation">
+				<!--Type of constraint term.-->
+				<type>final_marker_position_deviation</type>
+				<!--Space separated list containing markers to be included in this cost term.-->
+				<marker_list>R_Toe</marker_list>
+				<!--Space separated list containing axes (x y z) of the cost term.-->
+				<axes>x y z</axes>
+				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Maximum error allowed by this constraint term.-->
+				<max_error>0.001</max_error>
+				<!--Minimum error allowed by this constraint term.-->
+				<min_error>-0.001</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm name="Final calcaneus orientation deviation">
+				<!--Type of constraint term.-->
+				<type>final_body_orientation_deviation</type>
+				<!--Space separated list containing markers to be included in this cost term.-->
+				<body_list>calcn_r</body_list>
+				<!--Space separated list containing axes (x y z) of the cost term.-->
+				<axes>x y z</axes>
+				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Maximum error allowed by this constraint term.-->
+				<max_error>0.017500000000000002</max_error>
+				<!--Minimum error allowed by this constraint term.-->
+				<min_error>-0.017500000000000002</min_error>
+			</RCNLConstraintTerm>
 			<RCNLConstraintTerm name="Toe marker final velocity">
 				<!--Type of constraint term.-->
 				<type>final_marker_velocity_value</type>
@@ -100,11 +116,11 @@
 				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
 				<is_enabled>true</is_enabled>
 				<!--Maximum error allowed by this constraint term.-->
-				<max_error>14.85</max_error>
+				<max_error>14.4</max_error>
 				<!--Minimum error allowed by this constraint term.-->
-				<min_error>14.65</min_error>
+				<min_error>14.300000000000001</min_error>
 			</RCNLConstraintTerm>
-			<RCNLConstraintTerm name="Limit ankle position">
+			<RCNLConstraintTerm name="Limit ankle position bounds">
 				<!--Type of constraint term.-->
 				<type>generalized_coordinate_value</type>
 				<!--Space separated list containing model coordinates to be included in this cost term.-->
@@ -116,7 +132,7 @@
 				<!--Minimum error allowed by this constraint term.-->
 				<min_error>-0.31869999999999998</min_error>
 			</RCNLConstraintTerm>
-			<RCNLConstraintTerm name="Limit ankle velocity">
+			<RCNLConstraintTerm name="Limit ankle velocity path">
 				<!--Type of constraint term.-->
 				<type>generalized_speed_deviation</type>
 				<!--Space separated list containing model coordinates to be included in this cost term.-->
