@@ -1,11 +1,20 @@
-%% Run Torque-Driven Verification Optimization
+%% Run Torque Driven VO V1
 
 close all
 tic
-VerificationOptimizationTool("TorqueVOSettings.xml");
+VerificationOptimizationTool("TorqueVOSettingsV1.xml");
 toc
+plotTreatmentOptimizationResultsFromSettingsFile("TorqueVOSettingsV1.xml")
 
-%% Plot Results
+%% Run Torque Driven VO V2
 
-plotTreatmentOptimizationResultsFromSettingsFile("TorqueVOSettings.xml")
+close all
+tic
+VerificationOptimizationTool("TorqueVOSettingsV2.xml");
+toc
+plotTreatmentOptimizationResultsFromSettingsFile("TorqueVOSettingsV2.xml")
 
+%% Compare Results
+close all
+plotTreatmentOptimizationResultsFromSettingsFile("TorqueVOSettingsV2.xml", ...
+    ["TorqueVOResultsV1", "TorqueVOResultsV2"])
