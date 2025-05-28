@@ -1,17 +1,17 @@
 <NMSMPipelineDocument Version="1.4.0">
 	<VerificationOptimizationTool name="default">
 		<!--Directory used for writing results.-->
-		<results_directory>TorqueVOResults</results_directory>
+		<results_directory>TorqueVOResultsV1</results_directory>
 		<!--Directory for optimizer initial guess.-->
-		<initial_guess_directory>TorqueTOResults</initial_guess_directory>
+		<initial_guess_directory>TorqueTOResultsV1</initial_guess_directory>
 		<!--Directory for files for the optimizer to track.-->
-		<tracked_quantities_directory>TorqueTOResults</tracked_quantities_directory>
+		<tracked_quantities_directory>TorqueTOResultsV1</tracked_quantities_directory>
 		<!--Name of the input model file (.osim) to use.-->
 		<input_model_file>KickingModel.osim</input_model_file>
 		<!--Name of the osimx model file.-->
 		<input_osimx_file/>
 		<!--Name of the optimal control solver settings file.-->
-		<optimal_control_solver_settings_file>GpopsSettings.xml</optimal_control_solver_settings_file>
+		<optimal_control_solver_settings_file>gpopsSettings.xml</optimal_control_solver_settings_file>
 		<!--Name, excluding file type (.sto, .mot, etc), of the trial-->
 		<trial_name>drive_kick1</trial_name>
 		<!--Space separated list of coordinates to be considered GPOPS2 states. Not including a coordinate prescribes it.-->
@@ -79,21 +79,33 @@
 				<min_error>-0.17499999999999999</min_error>
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm name="Final toe marker position deviation">
+				<!--Type of constraint term.-->
 				<type>final_marker_position_deviation</type>
-				<marker>R_Toe</marker>
+				<!--Space separated list containing markers to be included in this cost term.-->
+				<marker_list>R_Toe</marker_list>
+				<!--Space separated list containing axes (x y z) of the cost term.-->
+				<axes>x y z</axes>
+				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
 				<is_enabled>true</is_enabled>
-				<axes>x y</axes>
+				<!--Maximum error allowed by this constraint term.-->
 				<max_error>0.001</max_error>
+				<!--Minimum error allowed by this constraint term.-->
 				<min_error>-0.001</min_error>
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm name="Final calcaneus orientation deviation">
+				<!--Type of constraint term.-->
 				<type>final_body_orientation_deviation</type>
-				<body>calcn_r</body>
-				<is_enabled>true</is_enabled>
-				<axes>z</axes>
+				<!--Space separated list containing markers to be included in this cost term.-->
+				<body_list>calcn_r</body_list>
+				<!--Space separated list containing axes (x y z) of the cost term.-->
+				<axes>x y z</axes>
 				<sequence>zyx</sequence>
-				<max_error>0.0175</max_error>
-				<min_error>-0.0175</min_error>
+				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Maximum error allowed by this constraint term.-->
+				<max_error>0.017500000000000002</max_error>
+				<!--Minimum error allowed by this constraint term.-->
+				<min_error>-0.017500000000000002</min_error>
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm name="Toe marker final velocity">
 				<!--Type of constraint term.-->
@@ -105,7 +117,7 @@
 				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
 				<is_enabled>true</is_enabled>
 				<!--Maximum error allowed by this constraint term.-->
-				<max_error>13.2</max_error>
+				<max_error>13.199999999999999</max_error>
 				<!--Minimum error allowed by this constraint term.-->
 				<min_error>13.1</min_error>
 			</RCNLConstraintTerm>

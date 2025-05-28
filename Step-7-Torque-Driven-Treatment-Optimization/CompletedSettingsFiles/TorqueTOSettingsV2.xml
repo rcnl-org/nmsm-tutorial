@@ -11,7 +11,7 @@
 		<!--Name of the osimx model file.-->
 		<input_osimx_file/>
 		<!--Name of the optimal control solver settings file.-->
-		<optimal_control_solver_settings_file>GpopsSettings.xml</optimal_control_solver_settings_file>
+		<optimal_control_solver_settings_file>gpopsSettings.xml</optimal_control_solver_settings_file>
 		<!--Name, excluding file type (.sto, .mot, etc), of the trial-->
 		<trial_name>drive_kick1</trial_name>
 		<!--Space separated list of coordinates to be considered GPOPS2 states. Not including a coordinate prescribes it.-->
@@ -63,30 +63,6 @@
 				<max_error>0.10000000000000001</max_error>
 				<!--Minimum error allowed by this constraint term.-->
 				<min_error>-0.10000000000000001</min_error>
-			</RCNLConstraintTerm>
-			<RCNLConstraintTerm name="Initial coordinate deviation ">
-				<!--Type of constraint term.-->
-				<type>initial_generalized_coordinate_deviation</type>
-				<!--Space separated list containing model coordinates to be included in this cost term.-->
-				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
-				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
-				<is_enabled>true</is_enabled>
-				<!--Maximum error allowed by this constraint term.-->
-				<max_error>0.017500000000000002</max_error>
-				<!--Minimum error allowed by this constraint term.-->
-				<min_error>-0.017500000000000002</min_error>
-			</RCNLConstraintTerm>
-			<RCNLConstraintTerm name="Initial speed deviation">
-				<!--Type of constraint term.-->
-				<type>initial_generalized_speed_deviation</type>
-				<!--Space separated list containing model coordinates to be included in this cost term.-->
-				<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
-				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
-				<is_enabled>true</is_enabled>
-				<!--Maximum error allowed by this constraint term.-->
-				<max_error>0.17499999999999999</max_error>
-				<!--Minimum error allowed by this constraint term.-->
-				<min_error>-0.17499999999999999</min_error>
 			</RCNLConstraintTerm>
 			<RCNLConstraintTerm name="Residual load reduction">
 				<!--Type of constraint term.-->
