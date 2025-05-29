@@ -3,9 +3,9 @@
 		<!--Name of the directory where results are written. Be default this is the directory in which the setup file is be  executed.-->
 		<results_directory>GCPResultsV1</results_directory>
 		<!--Directory for input files.-->
-		<input_directory>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-5-Ground-Contact-Personalization\preprocessed</input_directory>
+		<input_directory>preprocessed</input_directory>
 		<!--Name of file containing input model, if using the application this has no effect as current model is used.-->
-		<input_model_file>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-5-Ground-Contact-Personalization\bodyModel.osim</input_model_file>
+		<input_model_file>bodyModel.osim</input_model_file>
 		<!--Name of input .osimx file to append results. Leave empty if an .osimx file has not been written for this model yet.-->
 		<input_osimx_file/>
 		<!--Name of the input motion file (.mot or .sto) to use.-->

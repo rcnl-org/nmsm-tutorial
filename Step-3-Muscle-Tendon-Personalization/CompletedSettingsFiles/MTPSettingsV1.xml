@@ -3,11 +3,11 @@
 		<!--Name of the directory where results are written. Be default this is the directory in which the setup file is be  executed.-->
 		<results_directory>MTPResultsV1</results_directory>
 		<!--Name of file containing input model, if using the application this has no effect as current model is used.-->
-		<input_model_file>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-3-Muscle-Tendon-Personalization\UF_Subject_3_reduced_muscles.osim</input_model_file>
+		<input_model_file>UF_Subject_3_reduced_muscles.osim</input_model_file>
 		<!--The name of the osimx file that results from MuscleTendon personalization to be used by downstream steps.-->
 		<input_osimx_file/>
 		<!--The name of the folder containing preprocessed data to run the MuscleTendonPersonalizationTool.-->
-		<data_directory>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-3-Muscle-Tendon-Personalization\preprocessed</data_directory>
+		<data_directory>preprocessed</data_directory>
 		<!--Coordinates Muscle-Tendon Personalization tracked their joint moments. Leave empty for none. Muscles spanning these coordinates will be extracted automatically.-->
 		<coordinate_list>hip_flexion_r knee_angle_r ankle_angle_r</coordinate_list>
 		<!--*Optional* The vMaxFactor to use. Default is 10.-->
@@ -31,7 +31,7 @@
 			<!--Boolean (true, false) indicating if muscle tendon length initialization should be performed before muscle tendon personalization.-->
 			<is_enabled>true</is_enabled>
 			<!--Directory containing kinematics and moments for passive trials. Leave blank if passive data will not be used.-->
-			<passive_data_input_directory>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-3-Muscle-Tendon-Personalization\passive_moment_data</passive_data_input_directory>
+			<passive_data_input_directory>passive_moment_data</passive_data_input_directory>
 			<!--Maximum normalized fiber length. If a muscle has a normalized fiber length above this value, it will be penalized with a cost term.-->
 			<max_normalized_muscle_fiber_length>1</max_normalized_muscle_fiber_length>
 			<!--Minimum normalized fiber length. If a muscle has a normalized fiber length below this value, it will be penalized with a cost term.-->
