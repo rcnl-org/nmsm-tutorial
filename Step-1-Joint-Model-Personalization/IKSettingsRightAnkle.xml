@@ -2,7 +2,7 @@
 <OpenSimDocument Version="40500">
 	<InverseKinematicsTool>
 		<!--The time range for the study.-->
-		<time_range>0 0.5</time_range>
+		<time_range>0 2.64</time_range>
 		<!--Name of the resulting inverse kinematics motion (.mot) file.-->
 		<output_motion_file></output_motion_file>
 		<!--Markers and coordinates to be considered (tasks) and their weightings. The sum of weighted-squared task errors composes the cost function.-->
