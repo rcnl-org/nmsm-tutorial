@@ -8,7 +8,7 @@ plotMtpResultsFromSettingsFile("MTPSettingsV1.xml")
 
 MuscleTendonPersonalizationTool("MTPSettingsV2.xml")
 
-% plotMtpResultsFromSettingsFile("MTPSettingsV2.xml")
+plotMtpResultsFromSettingsFile("MTPSettingsV2.xml")
 
 % Uncomment this line if you want to plot the results from the first MTP
 % run as well for comparison. Warning: This will create 11 separate plots.
