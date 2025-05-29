@@ -38,7 +38,7 @@ SettingsFileName = "JMPSettingsV2.xml";
 outputModelFileName = "UF_Subject_3_scaled_JMPV2.osim";
 
 tic
-% JointModelPersonalizationTool(SettingsFileName);
+JointModelPersonalizationTool(SettingsFileName);
 fprintf("JMP Runtime: %f Minutes\n", toc/60);
 
 close all
