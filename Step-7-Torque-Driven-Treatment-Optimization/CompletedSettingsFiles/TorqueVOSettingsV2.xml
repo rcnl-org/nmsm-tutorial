@@ -1,7 +1,7 @@
 <NMSMPipelineDocument Version="1.4.0">
 	<VerificationOptimizationTool name="default">
 		<!--Directory used for writing results.-->
-		<results_directory>TorqueVOResultsV1</results_directory>
+		<results_directory>TorqueVOResultsV2</results_directory>
 		<!--Directory for optimizer initial guess.-->
 		<initial_guess_directory>TorqueTOResultsV1</initial_guess_directory>
 		<!--Directory for files for the optimizer to track.-->
