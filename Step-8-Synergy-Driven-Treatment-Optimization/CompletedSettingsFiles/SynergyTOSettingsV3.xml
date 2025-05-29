@@ -9,7 +9,7 @@
 		<!--Name of the input model file (.osim) to use.-->
 		<input_model_file>KickingModel.osim</input_model_file>
 		<!--Name of the osimx model file.-->
-		<input_osimx_file>ncpResults\KickingModel.osimx</input_osimx_file>
+		<input_osimx_file>ncpResults\KickingModel_ncp.osimx</input_osimx_file>
 		<!--Name of the optimal control solver settings file.-->
 		<optimal_control_solver_settings_file>gpopsSettings.xml</optimal_control_solver_settings_file>
 		<!--Name, excluding file type (.sto, .mot, etc), of the trial-->
