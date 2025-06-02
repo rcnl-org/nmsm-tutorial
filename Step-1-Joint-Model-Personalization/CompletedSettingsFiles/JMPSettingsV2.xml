@@ -10,7 +10,7 @@
 		<allowable_error>0.01</allowable_error>
 		<!--List of tasks to be completed by the tool, each Task is a separate optimization.-->
 		<JMPTaskList>
-			<JMPTask name="default">
+			<JMPTask name="All Joints">
 				<!--Indicate whether the task is enabled or not.-->
 				<is_enabled>true</is_enabled>
 				<!--Name of marker file with required data for this JointPersonalizationTask.-->
@@ -76,7 +76,7 @@
 							<!--Three boolean values (separated by spaces) for if the joint translation parameter is to be optimized.-->
 							<translation>false false false</translation>
 							<!--Three boolean values (separated by spaces) for if the joint orientation parameter is to be optimized.-->
-							<orientation>false true true</orientation>
+							<orientation>false true false</orientation>
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
@@ -87,7 +87,7 @@
 							<!--Three boolean values (separated by spaces) for if the joint translation parameter is to be optimized.-->
 							<translation>false false false</translation>
 							<!--Three boolean values (separated by spaces) for if the joint orientation parameter is to be optimized.-->
-							<orientation>false true true</orientation>
+							<orientation>false true false</orientation>
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
