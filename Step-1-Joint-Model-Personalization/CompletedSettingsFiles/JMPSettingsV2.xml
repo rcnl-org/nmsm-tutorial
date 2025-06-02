@@ -17,6 +17,7 @@
 				<marker_file_name>MarkerFiles\AnkleKneeGaitConcatenated_markers.trc</marker_file_name>
 				<!--Order of the tasks to be completed-->
 				<index>1</index>
+				<marker_names>R_Asis L_Asis Sacral R_Thigh_Lateral R_Thigh_Superior R_Thigh_Inferior R_Shank_Superior R_Shank_Inferior R_Shank_Lateral R_Heel R_Midfoot_Superior R_Midfoot_Lateral</marker_names>
 				<!--Time range from marker file to be used to optimize joint personalization.-->
 				<time_range>0 3.02</time_range>
 				<!--Joints that will be optimized in this task.-->
@@ -75,7 +76,7 @@
 							<!--Three boolean values (separated by spaces) for if the joint translation parameter is to be optimized.-->
 							<translation>false false false</translation>
 							<!--Three boolean values (separated by spaces) for if the joint orientation parameter is to be optimized.-->
-							<orientation>false true false</orientation>
+							<orientation>false true true</orientation>
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
@@ -86,7 +87,7 @@
 							<!--Three boolean values (separated by spaces) for if the joint translation parameter is to be optimized.-->
 							<translation>false false false</translation>
 							<!--Three boolean values (separated by spaces) for if the joint orientation parameter is to be optimized.-->
-							<orientation>false true false</orientation>
+							<orientation>false true true</orientation>
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
@@ -100,7 +101,7 @@
 						<!--Boolean value for whether the body, with task name, is to be scaled.-->
 						<scale_body>true</scale_body>
 						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order.-->
-						<move_markers>false true false</move_markers>
+						<move_markers>false true true</move_markers>
 					</JMPBody>
 					<JMPBody name="femur_r">
 						<!--Boolean value for whether the body, with task name, is to be scaled.-->
@@ -128,6 +129,6 @@
 		<!--*Optional* The step tolerance determines when the lsqnonlin algorithm stops. The larger it is, the earlier the algorithm stops, but with lower accuracy.-->
 		<step_tolerance>1.0000000000000001e-05</step_tolerance>
 		<!--*Optional* The number of allowed iterations for the lsqnonlin, setting this lower can help cancel an optimization that won't converge.-->
-		<max_function_evaluations>400</max_function_evaluations>
+		<max_function_evaluations>4000</max_function_evaluations>
 	</JointModelPersonalizationTool>
 </NMSMPipelineDocument>

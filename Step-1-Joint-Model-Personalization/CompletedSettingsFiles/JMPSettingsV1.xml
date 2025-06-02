@@ -14,11 +14,12 @@
 				<!--Indicate whether the task is enabled or not.-->
 				<is_enabled>true</is_enabled>
 				<!--Name of marker file with required data for this JointPersonalizationTask.-->
-				<marker_file_name>MarkerFiles\RightAnkle_markers.trc</marker_file_name>
+				<marker_file_name>MarkerFiles\GaitTrial_markers.trc</marker_file_name>
 				<!--Order of the tasks to be completed-->
-				<index>1</index>
+				<index>3</index>
 				<!--Time range from marker file to be used to optimize joint personalization.-->
-				<time_range>0 0.5</time_range>
+				<time_range>0 1.07</time_range>
+				<marker_names>R_Shank_Superior R_Shank_Inferior R_Shank_Lateral R_Heel R_Midfoot_Superior R_Midfoot_Lateral</marker_names>
 				<!--Joints that will be optimized in this task.-->
 				<JMPJointSet>
 					<JMPJoint name="ankle_r">
@@ -31,7 +32,7 @@
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
-							<orientation_bounds>0.5</orientation_bounds>
+							<orientation_bounds>0.1</orientation_bounds>
 						</parent_frame_transformation>
 						<!--Joint Child Frame.-->
 						<child_frame_transformation>
@@ -42,7 +43,7 @@
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
-							<orientation_bounds>0.5</orientation_bounds>
+							<orientation_bounds>1</orientation_bounds>
 						</child_frame_transformation>
 					</JMPJoint>
 					<JMPJoint name="subtalar_r">
@@ -51,7 +52,7 @@
 							<!--Three boolean values (separated by spaces) for if the joint translation parameter is to be optimized.-->
 							<translation>false false false</translation>
 							<!--Three boolean values (separated by spaces) for if the joint orientation parameter is to be optimized.-->
-							<orientation>false true false</orientation>
+							<orientation>false true true</orientation>
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
@@ -62,11 +63,11 @@
 							<!--Three boolean values (separated by spaces) for if the joint translation parameter is to be optimized.-->
 							<translation>false false false</translation>
 							<!--Three boolean values (separated by spaces) for if the joint orientation parameter is to be optimized.-->
-							<orientation>false true false</orientation>
+							<orientation>false true true</orientation>
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
-							<orientation_bounds>0.5</orientation_bounds>
+							<orientation_bounds>1</orientation_bounds>
 						</child_frame_transformation>
 					</JMPJoint>
 				</JMPJointSet>
@@ -75,11 +76,12 @@
 				<!--Indicate whether the task is enabled or not.-->
 				<is_enabled>true</is_enabled>
 				<!--Name of marker file with required data for this JointPersonalizationTask.-->
-				<marker_file_name>MarkerFiles\RightKnee_markers.trc</marker_file_name>
+				<marker_file_name>MarkerFiles\GaitTrial_markers.trc</marker_file_name>
 				<!--Order of the tasks to be completed-->
 				<index>2</index>
 				<!--Time range from marker file to be used to optimize joint personalization.-->
-				<time_range>0 0.5</time_range>
+				<time_range>0 1.07</time_range>
+				<marker_names>R_Thigh_Lateral R_Thigh_Superior R_Thigh_Inferior R_Shank_Superior R_Shank_Inferior R_Shank_Lateral</marker_names>
 				<!--Joints that will be optimized in this task.-->
 				<JMPJointSet>
 					<JMPJoint name="knee_r">
@@ -92,7 +94,7 @@
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
-							<orientation_bounds>0.5</orientation_bounds>
+							<orientation_bounds>2</orientation_bounds>
 						</parent_frame_transformation>
 						<!--Joint Child Frame.-->
 						<child_frame_transformation>
@@ -103,7 +105,7 @@
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
-							<orientation_bounds>0.5</orientation_bounds>
+							<orientation_bounds>2</orientation_bounds>
 						</child_frame_transformation>
 					</JMPJoint>
 				</JMPJointSet>
@@ -114,28 +116,61 @@
 				<!--Name of marker file with required data for this JointPersonalizationTask.-->
 				<marker_file_name>MarkerFiles\GaitTrial_markers.trc</marker_file_name>
 				<!--Order of the tasks to be completed-->
-				<index>3</index>
+				<index>1</index>
 				<!--Time range from marker file to be used to optimize joint personalization.-->
-				<time_range>0 1.0049999999999999</time_range>
+				<time_range>0 1.07</time_range>
+				<marker_names>R_Thigh_Lateral R_Thigh_Superior R_Thigh_Inferior R_Asis L_Asis Sacral</marker_names>
 				<!--Bodies that will be optimized in this task.-->
 				<JMPBodySet>
 					<JMPBody name="pelvis">
 						<!--Boolean value for whether the body, with task name, is to be scaled.-->
 						<scale_body>true</scale_body>
 						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order.-->
-						<move_markers>false true false</move_markers>
+						<move_markers>false true true</move_markers>
 					</JMPBody>
 					<JMPBody name="femur_r">
 						<!--Boolean value for whether the body, with task name, is to be scaled.-->
 						<scale_body>false</scale_body>
 						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order.-->
-						<move_markers>false false true</move_markers>
+						<move_markers>false false false</move_markers>
+					</JMPBody>
+					<JMPBody name="femur_l">
+						<!--Boolean value for whether the body, with task name, is to be scaled.-->
+						<scale_body>false</scale_body>
+						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order.-->
+						<move_markers>false false false</move_markers>
 					</JMPBody>
 					<JMPBody name="tibia_r">
 						<!--Boolean value for whether the body, with task name, is to be scaled.-->
 						<scale_body>false</scale_body>
 						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order.-->
-						<move_markers>false false true</move_markers>
+						<move_markers>false false false</move_markers>
+					</JMPBody>
+				</JMPBodySet>
+			</JMPTask>
+			<JMPTask name="Move markers">
+				<!--Indicate whether the task is enabled or not.-->
+				<is_enabled>true</is_enabled>
+				<!--Name of marker file with required data for this JointPersonalizationTask.-->
+				<marker_file_name>MarkerFiles\GaitTrial_markers.trc</marker_file_name>
+				<!--Order of the tasks to be completed-->
+				<index>4</index>
+				<!--Time range from marker file to be used to optimize joint personalization.-->
+				<time_range>0 1.07</time_range>
+				<marker_names>R_Thigh_Lateral R_Thigh_Superior R_Thigh_Inferior R_Shank_Superior R_Shank_Inferior R_Shank_Lateral</marker_names>
+				<!--Bodies that will be optimized in this task.-->
+				<JMPBodySet>
+					<JMPBody name="femur_r">
+						<!--Boolean value for whether the body, with task name, is to be scaled.-->
+						<scale_body>false</scale_body>
+						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order.-->
+						<move_markers>false true true</move_markers>
+					</JMPBody>
+					<JMPBody name="tibia_r">
+						<!--Boolean value for whether the body, with task name, is to be scaled.-->
+						<scale_body>false</scale_body>
+						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order.-->
+						<move_markers>false true true</move_markers>
 					</JMPBody>
 				</JMPBodySet>
 			</JMPTask>
