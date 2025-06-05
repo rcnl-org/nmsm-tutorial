@@ -26,4 +26,4 @@ plotTreatmentOptimizationResultsFromSettingsFile("SynergyTOSettingsV5.xml")
 %% Compare results
 close all
 plotTreatmentOptimizationResultsFromSettingsFile("SynergyTOSettingsV5.xml", ...
-    ["SynergyTOResultsV1", "SynergyTOResultsV2", "SynergyTOResultsV3"])
+    ["SynergyTOResultsV1", "SynergyTOResultsV4", "SynergyTOResultsV5"])

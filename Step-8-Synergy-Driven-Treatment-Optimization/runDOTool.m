@@ -8,15 +8,10 @@ plotTreatmentOptimizationResultsFromSettingsFile("SynergyDOSettingsV1.xml")
 DesignOptimizationTool("SynergyDOSettingsV2.xml");
 plotTreatmentOptimizationResultsFromSettingsFile("SynergyDOSettingsV2.xml")
 
-%% Run Synergy DO V3
-
-DesignOptimizationTool("SynergyDOSettingsV3.xml");
-plotTreatmentOptimizationResultsFromSettingsFile("SynergyDOSettingsV3.xml")
-
 %% Compare Synergy Driven Results
 close all
 plotTreatmentOptimizationResultsFromSettingsFile("SynergyDOSettingsV1.xml", ...
-    ["SynergyDOResultsV1", "SynergyDOResultsV2", "SynergyDOResultsV3"])
+    ["SynergyDOResultsV1", "SynergyDOResultsV2"])
 
 %% Compare to Torque Driven Results
 close all
