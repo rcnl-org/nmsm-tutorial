@@ -1,5 +1,4 @@
-<NMSMPipelineDocument Version="1.4.0">
-	<DesignOptimizationTool name="default">
+<DesignOptimizationTool name="default">
 		<!--Directory used for writing results.-->
 		<results_directory>TorqueDOResultsV1</results_directory>
 		<!--Directory for optimizer initial guess.-->
@@ -99,6 +98,7 @@
 				<body_list>calcn_r</body_list>
 				<!--Space separated list containing axes (x y z) of the cost term.-->
 				<axes>x y z</axes>
+				<sequence>zyx</sequence>
 				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
 				<is_enabled>true</is_enabled>
 				<!--Maximum error allowed by this constraint term.-->
@@ -118,8 +118,7 @@
 				<!--Maximum error allowed by this constraint term.-->
 				<max_error>14.4</max_error>
 				<!--Minimum error allowed by this constraint term.-->
-				<min_error>14.300000000000001</min_error>
+				<min_error>14.3</min_error>
 			</RCNLConstraintTerm>
 		</RCNLConstraintTermSet>
 	</DesignOptimizationTool>
-</NMSMPipelineDocument>

@@ -67,6 +67,20 @@
 						</child_frame_transformation>
 					</JMPJoint>
 				</JMPJointSet>
+				<JMPBodySet>
+					<JMPBody name="femur_r">
+						<!--Boolean value for whether the body, with task name, is to be scaled.-->
+						<scale_body>false</scale_body>
+						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order.-->
+						<move_markers>false true true</move_markers>
+					</JMPBody>
+					<JMPBody name="tibia_r">
+						<!--Boolean value for whether the body, with task name, is to be scaled.-->
+						<scale_body>false</scale_body>
+						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order.-->
+						<move_markers>false true true</move_markers>
+					</JMPBody>
+				</JMPBodySet>
 			</JMPTask>
 			<JMPTask name="Right Ankle">
 				<!--Indicate whether the task is enabled or not.-->

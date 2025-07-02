@@ -1,7 +1,7 @@
 <NMSMPipelineDocument Version="1.4.0">
 	<DesignOptimizationTool name="default">
 		<!--Directory used for writing results.-->
-		<results_directory>TorqueDOResultsV1</results_directory>
+		<results_directory>TorqueDOResultsV2</results_directory>
 		<!--Directory for optimizer initial guess.-->
 		<initial_guess_directory>TorqueVOResultsV2</initial_guess_directory>
 		<!--Directory for files for the optimizer to track.-->
@@ -119,6 +119,30 @@
 				<max_error>14.4</max_error>
 				<!--Minimum error allowed by this constraint term.-->
 				<min_error>14.300000000000001</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm name="Limit ankle position bounds">
+				<!--Type of constraint term.-->
+				<type>generalized_coordinate_value</type>
+				<!--Space separated list containing model coordinates to be included in this cost term.-->
+				<coordinate_list>ankle_angle_r</coordinate_list>
+				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Maximum error allowed by this constraint term.-->
+				<max_error>0.047500000000000001</max_error>
+				<!--Minimum error allowed by this constraint term.-->
+				<min_error>-0.31869999999999998</min_error>
+			</RCNLConstraintTerm>
+			<RCNLConstraintTerm name="Limit ankle velocity path">
+				<!--Type of constraint term.-->
+				<type>generalized_speed_deviation</type>
+				<!--Space separated list containing model coordinates to be included in this cost term.-->
+				<coordinate_list>ankle_angle_r</coordinate_list>
+				<!--Flag (true, false) indicating whether this contraint term is enabled. Default is false.-->
+				<is_enabled>true</is_enabled>
+				<!--Maximum error allowed by this constraint term.-->
+				<max_error>0.17499999999999999</max_error>
+				<!--Minimum error allowed by this constraint term.-->
+				<min_error>-0.17499999999999999</min_error>
 			</RCNLConstraintTerm>
 		</RCNLConstraintTermSet>
 	</DesignOptimizationTool>

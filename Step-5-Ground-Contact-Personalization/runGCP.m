@@ -1,17 +1,5 @@
-%% Run GCP V1
+%% Run GCP
 
-GroundContactPersonalizationTool("GCPSettingsV1.xml")
+GroundContactPersonalizationTool("GCPSettings.xml")
 
-plotGcpResultsFromSettingsFile("GCPSettingsV1.xml")
-
-%% Run GCP V2
-
-GroundContactPersonalizationTool("GCPSettingsV2.xml")
-
-plotGcpResultsFromSettingsFile("GCPSettingsV2.xml")
-
-%% Run GCP V3
-
-GroundContactPersonalizationTool("GCPSettingsV3.xml")
-
-plotGcpResultsFromSettingsFile("GCPSettingsV3.xml")
+plotGcpResultsFromSettingsFile("GCPSettings.xml")
