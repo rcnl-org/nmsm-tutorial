@@ -598,8 +598,6 @@
 			<time_range> 2 3</time_range>
 			<!--Name of the motion file (.mot) written after marker relocation (optional).-->
 			<output_motion_file>Unassigned</output_motion_file>
-			<!--Output OpenSim model file (.osim) after scaling and maker placement.-->
-			<output_model_file>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-1-Joint-Model-Personalization\UF_Subject_3_v2.osim</output_model_file>
 			<!--Output marker set containing the new marker locations after markers have been placed.-->
 			<output_marker_file>Unassigned</output_marker_file>
 			<!--Maximum amount of movement allowed in marker data when averaging frames of the static trial. A negative value means there is not limit.-->
