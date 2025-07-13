@@ -1,4 +1,5 @@
 %% Run GCP
+close all
 
 GroundContactPersonalizationTool("GCPSettings.xml")
 

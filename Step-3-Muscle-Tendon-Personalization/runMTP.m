@@ -1,4 +1,5 @@
 %% Run MTP
+close all
 
 MuscleTendonPersonalizationTool("MTPSettings.xml")
 

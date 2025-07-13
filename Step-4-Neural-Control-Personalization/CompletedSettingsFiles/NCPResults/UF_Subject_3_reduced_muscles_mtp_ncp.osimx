@@ -2,7 +2,7 @@
 <NMSMPipelineDocument Version="0.1.0">
    <OsimxModel name="UF_Subject_3_reduced_muscles_mtp">
       <!--File name of associated .osim file-->
-      <associated_osim_model>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-3-Muscle-Tendon-Personalization\UF_Subject_3_reduced_muscles.osim</associated_osim_model>
+      <associated_osim_model>UF_Subject_3_reduced_muscles.osim</associated_osim_model>
       <RCNLMuscleSet>
          <RCNLMuscle name="bflh_r">
             <!--Optimized electromechanical delay-->

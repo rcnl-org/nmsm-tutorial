@@ -3,13 +3,13 @@
 		<!--Directory used for writing results.-->
 		<results_directory>SynergyDOResults</results_directory>
 		<!--Directory for optimizer initial guess.-->
-		<initial_guess_directory>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-8-Synergy-Driven-Treatment-Optimization\SynergyVOResults</initial_guess_directory>
+		<initial_guess_directory>SynergyVOResults</initial_guess_directory>
 		<!--Directory for files for the optimizer to track.-->
-		<tracked_quantities_directory>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-8-Synergy-Driven-Treatment-Optimization\SynergyVOResults</tracked_quantities_directory>
+		<tracked_quantities_directory>SynergyVOResults</tracked_quantities_directory>
 		<!--Name of the input model file (.osim) to use.-->
 		<input_model_file>KickingModel.osim</input_model_file>
 		<!--Name of the osimx model file.-->
-		<input_osimx_file>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-8-Synergy-Driven-Treatment-Optimization\ncpResults\KickingModel_ncp.osimx</input_osimx_file>
+		<input_osimx_file>ncpResults\KickingModel_ncp.osimx</input_osimx_file>
 		<!--Name of the optimal control solver settings file.-->
 		<optimal_control_solver_settings_file>gpopsSettings.xml</optimal_control_solver_settings_file>
 		<!--Name, excluding file type (.sto, .mot, etc), of the trial-->

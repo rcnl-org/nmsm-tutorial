@@ -3,15 +3,15 @@
 		<!--Directory used for writing results.-->
 		<results_directory>TorqueDOResults</results_directory>
 		<!--Directory for optimizer initial guess.-->
-		<initial_guess_directory>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-7-Torque-Driven-Treatment-Optimization\TorqueVOResults</initial_guess_directory>
+		<initial_guess_directory>TorqueVOResults</initial_guess_directory>
 		<!--Directory for files for the optimizer to track.-->
-		<tracked_quantities_directory>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-7-Torque-Driven-Treatment-Optimization\TorqueVOResults</tracked_quantities_directory>
+		<tracked_quantities_directory>TorqueVOResults</tracked_quantities_directory>
 		<!--Name of the input model file (.osim) to use.-->
-		<input_model_file>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-7-Torque-Driven-Treatment-Optimization\KickingModel.osim</input_model_file>
+		<input_model_file>KickingModel.osim</input_model_file>
 		<!--Name of the osimx model file.-->
 		<input_osimx_file/>
 		<!--Name of the optimal control solver settings file.-->
-		<optimal_control_solver_settings_file>C:\Users\rs200\Documents\GitHub\nmsm-tutorial\Step-7-Torque-Driven-Treatment-Optimization\gpopsSettings.xml</optimal_control_solver_settings_file>
+		<optimal_control_solver_settings_file>gpopsSettings.xml</optimal_control_solver_settings_file>
 		<!--Name, excluding file type (.sto, .mot, etc), of the trial-->
 		<trial_name>drive_kick1</trial_name>
 		<final_time_range>0.26 0.36</final_time_range>
