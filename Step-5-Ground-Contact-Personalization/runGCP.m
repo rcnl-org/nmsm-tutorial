@@ -1,6 +1,6 @@
 %% Run GCP
 close all
 
-GroundContactPersonalizationTool("GCPSettings.xml")
+% GroundContactPersonalizationTool("GCPSettings.xml")
 
 plotGcpResultsFromSettingsFile("GCPSettings.xml")

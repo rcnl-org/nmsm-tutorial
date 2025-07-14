@@ -1,4 +1,4 @@
-%% Run Synergy Driven VO
+%% Run Synergy VO
 close all
 
 VerificationOptimizationTool("SynergyVOSettings.xml");
