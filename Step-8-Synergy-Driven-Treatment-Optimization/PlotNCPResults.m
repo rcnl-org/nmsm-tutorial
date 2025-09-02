@@ -1,0 +1,2 @@
+plotNcpResultsFromSettingsFile("NCPSettings.xml")
+

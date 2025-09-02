@@ -11,11 +11,11 @@
 %% Preprocessing Script
 
 % All values required
-rawEmgFileName = fullfile("input_data", "Full_EMG.mot");
+rawEmgFileName = fullfile("input_data", "GaitTrial48_EMG.mot");
 filterOrder = 4;
 highPassCutoff = 40;
 lowPassCutoff = 3.5 / 1.1;
-processedEmgFileName = fullfile("input_data", "Full_processedEmg.mot");
+processedEmgFileName = fullfile("input_data", "GaitTrial48_EMG_Processed.mot");
 
 processRawEmgFile(rawEmgFileName, filterOrder, highPassCutoff, ...
     lowPassCutoff, processedEmgFileName);
@@ -35,7 +35,8 @@ createMuscleTendonVelocity(muscleTendonLengthFileName, cutoffFrequency);
 
 % Required: pairs of start/end time of events to be extracted
 trialTimePairs = [
-    0.5 1.6
+    [0.5 1.6]; 
+    [1.6 2.7]
 ];
 
 % Optional: number of time points per trial (default value: 101)
@@ -49,11 +50,11 @@ inputSettings.model = "UF_Subject_3_reduced_muscles.osim";
 
 % All values optional: files and directories of data to be split
 % IK, ID, and MA data are filtered during this step
-inputSettings.ikFileName = fullfile("input_data", "GaitTrial48_IKresults.mot");
-inputSettings.idFileName = fullfile("input_data", "GaitTrial48_IDresults_filtered.sto");
+inputSettings.ikFileName = fullfile("input_data", "GaitTrial48_IKResults.mot");
+inputSettings.idFileName = fullfile("input_data", "GaitTrial48_IDResults.sto");
 % The emgFileName should be the name of the *processed* emg data file
-inputSettings.emgFileName = fullfile("input_data", "Full_processedEmg.mot");
-inputSettings.grfFileName = fullfile("input_data", "GaitTrial48_forces_ec_reordered.mot");
+inputSettings.emgFileName = fullfile("input_data", "GaitTrial48_EMG_Processed.mot");
+inputSettings.grfFileName = fullfile("input_data", "GaitTrial48_forces.mot");
 inputSettings.maDirectory = fullfile("input_data", "MuscleAnalysis");
 
 % All values optional: output information, uses default values otherwise
