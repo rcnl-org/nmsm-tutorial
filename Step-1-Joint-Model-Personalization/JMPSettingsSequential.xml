@@ -14,19 +14,19 @@
 				<!--Indicate whether the task is enabled or not.-->
 				<is_enabled>true</is_enabled>
 				<!--Name of marker file with required data for this JointPersonalizationTask.-->
-				<marker_file_name>MarkerFiles\GaitTrial_markers.trc</marker_file_name>
+				<marker_file_name>MarkerFiles\BothHips_markers.trc</marker_file_name>
 				<!--Order of the tasks to be completed-->
 				<index>1</index>
 				<!--Time range from marker file to be used to optimize joint personalization.-->
 				<time_range>0 1.07</time_range>
-				<marker_names>R_Thigh_Lateral R_Thigh_Superior R_Thigh_Inferior R_Asis L_Asis Sacral</marker_names>
+				<marker_names>R_Thigh_Lateral R_Thigh_Superior R_Thigh_Inferior L_Thigh_Lateral L_Thigh_Superior L_Thigh_Inferior R_Asis L_Asis Sacral</marker_names>
 				<!--Bodies that will be optimized in this task.-->
 				<JMPBodySet>
 					<JMPBody name="pelvis">
 						<!--Boolean value for whether the body, with task name, is to be scaled.-->
 						<scale_body>true</scale_body>
 						<!--Three boolean values (separated by spaces) for which axes the markers should be free to move in (x, y, z) order.-->
-						<move_markers>false true true</move_markers>
+						<move_markers>false true false</move_markers>
 					</JMPBody>
 				</JMPBodySet>
 			</JMPTask>
@@ -48,7 +48,7 @@
 							<!--Three boolean values (separated by spaces) for if the joint translation parameter is to be optimized.-->
 							<translation>false false false</translation>
 							<!--Three boolean values (separated by spaces) for if the joint orientation parameter is to be optimized.-->
-							<orientation>true true false</orientation>
+							<orientation>false true false</orientation>
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
@@ -59,7 +59,7 @@
 							<!--Three boolean values (separated by spaces) for if the joint translation parameter is to be optimized.-->
 							<translation>false false false</translation>
 							<!--Three boolean values (separated by spaces) for if the joint orientation parameter is to be optimized.-->
-							<orientation>true true false</orientation>
+							<orientation>false true false</orientation>
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
@@ -90,7 +90,7 @@
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
-							<orientation_bounds>0.1</orientation_bounds>
+							<orientation_bounds>1</orientation_bounds>
 						</parent_frame_transformation>
 						<!--Joint Child Frame.-->
 						<child_frame_transformation>
@@ -114,7 +114,7 @@
 							<!--Translation bounds set the upper and lower limits of the search range around the initial value.-->
 							<translation_bounds>0.050000000000000003</translation_bounds>
 							<!--Orientation bounds set the upper and lower limits of the search range around the initial value.-->
-							<orientation_bounds>0.5</orientation_bounds>
+							<orientation_bounds>1</orientation_bounds>
 						</parent_frame_transformation>
 						<!--Joint Child Frame.-->
 						<child_frame_transformation>
