@@ -1,8 +1,8 @@
 %% Run JMP Sequential
 close all
 
-JointModelPersonalizationTool("JMPSettingsSequential.xml")
-
+% JointModelPersonalizationTool("JMPSettingsSequential.xml")
+% 
 plotJmpResultsFromSettingsFile("JMPSettingsSequential.xml", "MarkerFiles\GaitTrial_markers.trc")
 
 
