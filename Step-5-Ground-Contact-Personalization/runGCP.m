@@ -15,3 +15,9 @@ plotGcpResultsFromSettingsFile("GCPSettingsV2.xml")
 GroundContactPersonalizationTool("GCPSettingsV3.xml")
 
 plotGcpResultsFromSettingsFile("GCPSettingsV3.xml")
+
+%% Run GCP V4
+
+GroundContactPersonalizationTool("GCPSettingsV4.xml")
+
+plotGcpResultsFromSettingsFile("GCPSettingsV4.xml")
