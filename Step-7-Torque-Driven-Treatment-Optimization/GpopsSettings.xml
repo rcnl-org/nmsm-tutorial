@@ -1,4 +1,4 @@
-<NMSMPipelineDocument Version="1.4.0">
+<NMSMPipelineDocument Version="1.5.0">
 	<OptimalControlSolverSettings name="default">
 		<!--Settings for the GPOPS optimal control solver. Current options: GpopsSettings-->
 		<GpopsSettings>
