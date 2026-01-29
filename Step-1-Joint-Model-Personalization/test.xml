@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NMSMPipelineDocument Version="0.1.0">
+   <JointModelPersonalizationTool>
+      <input_model_file/>
+      <output_model_file/>
+      <allowable_error>0.005</allowable_error>
+      <JMPTaskList>
+         <JMPTask name="Default">
+            <index>1</index>
+            <is_enabled>false</is_enabled>
+            <time_range>0 0</time_range>
+            <marker_file_name/>
+            <marker_names/>
+            <JMPJointSet/>
+         </JMPTask>
+      </JMPTaskList>
+   </JointModelPersonalizationTool>
+</NMSMPipelineDocument>
